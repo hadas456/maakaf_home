@@ -131,9 +131,9 @@ function renderLanguageChips(member, summary) {
   if (!languages.length) return '';
 
   const chips = [
-    `<button type="button" class="repo-filter-chip${state.language ? '' : ' is-active'}" data-language="">All languages</button>`,
+    `<button type="button" class="repo-filter-chip${state.language ? '' : ' is-active'}" data-filter-language="">All languages</button>`,
     ...languages.map((language) => `
-      <button type="button" class="repo-filter-chip${state.language === language ? ' is-active' : ''}" data-language="${escapeHtml(language)}">
+      <button type="button" class="repo-filter-chip${state.language === language ? ' is-active' : ''}" data-filter-language="${escapeHtml(language)}">
         ${escapeHtml(language)}
       </button>
     `),
@@ -285,20 +285,45 @@ function wireDetail(users) {
       return;
     }
 
-    const languageButton = event.target.closest('[data-language]');
+    const languageButton = event.target.closest('[data-filter-language]');
     if (languageButton) {
-      state.language = languageButton.getAttribute('data-language') || '';
+      state.language = languageButton.getAttribute('data-filter-language') || '';
       renderDetail(users);
     }
   });
 }
 
-function wireSearch() {
+function memberSearchText(member) {
+  const user = member?.user || {};
+  const repoText = (member?.repos || []).flatMap((repo) => [
+    repo.repoName,
+    repo.description,
+    repo.primaryLanguage,
+    repo.licenseName,
+    ...(Array.isArray(repo.topics) ? repo.topics : []),
+  ]);
+
+  return [
+    user.displayName,
+    user.username,
+    user.bio,
+    user.company,
+    user.location,
+    ...repoText,
+  ].filter(Boolean).join(' ').toLowerCase();
+}
+
+function wireSearch(users) {
   const input = byId('memberSearchInput');
+  const searchByUsername = new Map(users.map((member) => [
+    String(member?.user?.username || '').toLowerCase(),
+    memberSearchText(member),
+  ]));
+
   input?.addEventListener('input', () => {
     const query = input.value.trim().toLowerCase();
     document.querySelectorAll('.member-card').forEach((card) => {
-      const text = String(card.dataset.search || '').toLowerCase();
+      const text = searchByUsername.get(String(card.dataset.username || '').toLowerCase()) || String(card.dataset.search || '').toLowerCase();
       card.hidden = query ? !text.includes(query) : false;
     });
   });
@@ -334,10 +359,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const users = parseUsers();
   if (!users.length) return;
 
-  state.selectedUsername = users[0]?.user?.username || '';
+  const activeCard = document.querySelector('.member-card.is-active') || document.querySelector('.member-card');
+  state.selectedUsername = activeCard?.dataset.username || users[0]?.user?.username || '';
   wireCards(users);
   wireDetail(users);
-  wireSearch();
+  wireSearch(users);
   wireGlobalFilters(users);
   wireModal(users);
   renderDetail(users);
