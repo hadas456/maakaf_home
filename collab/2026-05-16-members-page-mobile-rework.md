@@ -127,8 +127,8 @@ Adds maakaf to `/repogolems` registry + CLAUDE.md + AGENTS.md + yash availabilit
 | Phase 1 discovery | maakafClaude | ✅ done — see Findings §Phase 1 |
 | Phase 2 design mockups | maakafClaude | ✅ done — see Findings §Phase 2 (Etan picked `Mobile A + Desktop A`, 2026-05-16) |
 | Phase 2 design spec (implementer-ready) | maakafClaude | ✅ done — see Findings §Phase 2 Design Spec |
-| Phase 3 implementation | maakafCodex (s:110) | 🟢 KICKOFF READY — see §Kickoff for maakafCodex below |
-| Phase 4 PR review + merge | orc s:57 | ⏳ blocked on Phase 3 + Netlify API_KEY prereq |
+| Phase 3 implementation | maakafCodex (s:110) | ✅ implemented — PR #1 |
+| Phase 4 PR review + merge | orc s:57 | ⏳ PR #1 open; bot reviews requested; Netlify API_KEY prereq still needs confirmation |
 
 ### Etan's picks (LOCKED 2026-05-16)
 
@@ -399,6 +399,8 @@ Ready for Phase 3 after Etan picks the Phase 2 design. Build verification comple
 ### Phase 3 Implementation — maakafCodex (2026-05-16)
 
 Branch: `feat/members-page-mobile-rework`.
+
+PR: https://github.com/EtanHey/maakaf_home/pull/1
 
 Implemented v1 against the locked Mobile A + Desktop A spec:
 
