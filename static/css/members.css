@@ -113,9 +113,37 @@ html.dark .stat-num {
 /* ========================
    Members Dashboard
 ========================= */
+.members-view-switch {
+  display: inline-flex;
+  gap: 6px;
+  margin: 12px 0 4px;
+  padding: 4px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: var(--row-alt-color);
+}
+
+.members-view-button {
+  min-height: 36px;
+  padding: 6px 12px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.members-view-button:hover,
+.members-view-button.is-active {
+  border-color: rgba(56, 139, 253, 0.45);
+  background: rgba(56, 139, 253, 0.14);
+  color: var(--link-color);
+}
+
 .members-dashboard {
-  margin: 24px 0 32px;
-  padding: 18px;
+  display: none;
+  margin: 10px 0 32px;
+  padding: 12px !important;
   --member-bg: #121212;
   --member-surface: #1f2429;
   --member-surface-soft: #242a30;
@@ -134,6 +162,23 @@ html.dark .stat-num {
   border-radius: 4px;
   background: var(--member-bg);
   color: var(--member-text);
+}
+
+html.members-view-modern .members-dashboard {
+  display: block;
+}
+
+html.members-view-modern .legacy-members-table,
+html.members-view-modern .legacy-member-search {
+  display: none !important;
+}
+
+html.members-view-legacy .legacy-members-table {
+  display: block !important;
+}
+
+html.members-view-legacy .legacy-member-search {
+  display: flex !important;
 }
 
 .members-controls {
@@ -509,14 +554,6 @@ html.dark .stat-num {
 .repo-meta {
   margin: 8px 0;
   font-size: 0.85rem;
-}
-
-.legacy-members-table {
-  display: none;
-}
-
-.legacy-member-search {
-  display: none !important;
 }
 
 .oss-modal .oss-modal-content {
@@ -1143,8 +1180,8 @@ html.dark .activity-modal-header select {
   }
 
   .members-dashboard {
-    margin-top: 16px;
-    padding: 12px;
+    margin-top: 8px;
+    padding: 8px 12px 12px !important;
   }
 
   .members-controls {

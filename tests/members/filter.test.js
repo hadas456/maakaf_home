@@ -6,6 +6,7 @@ import {
   classifyRepo,
   filterRepos,
   getRepoOwner,
+  normalizeMembersViewMode,
   selectMemberState,
   summarizeRepos,
 } from '../../static/js/members/filter.js';
@@ -117,4 +118,11 @@ test('clears stale language filter when selecting a different member', () => {
     ),
     { selectedUsername: 'EtanHey', visibility: 'all', metric: 'pullRequests', language: 'Python' },
   );
+});
+
+test('defaults the members page to the legacy table view', () => {
+  assert.equal(normalizeMembersViewMode(), 'legacy');
+  assert.equal(normalizeMembersViewMode('legacy'), 'legacy');
+  assert.equal(normalizeMembersViewMode('modern'), 'modern');
+  assert.equal(normalizeMembersViewMode('unknown'), 'legacy');
 });

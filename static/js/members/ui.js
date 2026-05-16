@@ -4,6 +4,7 @@ import {
   filterRepos,
   METRIC_KEYS,
   metricValue,
+  normalizeMembersViewMode,
   selectMemberState,
   summarizeRepos,
 } from './filter.js';
@@ -345,6 +346,26 @@ function wireGlobalFilters(users) {
   });
 }
 
+function setViewMode(mode) {
+  const normalized = normalizeMembersViewMode(mode);
+  document.documentElement.classList.toggle('members-view-modern', normalized === 'modern');
+  document.documentElement.classList.toggle('members-view-legacy', normalized === 'legacy');
+  document.querySelectorAll('[data-members-view]').forEach((button) => {
+    const isActive = button.getAttribute('data-members-view') === normalized;
+    button.classList.toggle('is-active', isActive);
+    button.setAttribute('aria-pressed', String(isActive));
+  });
+}
+
+function wireViewMode() {
+  setViewMode();
+  document.querySelectorAll('[data-members-view]').forEach((button) => {
+    button.addEventListener('click', () => {
+      setViewMode(button.getAttribute('data-members-view'));
+    });
+  });
+}
+
 function wireModal(users) {
   document.addEventListener('click', (event) => {
     const openButton = event.target.closest('[data-oss-open]');
@@ -373,6 +394,7 @@ document.addEventListener('DOMContentLoaded', () => {
   wireDetail(users);
   wireSearch(users);
   wireGlobalFilters(users);
+  wireViewMode();
   wireModal(users);
   renderDetail(users);
 });

@@ -88,6 +88,10 @@ export function selectMemberState(currentState, nextUsername) {
   };
 }
 
+export function normalizeMembersViewMode(mode = 'legacy') {
+  return mode === 'modern' ? 'modern' : 'legacy';
+}
+
 export function summarizeRepos(repos, member) {
   const summary = {
     personal: 0,
