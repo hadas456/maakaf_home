@@ -2,6 +2,690 @@
   "users": [
     {
       "user": {
+        "username": "ShacharES",
+        "displayName": "Shachar Even Shoshan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/182784923?u=de3bc3a419dd3bde27b58ff372991b9e9ba7ca9f&v=4",
+        "bio": "💻 Code, ☁️ Cloud, 🚀 Scaling systems | C++ & Go",
+        "location": null,
+        "company": null,
+        "blog": null,
+        "twitterUsername": null,
+        "publicRepos": 12,
+        "followers": 0,
+        "following": 3,
+        "accountType": "User",
+        "createdAt": "2024-09-25T14:26:25.000Z"
+      },
+      "repos": [
+        {
+          "repoName": "Maakaf/maakaf_home",
+          "description": "Website for Ma'akaf - Israeli Open Source Community",
+          "url": "https://github.com/Maakaf/maakaf_home",
+          "primaryLanguage": "HTML",
+          "primaryLanguageColor": "#e34c26",
+          "stargazerCount": 4,
+          "licenseName": "Apache License 2.0",
+          "licenseSpdx": "Apache-2.0",
+          "topics": [
+            "hacktoberfest"
+          ],
+          "commits": 0,
+          "pullRequests": 1,
+          "issues": 0,
+          "prReviews": 0,
+          "prComments": 0,
+          "issueComments": 0
+        }
+      ],
+      "summary": {
+        "totalCommits": 0,
+        "totalPRs": 1,
+        "totalIssues": 0,
+        "totalPRReviews": 0,
+        "totalPRComments": 0,
+        "totalIssueComments": 0
+      },
+      "rollingActivity": [
+        {
+          "date": "2025-12-04",
+          "total": 36
+        },
+        {
+          "date": "2025-12-05",
+          "total": 36
+        },
+        {
+          "date": "2025-12-06",
+          "total": 36
+        },
+        {
+          "date": "2025-12-07",
+          "total": 36
+        },
+        {
+          "date": "2025-12-08",
+          "total": 36
+        },
+        {
+          "date": "2025-12-09",
+          "total": 36
+        },
+        {
+          "date": "2025-12-10",
+          "total": 36
+        },
+        {
+          "date": "2025-12-11",
+          "total": 36
+        },
+        {
+          "date": "2025-12-12",
+          "total": 36
+        },
+        {
+          "date": "2025-12-13",
+          "total": 36
+        },
+        {
+          "date": "2025-12-14",
+          "total": 36
+        },
+        {
+          "date": "2025-12-15",
+          "total": 36
+        },
+        {
+          "date": "2025-12-16",
+          "total": 36
+        },
+        {
+          "date": "2025-12-17",
+          "total": 36
+        },
+        {
+          "date": "2025-12-18",
+          "total": 36
+        },
+        {
+          "date": "2025-12-19",
+          "total": 36
+        },
+        {
+          "date": "2025-12-20",
+          "total": 36
+        },
+        {
+          "date": "2025-12-21",
+          "total": 36
+        },
+        {
+          "date": "2025-12-22",
+          "total": 36
+        },
+        {
+          "date": "2025-12-23",
+          "total": 36
+        },
+        {
+          "date": "2025-12-24",
+          "total": 36
+        },
+        {
+          "date": "2025-12-25",
+          "total": 36
+        },
+        {
+          "date": "2025-12-26",
+          "total": 36
+        },
+        {
+          "date": "2025-12-27",
+          "total": 36
+        },
+        {
+          "date": "2025-12-28",
+          "total": 36
+        },
+        {
+          "date": "2025-12-29",
+          "total": 36
+        },
+        {
+          "date": "2025-12-30",
+          "total": 36
+        },
+        {
+          "date": "2025-12-31",
+          "total": 36
+        },
+        {
+          "date": "2026-01-01",
+          "total": 36
+        },
+        {
+          "date": "2026-01-02",
+          "total": 36
+        },
+        {
+          "date": "2026-01-03",
+          "total": 36
+        },
+        {
+          "date": "2026-01-04",
+          "total": 36
+        },
+        {
+          "date": "2026-01-05",
+          "total": 36
+        },
+        {
+          "date": "2026-01-06",
+          "total": 36
+        },
+        {
+          "date": "2026-01-07",
+          "total": 36
+        },
+        {
+          "date": "2026-01-08",
+          "total": 36
+        },
+        {
+          "date": "2026-01-09",
+          "total": 36
+        },
+        {
+          "date": "2026-01-10",
+          "total": 36
+        },
+        {
+          "date": "2026-01-11",
+          "total": 36
+        },
+        {
+          "date": "2026-01-12",
+          "total": 36
+        },
+        {
+          "date": "2026-01-13",
+          "total": 36
+        },
+        {
+          "date": "2026-01-14",
+          "total": 36
+        },
+        {
+          "date": "2026-01-15",
+          "total": 36
+        },
+        {
+          "date": "2026-01-16",
+          "total": 36
+        },
+        {
+          "date": "2026-01-17",
+          "total": 36
+        },
+        {
+          "date": "2026-01-18",
+          "total": 36
+        },
+        {
+          "date": "2026-01-19",
+          "total": 36
+        },
+        {
+          "date": "2026-01-20",
+          "total": 36
+        },
+        {
+          "date": "2026-01-21",
+          "total": 36
+        },
+        {
+          "date": "2026-01-22",
+          "total": 36
+        },
+        {
+          "date": "2026-01-23",
+          "total": 35
+        },
+        {
+          "date": "2026-01-24",
+          "total": 35
+        },
+        {
+          "date": "2026-01-25",
+          "total": 35
+        },
+        {
+          "date": "2026-01-26",
+          "total": 35
+        },
+        {
+          "date": "2026-01-27",
+          "total": 35
+        },
+        {
+          "date": "2026-01-28",
+          "total": 35
+        },
+        {
+          "date": "2026-01-29",
+          "total": 35
+        },
+        {
+          "date": "2026-01-30",
+          "total": 35
+        },
+        {
+          "date": "2026-01-31",
+          "total": 35
+        },
+        {
+          "date": "2026-02-01",
+          "total": 35
+        },
+        {
+          "date": "2026-02-02",
+          "total": 35
+        },
+        {
+          "date": "2026-02-03",
+          "total": 35
+        },
+        {
+          "date": "2026-02-04",
+          "total": 35
+        },
+        {
+          "date": "2026-02-05",
+          "total": 35
+        },
+        {
+          "date": "2026-02-06",
+          "total": 35
+        },
+        {
+          "date": "2026-02-07",
+          "total": 35
+        },
+        {
+          "date": "2026-02-08",
+          "total": 35
+        },
+        {
+          "date": "2026-02-09",
+          "total": 35
+        },
+        {
+          "date": "2026-02-10",
+          "total": 35
+        },
+        {
+          "date": "2026-02-11",
+          "total": 35
+        },
+        {
+          "date": "2026-02-12",
+          "total": 35
+        },
+        {
+          "date": "2026-02-13",
+          "total": 35
+        },
+        {
+          "date": "2026-02-14",
+          "total": 34
+        },
+        {
+          "date": "2026-02-15",
+          "total": 34
+        },
+        {
+          "date": "2026-02-16",
+          "total": 34
+        },
+        {
+          "date": "2026-02-17",
+          "total": 34
+        },
+        {
+          "date": "2026-02-18",
+          "total": 34
+        },
+        {
+          "date": "2026-02-19",
+          "total": 34
+        },
+        {
+          "date": "2026-02-20",
+          "total": 34
+        },
+        {
+          "date": "2026-02-21",
+          "total": 34
+        },
+        {
+          "date": "2026-02-22",
+          "total": 34
+        },
+        {
+          "date": "2026-02-23",
+          "total": 34
+        },
+        {
+          "date": "2026-02-24",
+          "total": 34
+        },
+        {
+          "date": "2026-02-25",
+          "total": 34
+        },
+        {
+          "date": "2026-02-26",
+          "total": 34
+        },
+        {
+          "date": "2026-02-27",
+          "total": 34
+        },
+        {
+          "date": "2026-02-28",
+          "total": 34
+        },
+        {
+          "date": "2026-03-01",
+          "total": 34
+        },
+        {
+          "date": "2026-03-02",
+          "total": 34
+        },
+        {
+          "date": "2026-03-03",
+          "total": 34
+        },
+        {
+          "date": "2026-03-04",
+          "total": 34
+        },
+        {
+          "date": "2026-03-05",
+          "total": 34
+        },
+        {
+          "date": "2026-03-06",
+          "total": 34
+        },
+        {
+          "date": "2026-03-07",
+          "total": 34
+        },
+        {
+          "date": "2026-03-08",
+          "total": 34
+        },
+        {
+          "date": "2026-03-09",
+          "total": 34
+        },
+        {
+          "date": "2026-03-10",
+          "total": 34
+        },
+        {
+          "date": "2026-03-11",
+          "total": 34
+        },
+        {
+          "date": "2026-03-12",
+          "total": 34
+        },
+        {
+          "date": "2026-03-13",
+          "total": 34
+        },
+        {
+          "date": "2026-03-14",
+          "total": 34
+        },
+        {
+          "date": "2026-03-15",
+          "total": 34
+        },
+        {
+          "date": "2026-03-16",
+          "total": 34
+        },
+        {
+          "date": "2026-03-17",
+          "total": 34
+        },
+        {
+          "date": "2026-03-18",
+          "total": 34
+        },
+        {
+          "date": "2026-03-19",
+          "total": 34
+        },
+        {
+          "date": "2026-03-20",
+          "total": 34
+        },
+        {
+          "date": "2026-03-21",
+          "total": 34
+        },
+        {
+          "date": "2026-03-22",
+          "total": 34
+        },
+        {
+          "date": "2026-03-23",
+          "total": 34
+        },
+        {
+          "date": "2026-03-24",
+          "total": 34
+        },
+        {
+          "date": "2026-03-25",
+          "total": 34
+        },
+        {
+          "date": "2026-03-26",
+          "total": 34
+        },
+        {
+          "date": "2026-03-27",
+          "total": 34
+        },
+        {
+          "date": "2026-03-28",
+          "total": 34
+        },
+        {
+          "date": "2026-03-29",
+          "total": 34
+        },
+        {
+          "date": "2026-03-30",
+          "total": 34
+        },
+        {
+          "date": "2026-03-31",
+          "total": 34
+        },
+        {
+          "date": "2026-04-01",
+          "total": 34
+        },
+        {
+          "date": "2026-04-02",
+          "total": 34
+        },
+        {
+          "date": "2026-04-03",
+          "total": 34
+        },
+        {
+          "date": "2026-04-04",
+          "total": 34
+        },
+        {
+          "date": "2026-04-05",
+          "total": 34
+        },
+        {
+          "date": "2026-04-06",
+          "total": 34
+        },
+        {
+          "date": "2026-04-07",
+          "total": 34
+        },
+        {
+          "date": "2026-04-08",
+          "total": 34
+        },
+        {
+          "date": "2026-04-09",
+          "total": 34
+        },
+        {
+          "date": "2026-04-10",
+          "total": 34
+        },
+        {
+          "date": "2026-04-11",
+          "total": 34
+        },
+        {
+          "date": "2026-04-12",
+          "total": 34
+        },
+        {
+          "date": "2026-04-13",
+          "total": 34
+        },
+        {
+          "date": "2026-04-14",
+          "total": 34
+        },
+        {
+          "date": "2026-04-15",
+          "total": 34
+        },
+        {
+          "date": "2026-04-16",
+          "total": 34
+        },
+        {
+          "date": "2026-04-17",
+          "total": 34
+        },
+        {
+          "date": "2026-04-18",
+          "total": 34
+        },
+        {
+          "date": "2026-04-19",
+          "total": 34
+        },
+        {
+          "date": "2026-04-20",
+          "total": 34
+        },
+        {
+          "date": "2026-04-21",
+          "total": 34
+        },
+        {
+          "date": "2026-04-22",
+          "total": 34
+        },
+        {
+          "date": "2026-04-23",
+          "total": 34
+        },
+        {
+          "date": "2026-04-24",
+          "total": 34
+        },
+        {
+          "date": "2026-04-25",
+          "total": 34
+        },
+        {
+          "date": "2026-04-26",
+          "total": 34
+        },
+        {
+          "date": "2026-04-27",
+          "total": 34
+        },
+        {
+          "date": "2026-04-28",
+          "total": 34
+        },
+        {
+          "date": "2026-04-29",
+          "total": 34
+        },
+        {
+          "date": "2026-04-30",
+          "total": 34
+        },
+        {
+          "date": "2026-05-01",
+          "total": 34
+        },
+        {
+          "date": "2026-05-02",
+          "total": 34
+        },
+        {
+          "date": "2026-05-03",
+          "total": 34
+        },
+        {
+          "date": "2026-05-04",
+          "total": 34
+        },
+        {
+          "date": "2026-05-05",
+          "total": 34
+        },
+        {
+          "date": "2026-05-06",
+          "total": 34
+        },
+        {
+          "date": "2026-05-07",
+          "total": 33
+        },
+        {
+          "date": "2026-05-08",
+          "total": 27
+        },
+        {
+          "date": "2026-05-09",
+          "total": 17
+        },
+        {
+          "date": "2026-05-10",
+          "total": 1
+        },
+        {
+          "date": "2026-05-11",
+          "total": 0
+        }
+      ]
+    },
+    {
+      "user": {
         "username": "NoamGaash",
         "displayName": "Noam Gaash",
         "avatarUrl": "https://avatars.githubusercontent.com/u/11145132?u=da18ddf0acb107c9780ef054a7c4d9b73da97b62&v=4",
@@ -23,7 +707,7 @@
           "url": "https://github.com/andrewyng/context-hub",
           "primaryLanguage": "JavaScript",
           "primaryLanguageColor": "#f1e05a",
-          "stargazerCount": 13470,
+          "stargazerCount": 13478,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [],
@@ -40,7 +724,7 @@
           "url": "https://github.com/vitalets/playwright-bdd",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 699,
+          "stargazerCount": 698,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -81,7 +765,7 @@
           "url": "https://github.com/microsoft/vscode",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 185627,
+          "stargazerCount": 185663,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -172,10 +856,6 @@
         "totalIssueComments": 36
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 225
-        },
         {
           "date": "2025-12-05",
           "total": 221
@@ -891,6 +1571,10 @@
         {
           "date": "2026-06-01",
           "total": 294
+        },
+        {
+          "date": "2026-06-02",
+          "total": 294
         }
       ]
     },
@@ -992,7 +1676,7 @@
           "pullRequests": 1,
           "issues": 0,
           "prReviews": 0,
-          "prComments": 5,
+          "prComments": 2,
           "issueComments": 1
         },
         {
@@ -1001,7 +1685,7 @@
           "url": "https://github.com/google/docsy",
           "primaryLanguage": "JavaScript",
           "primaryLanguageColor": "#f1e05a",
-          "stargazerCount": 2937,
+          "stargazerCount": 2938,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -1025,14 +1709,10 @@
         "totalPRs": 3,
         "totalIssues": 1,
         "totalPRReviews": 1,
-        "totalPRComments": 13,
+        "totalPRComments": 10,
         "totalIssueComments": 3
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 220
-        },
         {
           "date": "2025-12-05",
           "total": 219
@@ -1748,6 +2428,10 @@
         {
           "date": "2026-06-01",
           "total": 36
+        },
+        {
+          "date": "2026-06-02",
+          "total": 35
         }
       ]
     },
@@ -1762,7 +2446,7 @@
         "blog": "https://www.nodejs-security.com/",
         "twitterUsername": "liran_tal",
         "publicRepos": 507,
-        "followers": 2485,
+        "followers": 2486,
         "following": 1148,
         "accountType": "User",
         "createdAt": "2010-06-28T11:10:04.000Z"
@@ -1877,7 +2561,7 @@
           "url": "https://github.com/snyk/agent-scan",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 2505,
+          "stargazerCount": 2511,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -2005,7 +2689,7 @@
           "url": "https://github.com/openclaw/clawhub",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 8829,
+          "stargazerCount": 8839,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -2089,7 +2773,7 @@
           "url": "https://github.com/lirantal/lockfile-lint",
           "primaryLanguage": "JavaScript",
           "primaryLanguageColor": "#f1e05a",
-          "stargazerCount": 860,
+          "stargazerCount": 862,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -2199,7 +2883,7 @@
           "url": "https://github.com/Klavis-AI/klavis",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 5750,
+          "stargazerCount": 5749,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -2231,7 +2915,7 @@
           "url": "https://github.com/lirantal/dockly",
           "primaryLanguage": "JavaScript",
           "primaryLanguageColor": "#f1e05a",
-          "stargazerCount": 4014,
+          "stargazerCount": 4015,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -2341,7 +3025,7 @@
           "url": "https://github.com/openclaw/openclaw",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 375927,
+          "stargazerCount": 376105,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [
@@ -2431,7 +3115,7 @@
           "url": "https://github.com/lirantal/pypi-security-best-practices",
           "primaryLanguage": null,
           "primaryLanguageColor": null,
-          "stargazerCount": 102,
+          "stargazerCount": 103,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -2459,7 +3143,7 @@
           "url": "https://github.com/alexgreensh/repo-forensics",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 93,
+          "stargazerCount": 94,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [
@@ -2552,7 +3236,7 @@
           "url": "https://github.com/snyk-labs/toxicskills-goof",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 10,
+          "stargazerCount": 11,
           "licenseName": null,
           "licenseSpdx": null,
           "topics": [],
@@ -2823,7 +3507,7 @@
           "url": "https://github.com/punkpeye/awesome-mcp-servers",
           "primaryLanguage": null,
           "primaryLanguageColor": null,
-          "stargazerCount": 88261,
+          "stargazerCount": 88329,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -2865,7 +3549,7 @@
           "url": "https://github.com/lirantal/nodejs-cli-apps-best-practices",
           "primaryLanguage": "JavaScript",
           "primaryLanguageColor": "#f1e05a",
-          "stargazerCount": 3991,
+          "stargazerCount": 3993,
           "licenseName": "Creative Commons Attribution Share Alike 4.0 International",
           "licenseSpdx": "CC-BY-SA-4.0",
           "topics": [
@@ -3035,7 +3719,7 @@
           "url": "https://github.com/lirantal/npm-security-best-practices",
           "primaryLanguage": null,
           "primaryLanguageColor": null,
-          "stargazerCount": 1109,
+          "stargazerCount": 1125,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -3064,7 +3748,7 @@
           "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
           "primaryLanguage": null,
           "primaryLanguageColor": null,
-          "stargazerCount": 113540,
+          "stargazerCount": 113595,
           "licenseName": "Creative Commons Zero v1.0 Universal",
           "licenseSpdx": "CC0-1.0",
           "topics": [
@@ -3335,7 +4019,7 @@
           "url": "https://github.com/microsoft/apm",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 2705,
+          "stargazerCount": 2721,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -3456,7 +4140,7 @@
           "url": "https://github.com/lirantal/npq",
           "primaryLanguage": "JavaScript",
           "primaryLanguageColor": "#f1e05a",
-          "stargazerCount": 1684,
+          "stargazerCount": 1689,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -3541,10 +4225,6 @@
         "totalIssueComments": 42
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 880
-        },
         {
           "date": "2025-12-05",
           "total": 874
@@ -4260,6 +4940,10 @@
         {
           "date": "2026-06-01",
           "total": 1065
+        },
+        {
+          "date": "2026-06-02",
+          "total": 1065
         }
       ]
     },
@@ -4286,7 +4970,7 @@
           "url": "https://github.com/anomalyco/opencode",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 167982,
+          "stargazerCount": 168495,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [],
@@ -4359,7 +5043,7 @@
           "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 2524,
+          "stargazerCount": 2531,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -4434,7 +5118,7 @@
           "url": "https://github.com/vectordotdev/vector",
           "primaryLanguage": "Rust",
           "primaryLanguageColor": "#dea584",
-          "stargazerCount": 21956,
+          "stargazerCount": 21959,
           "licenseName": "Mozilla Public License 2.0",
           "licenseSpdx": "MPL-2.0",
           "topics": [
@@ -4524,7 +5208,7 @@
           "url": "https://github.com/scylladb/seastar",
           "primaryLanguage": "C++",
           "primaryLanguageColor": "#f34b7d",
-          "stargazerCount": 9240,
+          "stargazerCount": 9241,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -4624,7 +5308,7 @@
           "url": "https://github.com/scylladb/scylladb",
           "primaryLanguage": "C++",
           "primaryLanguageColor": "#f34b7d",
-          "stargazerCount": 15575,
+          "stargazerCount": 15571,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [
@@ -4641,7 +5325,7 @@
           "issues": 3,
           "prReviews": 13,
           "prComments": 56,
-          "issueComments": 64
+          "issueComments": 63
         },
         {
           "repoName": "scylladb/YCSB",
@@ -4662,18 +5346,16 @@
         },
         {
           "repoName": "code-yeongyu/oh-my-openagent",
-          "description": "omo; the best agent harness - previously oh-my-opencode",
+          "description": "omo; the one and only agent harness for complex codebases; the pickaxe for complex software engineering",
           "url": "https://github.com/code-yeongyu/oh-my-openagent",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 60490,
+          "stargazerCount": 60625,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [
-            "claude-code",
             "opencode",
             "ai",
-            "amp",
             "anthropic",
             "claude",
             "claude-skills",
@@ -4685,7 +5367,8 @@
             "tui",
             "typescript",
             "ai-agents",
-            "chatgpt"
+            "chatgpt",
+            "codex"
           ],
           "commits": 0,
           "pullRequests": 0,
@@ -4710,12 +5393,12 @@
             "testing-framework",
             "cassandra"
           ],
-          "commits": 331,
-          "pullRequests": 213,
+          "commits": 333,
+          "pullRequests": 214,
           "issues": 8,
-          "prReviews": 546,
-          "prComments": 1079,
-          "issueComments": 106
+          "prReviews": 543,
+          "prComments": 1073,
+          "issueComments": 104
         },
         {
           "repoName": "scylladb/gemini",
@@ -4795,7 +5478,7 @@
           "url": "https://github.com/microsoft/microsoft-ui-xaml",
           "primaryLanguage": "C++",
           "primaryLanguageColor": "#f34b7d",
-          "stargazerCount": 7629,
+          "stargazerCount": 7632,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -4819,18 +5502,14 @@
         }
       ],
       "summary": {
-        "totalCommits": 436,
-        "totalPRs": 256,
+        "totalCommits": 438,
+        "totalPRs": 257,
         "totalIssues": 27,
-        "totalPRReviews": 687,
-        "totalPRComments": 1444,
-        "totalIssueComments": 242
+        "totalPRReviews": 684,
+        "totalPRComments": 1438,
+        "totalIssueComments": 239
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 2074
-        },
         {
           "date": "2025-12-05",
           "total": 2051
@@ -5521,31 +6200,35 @@
         },
         {
           "date": "2026-05-26",
-          "total": 3082
+          "total": 3079
         },
         {
           "date": "2026-05-27",
-          "total": 3108
+          "total": 3105
         },
         {
           "date": "2026-05-28",
-          "total": 3142
+          "total": 3139
         },
         {
           "date": "2026-05-29",
-          "total": 3114
+          "total": 3111
         },
         {
           "date": "2026-05-30",
-          "total": 3090
+          "total": 3087
         },
         {
           "date": "2026-05-31",
-          "total": 3092
+          "total": 3091
         },
         {
           "date": "2026-06-01",
-          "total": 3073
+          "total": 3083
+        },
+        {
+          "date": "2026-06-02",
+          "total": 3066
         }
       ]
     },
@@ -5591,7 +6274,7 @@
           "url": "https://github.com/qelos-io/testai",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 103,
+          "stargazerCount": 104,
           "licenseName": null,
           "licenseSpdx": null,
           "topics": [],
@@ -5634,7 +6317,7 @@
             "nodejs",
             "saas"
           ],
-          "commits": 431,
+          "commits": 426,
           "pullRequests": 81,
           "issues": 0,
           "prReviews": 7,
@@ -5643,7 +6326,7 @@
         }
       ],
       "summary": {
-        "totalCommits": 446,
+        "totalCommits": 441,
         "totalPRs": 84,
         "totalIssues": 100,
         "totalPRReviews": 8,
@@ -5651,10 +6334,6 @@
         "totalIssueComments": 1
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 261
-        },
         {
           "date": "2025-12-05",
           "total": 261
@@ -6370,6 +7049,10 @@
         {
           "date": "2026-06-01",
           "total": 644
+        },
+        {
+          "date": "2026-06-02",
+          "total": 640
         }
       ]
     },
@@ -6408,7 +7091,7 @@
             "static-site",
             "hebrew"
           ],
-          "commits": 32,
+          "commits": 31,
           "pullRequests": 7,
           "issues": 2,
           "prReviews": 11,
@@ -6444,7 +7127,7 @@
           "url": "https://github.com/daniel-hauser/moneyman",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 95,
+          "stargazerCount": 96,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -6472,8 +7155,8 @@
           "commits": 5,
           "pullRequests": 2,
           "issues": 0,
-          "prReviews": 8,
-          "prComments": 10,
+          "prReviews": 6,
+          "prComments": 8,
           "issueComments": 2
         },
         {
@@ -6482,7 +7165,7 @@
           "url": "https://github.com/alexpfau/calendar-card-pro",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 1114,
+          "stargazerCount": 1115,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [
@@ -6531,7 +7214,7 @@
           "url": "https://github.com/mattogodoy/nametag",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 952,
+          "stargazerCount": 951,
           "licenseName": "GNU Affero General Public License v3.0",
           "licenseSpdx": "AGPL-3.0",
           "topics": [],
@@ -6548,7 +7231,7 @@
           "url": "https://github.com/homeassistant-ai/ha-mcp",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 3183,
+          "stargazerCount": 3202,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [],
@@ -6585,7 +7268,7 @@
           "url": "https://github.com/s-stefanov/actual-mcp",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 150,
+          "stargazerCount": 151,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [],
@@ -6602,7 +7285,7 @@
           "url": "https://github.com/gitroomhq/postiz-app",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 31309,
+          "stargazerCount": 31357,
           "licenseName": "GNU Affero General Public License v3.0",
           "licenseSpdx": "AGPL-3.0",
           "topics": [
@@ -6624,18 +7307,14 @@
         }
       ],
       "summary": {
-        "totalCommits": 67,
+        "totalCommits": 66,
         "totalPRs": 37,
         "totalIssues": 13,
-        "totalPRReviews": 61,
-        "totalPRComments": 60,
+        "totalPRReviews": 59,
+        "totalPRComments": 58,
         "totalIssueComments": 34
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 158
-        },
         {
           "date": "2025-12-05",
           "total": 163
@@ -7351,694 +8030,10 @@
         {
           "date": "2026-06-01",
           "total": 267
-        }
-      ]
-    },
-    {
-      "user": {
-        "username": "ShacharES",
-        "displayName": "Shachar Even Shoshan",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/182784923?u=de3bc3a419dd3bde27b58ff372991b9e9ba7ca9f&v=4",
-        "bio": "💻 Code, ☁️ Cloud, 🚀 Scaling systems | C++ & Go",
-        "location": null,
-        "company": null,
-        "blog": null,
-        "twitterUsername": null,
-        "publicRepos": 12,
-        "followers": 0,
-        "following": 3,
-        "accountType": "User",
-        "createdAt": "2024-09-25T14:26:25.000Z"
-      },
-      "repos": [
-        {
-          "repoName": "Maakaf/maakaf_home",
-          "description": "Website for Ma'akaf - Israeli Open Source Community",
-          "url": "https://github.com/Maakaf/maakaf_home",
-          "primaryLanguage": "HTML",
-          "primaryLanguageColor": "#e34c26",
-          "stargazerCount": 4,
-          "licenseName": "Apache License 2.0",
-          "licenseSpdx": "Apache-2.0",
-          "topics": [
-            "hacktoberfest"
-          ],
-          "commits": 0,
-          "pullRequests": 1,
-          "issues": 0,
-          "prReviews": 0,
-          "prComments": 0,
-          "issueComments": 0
-        }
-      ],
-      "summary": {
-        "totalCommits": 0,
-        "totalPRs": 1,
-        "totalIssues": 0,
-        "totalPRReviews": 0,
-        "totalPRComments": 0,
-        "totalIssueComments": 0
-      },
-      "rollingActivity": [
-        {
-          "date": "2025-12-03",
-          "total": 36
-        },
-        {
-          "date": "2025-12-04",
-          "total": 36
-        },
-        {
-          "date": "2025-12-05",
-          "total": 36
-        },
-        {
-          "date": "2025-12-06",
-          "total": 36
-        },
-        {
-          "date": "2025-12-07",
-          "total": 36
-        },
-        {
-          "date": "2025-12-08",
-          "total": 36
-        },
-        {
-          "date": "2025-12-09",
-          "total": 36
-        },
-        {
-          "date": "2025-12-10",
-          "total": 36
-        },
-        {
-          "date": "2025-12-11",
-          "total": 36
-        },
-        {
-          "date": "2025-12-12",
-          "total": 36
-        },
-        {
-          "date": "2025-12-13",
-          "total": 36
-        },
-        {
-          "date": "2025-12-14",
-          "total": 36
-        },
-        {
-          "date": "2025-12-15",
-          "total": 36
-        },
-        {
-          "date": "2025-12-16",
-          "total": 36
-        },
-        {
-          "date": "2025-12-17",
-          "total": 36
-        },
-        {
-          "date": "2025-12-18",
-          "total": 36
-        },
-        {
-          "date": "2025-12-19",
-          "total": 36
-        },
-        {
-          "date": "2025-12-20",
-          "total": 36
-        },
-        {
-          "date": "2025-12-21",
-          "total": 36
-        },
-        {
-          "date": "2025-12-22",
-          "total": 36
-        },
-        {
-          "date": "2025-12-23",
-          "total": 36
-        },
-        {
-          "date": "2025-12-24",
-          "total": 36
-        },
-        {
-          "date": "2025-12-25",
-          "total": 36
-        },
-        {
-          "date": "2025-12-26",
-          "total": 36
-        },
-        {
-          "date": "2025-12-27",
-          "total": 36
-        },
-        {
-          "date": "2025-12-28",
-          "total": 36
-        },
-        {
-          "date": "2025-12-29",
-          "total": 36
-        },
-        {
-          "date": "2025-12-30",
-          "total": 36
-        },
-        {
-          "date": "2025-12-31",
-          "total": 36
-        },
-        {
-          "date": "2026-01-01",
-          "total": 36
-        },
-        {
-          "date": "2026-01-02",
-          "total": 36
-        },
-        {
-          "date": "2026-01-03",
-          "total": 36
-        },
-        {
-          "date": "2026-01-04",
-          "total": 36
-        },
-        {
-          "date": "2026-01-05",
-          "total": 36
-        },
-        {
-          "date": "2026-01-06",
-          "total": 36
-        },
-        {
-          "date": "2026-01-07",
-          "total": 36
-        },
-        {
-          "date": "2026-01-08",
-          "total": 36
-        },
-        {
-          "date": "2026-01-09",
-          "total": 36
-        },
-        {
-          "date": "2026-01-10",
-          "total": 36
-        },
-        {
-          "date": "2026-01-11",
-          "total": 36
-        },
-        {
-          "date": "2026-01-12",
-          "total": 36
-        },
-        {
-          "date": "2026-01-13",
-          "total": 36
-        },
-        {
-          "date": "2026-01-14",
-          "total": 36
-        },
-        {
-          "date": "2026-01-15",
-          "total": 36
-        },
-        {
-          "date": "2026-01-16",
-          "total": 36
-        },
-        {
-          "date": "2026-01-17",
-          "total": 36
-        },
-        {
-          "date": "2026-01-18",
-          "total": 36
-        },
-        {
-          "date": "2026-01-19",
-          "total": 36
-        },
-        {
-          "date": "2026-01-20",
-          "total": 36
-        },
-        {
-          "date": "2026-01-21",
-          "total": 36
-        },
-        {
-          "date": "2026-01-22",
-          "total": 36
-        },
-        {
-          "date": "2026-01-23",
-          "total": 35
-        },
-        {
-          "date": "2026-01-24",
-          "total": 35
-        },
-        {
-          "date": "2026-01-25",
-          "total": 35
-        },
-        {
-          "date": "2026-01-26",
-          "total": 35
-        },
-        {
-          "date": "2026-01-27",
-          "total": 35
-        },
-        {
-          "date": "2026-01-28",
-          "total": 35
-        },
-        {
-          "date": "2026-01-29",
-          "total": 35
-        },
-        {
-          "date": "2026-01-30",
-          "total": 35
-        },
-        {
-          "date": "2026-01-31",
-          "total": 35
-        },
-        {
-          "date": "2026-02-01",
-          "total": 35
-        },
-        {
-          "date": "2026-02-02",
-          "total": 35
-        },
-        {
-          "date": "2026-02-03",
-          "total": 35
-        },
-        {
-          "date": "2026-02-04",
-          "total": 35
-        },
-        {
-          "date": "2026-02-05",
-          "total": 35
-        },
-        {
-          "date": "2026-02-06",
-          "total": 35
-        },
-        {
-          "date": "2026-02-07",
-          "total": 35
-        },
-        {
-          "date": "2026-02-08",
-          "total": 35
-        },
-        {
-          "date": "2026-02-09",
-          "total": 35
-        },
-        {
-          "date": "2026-02-10",
-          "total": 35
-        },
-        {
-          "date": "2026-02-11",
-          "total": 35
-        },
-        {
-          "date": "2026-02-12",
-          "total": 35
-        },
-        {
-          "date": "2026-02-13",
-          "total": 35
-        },
-        {
-          "date": "2026-02-14",
-          "total": 34
-        },
-        {
-          "date": "2026-02-15",
-          "total": 34
-        },
-        {
-          "date": "2026-02-16",
-          "total": 34
-        },
-        {
-          "date": "2026-02-17",
-          "total": 34
-        },
-        {
-          "date": "2026-02-18",
-          "total": 34
-        },
-        {
-          "date": "2026-02-19",
-          "total": 34
-        },
-        {
-          "date": "2026-02-20",
-          "total": 34
-        },
-        {
-          "date": "2026-02-21",
-          "total": 34
-        },
-        {
-          "date": "2026-02-22",
-          "total": 34
-        },
-        {
-          "date": "2026-02-23",
-          "total": 34
-        },
-        {
-          "date": "2026-02-24",
-          "total": 34
-        },
-        {
-          "date": "2026-02-25",
-          "total": 34
-        },
-        {
-          "date": "2026-02-26",
-          "total": 34
-        },
-        {
-          "date": "2026-02-27",
-          "total": 34
-        },
-        {
-          "date": "2026-02-28",
-          "total": 34
-        },
-        {
-          "date": "2026-03-01",
-          "total": 34
-        },
-        {
-          "date": "2026-03-02",
-          "total": 34
-        },
-        {
-          "date": "2026-03-03",
-          "total": 34
-        },
-        {
-          "date": "2026-03-04",
-          "total": 34
-        },
-        {
-          "date": "2026-03-05",
-          "total": 34
-        },
-        {
-          "date": "2026-03-06",
-          "total": 34
-        },
-        {
-          "date": "2026-03-07",
-          "total": 34
-        },
-        {
-          "date": "2026-03-08",
-          "total": 34
-        },
-        {
-          "date": "2026-03-09",
-          "total": 34
-        },
-        {
-          "date": "2026-03-10",
-          "total": 34
-        },
-        {
-          "date": "2026-03-11",
-          "total": 34
-        },
-        {
-          "date": "2026-03-12",
-          "total": 34
-        },
-        {
-          "date": "2026-03-13",
-          "total": 34
-        },
-        {
-          "date": "2026-03-14",
-          "total": 34
-        },
-        {
-          "date": "2026-03-15",
-          "total": 34
-        },
-        {
-          "date": "2026-03-16",
-          "total": 34
-        },
-        {
-          "date": "2026-03-17",
-          "total": 34
-        },
-        {
-          "date": "2026-03-18",
-          "total": 34
-        },
-        {
-          "date": "2026-03-19",
-          "total": 34
-        },
-        {
-          "date": "2026-03-20",
-          "total": 34
-        },
-        {
-          "date": "2026-03-21",
-          "total": 34
-        },
-        {
-          "date": "2026-03-22",
-          "total": 34
-        },
-        {
-          "date": "2026-03-23",
-          "total": 34
-        },
-        {
-          "date": "2026-03-24",
-          "total": 34
-        },
-        {
-          "date": "2026-03-25",
-          "total": 34
-        },
-        {
-          "date": "2026-03-26",
-          "total": 34
-        },
-        {
-          "date": "2026-03-27",
-          "total": 34
-        },
-        {
-          "date": "2026-03-28",
-          "total": 34
-        },
-        {
-          "date": "2026-03-29",
-          "total": 34
-        },
-        {
-          "date": "2026-03-30",
-          "total": 34
-        },
-        {
-          "date": "2026-03-31",
-          "total": 34
-        },
-        {
-          "date": "2026-04-01",
-          "total": 34
-        },
-        {
-          "date": "2026-04-02",
-          "total": 34
-        },
-        {
-          "date": "2026-04-03",
-          "total": 34
-        },
-        {
-          "date": "2026-04-04",
-          "total": 34
-        },
-        {
-          "date": "2026-04-05",
-          "total": 34
-        },
-        {
-          "date": "2026-04-06",
-          "total": 34
-        },
-        {
-          "date": "2026-04-07",
-          "total": 34
-        },
-        {
-          "date": "2026-04-08",
-          "total": 34
-        },
-        {
-          "date": "2026-04-09",
-          "total": 34
-        },
-        {
-          "date": "2026-04-10",
-          "total": 34
-        },
-        {
-          "date": "2026-04-11",
-          "total": 34
-        },
-        {
-          "date": "2026-04-12",
-          "total": 34
-        },
-        {
-          "date": "2026-04-13",
-          "total": 34
-        },
-        {
-          "date": "2026-04-14",
-          "total": 34
-        },
-        {
-          "date": "2026-04-15",
-          "total": 34
-        },
-        {
-          "date": "2026-04-16",
-          "total": 34
-        },
-        {
-          "date": "2026-04-17",
-          "total": 34
-        },
-        {
-          "date": "2026-04-18",
-          "total": 34
-        },
-        {
-          "date": "2026-04-19",
-          "total": 34
-        },
-        {
-          "date": "2026-04-20",
-          "total": 34
-        },
-        {
-          "date": "2026-04-21",
-          "total": 34
-        },
-        {
-          "date": "2026-04-22",
-          "total": 34
-        },
-        {
-          "date": "2026-04-23",
-          "total": 34
-        },
-        {
-          "date": "2026-04-24",
-          "total": 34
-        },
-        {
-          "date": "2026-04-25",
-          "total": 34
-        },
-        {
-          "date": "2026-04-26",
-          "total": 34
-        },
-        {
-          "date": "2026-04-27",
-          "total": 34
-        },
-        {
-          "date": "2026-04-28",
-          "total": 34
-        },
-        {
-          "date": "2026-04-29",
-          "total": 34
-        },
-        {
-          "date": "2026-04-30",
-          "total": 34
-        },
-        {
-          "date": "2026-05-01",
-          "total": 34
-        },
-        {
-          "date": "2026-05-02",
-          "total": 34
-        },
-        {
-          "date": "2026-05-03",
-          "total": 34
-        },
-        {
-          "date": "2026-05-04",
-          "total": 34
-        },
-        {
-          "date": "2026-05-05",
-          "total": 34
-        },
-        {
-          "date": "2026-05-06",
-          "total": 34
-        },
-        {
-          "date": "2026-05-07",
-          "total": 33
-        },
-        {
-          "date": "2026-05-08",
-          "total": 27
-        },
-        {
-          "date": "2026-05-09",
-          "total": 17
-        },
-        {
-          "date": "2026-05-10",
-          "total": 1
         },
         {
-          "date": "2026-05-11",
-          "total": 0
+          "date": "2026-06-02",
+          "total": 263
         }
       ]
     },
@@ -8133,7 +8128,7 @@
             "rust-lang",
             "web"
           ],
-          "commits": 80,
+          "commits": 79,
           "pullRequests": 0,
           "issues": 1,
           "prReviews": 0,
@@ -8146,7 +8141,7 @@
           "url": "https://github.com/levish0/AxumKit",
           "primaryLanguage": "Rust",
           "primaryLanguageColor": "#dea584",
-          "stargazerCount": 83,
+          "stargazerCount": 84,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -8287,7 +8282,7 @@
             "website",
             "html"
           ],
-          "commits": 59,
+          "commits": 63,
           "pullRequests": 0,
           "issues": 2,
           "prReviews": 0,
@@ -8413,7 +8408,7 @@
           "url": "https://github.com/rust-lang/mdBook",
           "primaryLanguage": "Rust",
           "primaryLanguageColor": "#dea584",
-          "stargazerCount": 21730,
+          "stargazerCount": 21737,
           "licenseName": "Mozilla Public License 2.0",
           "licenseSpdx": "MPL-2.0",
           "topics": [],
@@ -8430,7 +8425,7 @@
           "url": "https://github.com/launchbadge/realworld-axum-sqlx",
           "primaryLanguage": "Rust",
           "primaryLanguageColor": "#dea584",
-          "stargazerCount": 1080,
+          "stargazerCount": 1081,
           "licenseName": "GNU Affero General Public License v3.0",
           "licenseSpdx": "AGPL-3.0",
           "topics": [],
@@ -8489,7 +8484,7 @@
           "url": "https://github.com/scikit-learn/scikit-learn",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 66208,
+          "stargazerCount": 66222,
           "licenseName": "BSD 3-Clause \"New\" or \"Revised\" License",
           "licenseSpdx": "BSD-3-Clause",
           "topics": [
@@ -8991,7 +8986,7 @@
           "url": "https://github.com/github/docs",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 19789,
+          "stargazerCount": 19842,
           "licenseName": "Creative Commons Attribution 4.0 International",
           "licenseSpdx": "CC-BY-4.0",
           "topics": [
@@ -9011,7 +9006,7 @@
           "url": "https://github.com/golemcloud/golem",
           "primaryLanguage": "Rust",
           "primaryLanguageColor": "#dea584",
-          "stargazerCount": 1631,
+          "stargazerCount": 1620,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [
@@ -9080,7 +9075,7 @@
           "url": "https://github.com/rust-lang/this-week-in-rust",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 2556,
+          "stargazerCount": 2558,
           "licenseName": null,
           "licenseSpdx": null,
           "topics": [
@@ -9102,7 +9097,7 @@
           "url": "https://github.com/askama-rs/askama",
           "primaryLanguage": "Rust",
           "primaryLanguageColor": "#dea584",
-          "stargazerCount": 1101,
+          "stargazerCount": 1102,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -9141,7 +9136,7 @@
           "url": "https://github.com/transact-rs/sqlx",
           "primaryLanguage": "Rust",
           "primaryLanguageColor": "#dea584",
-          "stargazerCount": 17078,
+          "stargazerCount": 17082,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -9316,7 +9311,7 @@
           "url": "https://github.com/szabgab/awesome-for-non-programmers",
           "primaryLanguage": null,
           "primaryLanguageColor": null,
-          "stargazerCount": 1855,
+          "stargazerCount": 1854,
           "licenseName": null,
           "licenseSpdx": null,
           "topics": [
@@ -9365,7 +9360,7 @@
           "url": "https://github.com/elgohr/Publish-Docker-Github-Action",
           "primaryLanguage": "Shell",
           "primaryLanguageColor": "#89e051",
-          "stargazerCount": 791,
+          "stargazerCount": 792,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -9453,7 +9448,7 @@
           "url": "https://github.com/zed-industries/zed",
           "primaryLanguage": "Rust",
           "primaryLanguageColor": "#dea584",
-          "stargazerCount": 84214,
+          "stargazerCount": 84273,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [
@@ -9636,7 +9631,7 @@
           "url": "https://github.com/tokio-rs/axum",
           "primaryLanguage": "Rust",
           "primaryLanguageColor": "#dea584",
-          "stargazerCount": 26102,
+          "stargazerCount": 26108,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -9653,7 +9648,7 @@
         }
       ],
       "summary": {
-        "totalCommits": 1012,
+        "totalCommits": 1015,
         "totalPRs": 149,
         "totalIssues": 70,
         "totalPRReviews": 2,
@@ -9661,10 +9656,6 @@
         "totalIssueComments": 61
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 1520
-        },
         {
           "date": "2025-12-05",
           "total": 1522
@@ -10379,7 +10370,11 @@
         },
         {
           "date": "2026-06-01",
-          "total": 1388
+          "total": 1394
+        },
+        {
+          "date": "2026-06-02",
+          "total": 1391
         }
       ]
     },
@@ -10517,8 +10512,8 @@
           "commits": 0,
           "pullRequests": 0,
           "issues": 0,
-          "prReviews": 15,
-          "prComments": 112,
+          "prReviews": 14,
+          "prComments": 102,
           "issueComments": 0
         },
         {
@@ -10564,7 +10559,7 @@
           "url": "https://github.com/networkmanager-rs/nmrs",
           "primaryLanguage": "Rust",
           "primaryLanguageColor": "#dea584",
-          "stargazerCount": 265,
+          "stargazerCount": 266,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -10586,7 +10581,7 @@
           "url": "https://github.com/a5c-ai/babysitter",
           "primaryLanguage": "JavaScript",
           "primaryLanguageColor": "#f1e05a",
-          "stargazerCount": 1098,
+          "stargazerCount": 1190,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -10640,7 +10635,7 @@
           "url": "https://github.com/khashashin/ogi",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 168,
+          "stargazerCount": 181,
           "licenseName": "GNU Affero General Public License v3.0",
           "licenseSpdx": "AGPL-3.0",
           "topics": [
@@ -10703,7 +10698,7 @@
           "url": "https://github.com/Temavrix/NexaView",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 96,
+          "stargazerCount": 97,
           "licenseName": "GNU Affero General Public License v3.0",
           "licenseSpdx": "AGPL-3.0",
           "topics": [
@@ -10794,7 +10789,7 @@
           "url": "https://github.com/lesspass/lesspass",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 6028,
+          "stargazerCount": 6026,
           "licenseName": "GNU General Public License v3.0",
           "licenseSpdx": "GPL-3.0",
           "topics": [
@@ -10926,7 +10921,7 @@
           "url": "https://github.com/vamshi4001/saas-clawds",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 65,
+          "stargazerCount": 66,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [],
@@ -11032,7 +11027,7 @@
           "url": "https://github.com/igamezgamble/slot-games-casino-slot-machine-source",
           "primaryLanguage": "PHP",
           "primaryLanguageColor": "#4F5D95",
-          "stargazerCount": 189,
+          "stargazerCount": 191,
           "licenseName": null,
           "licenseSpdx": null,
           "topics": [
@@ -11222,7 +11217,7 @@
           "url": "https://github.com/jstrieb/github-stats",
           "primaryLanguage": "Zig",
           "primaryLanguageColor": "#ec915c",
-          "stargazerCount": 3467,
+          "stargazerCount": 3470,
           "licenseName": "GNU General Public License v3.0",
           "licenseSpdx": "GPL-3.0",
           "topics": [
@@ -11305,7 +11300,7 @@
           "url": "https://github.com/gyrovorbis/libevmu",
           "primaryLanguage": "C",
           "primaryLanguageColor": "#555555",
-          "stargazerCount": 70,
+          "stargazerCount": 71,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -11369,7 +11364,7 @@
           "url": "https://github.com/fastrepl/anarlog",
           "primaryLanguage": "Rust",
           "primaryLanguageColor": "#dea584",
-          "stargazerCount": 8547,
+          "stargazerCount": 8556,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -11597,7 +11592,7 @@
           "url": "https://github.com/podman-desktop/podman-desktop",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 7674,
+          "stargazerCount": 7677,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -11659,7 +11654,7 @@
           "url": "https://github.com/zeroth-robotics/zeroth-bot",
           "primaryLanguage": null,
           "primaryLanguageColor": null,
-          "stargazerCount": 785,
+          "stargazerCount": 786,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -11708,8 +11703,8 @@
           "commits": 5,
           "pullRequests": 4,
           "issues": 6,
-          "prReviews": 4,
-          "prComments": 4,
+          "prReviews": 5,
+          "prComments": 9,
           "issueComments": 2
         },
         {
@@ -11866,7 +11861,7 @@
           "url": "https://github.com/anmol098/waka-readme-stats",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 3948,
+          "stargazerCount": 3949,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -11890,7 +11885,7 @@
           "url": "https://github.com/godotengine/godot",
           "primaryLanguage": "C++",
           "primaryLanguageColor": "#f34b7d",
-          "stargazerCount": 111458,
+          "stargazerCount": 111722,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -12004,7 +11999,7 @@
           "url": "https://github.com/CodeBoarding/CodeBoarding",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 2022,
+          "stargazerCount": 2051,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -12038,7 +12033,7 @@
           "url": "https://github.com/grafana/loki",
           "primaryLanguage": "Go",
           "primaryLanguageColor": "#00ADD8",
-          "stargazerCount": 28274,
+          "stargazerCount": 28281,
           "licenseName": "GNU Affero General Public License v3.0",
           "licenseSpdx": "AGPL-3.0",
           "topics": [
@@ -12337,7 +12332,7 @@
           "url": "https://github.com/karpathy/llama2.c",
           "primaryLanguage": "C",
           "primaryLanguageColor": "#555555",
-          "stargazerCount": 19574,
+          "stargazerCount": 19576,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [],
@@ -12388,7 +12383,7 @@
           "url": "https://github.com/udapy/rust-agentic-skills",
           "primaryLanguage": "Rust",
           "primaryLanguageColor": "#dea584",
-          "stargazerCount": 40,
+          "stargazerCount": 41,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -12588,12 +12583,12 @@
           "issueComments": 0
         },
         {
-          "repoName": "containers/podman",
+          "repoName": "podman-container-tools/podman",
           "description": "Podman: A tool for managing OCI containers and pods.",
-          "url": "https://github.com/containers/podman",
+          "url": "https://github.com/podman-container-tools/podman",
           "primaryLanguage": "Go",
           "primaryLanguageColor": "#00ADD8",
-          "stargazerCount": 31853,
+          "stargazerCount": 31860,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -12717,7 +12712,7 @@
           "url": "https://github.com/usememos/memos",
           "primaryLanguage": "Go",
           "primaryLanguageColor": "#00ADD8",
-          "stargazerCount": 60288,
+          "stargazerCount": 60313,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -12748,7 +12743,7 @@
           "url": "https://github.com/alibaba/weex",
           "primaryLanguage": "C++",
           "primaryLanguageColor": "#f34b7d",
-          "stargazerCount": 18528,
+          "stargazerCount": 18527,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -12801,7 +12796,7 @@
           "url": "https://github.com/helallao/perplexity-ai",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 1658,
+          "stargazerCount": 1657,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -12985,7 +12980,7 @@
           "url": "https://github.com/R44VC0RP/agenda.dev",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 298,
+          "stargazerCount": 299,
           "licenseName": null,
           "licenseSpdx": null,
           "topics": [
@@ -13006,7 +13001,7 @@
           "url": "https://github.com/onetimesecret/onetimesecret",
           "primaryLanguage": "Ruby",
           "primaryLanguageColor": "#701516",
-          "stargazerCount": 2823,
+          "stargazerCount": 2824,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -13055,7 +13050,7 @@
           "url": "https://github.com/LearningCircuit/local-deep-research",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 8256,
+          "stargazerCount": 8277,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -13284,7 +13279,7 @@
           "url": "https://github.com/PanJiaChen/vue-element-admin",
           "primaryLanguage": "Vue",
           "primaryLanguageColor": "#41b883",
-          "stargazerCount": 90265,
+          "stargazerCount": 90266,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -13321,7 +13316,7 @@
           "url": "https://github.com/A-EDev/Flow",
           "primaryLanguage": "Kotlin",
           "primaryLanguageColor": "#A97BFF",
-          "stargazerCount": 1048,
+          "stargazerCount": 1047,
           "licenseName": "GNU General Public License v3.0",
           "licenseSpdx": "GPL-3.0",
           "topics": [
@@ -13686,7 +13681,7 @@
           "url": "https://github.com/sherlock-project/sherlock",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 84307,
+          "stargazerCount": 84362,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -13824,7 +13819,7 @@
           "url": "https://github.com/hiteshchoudhary/React-native-projects",
           "primaryLanguage": "Java",
           "primaryLanguageColor": "#b07219",
-          "stargazerCount": 823,
+          "stargazerCount": 824,
           "licenseName": null,
           "licenseSpdx": null,
           "topics": [],
@@ -13877,7 +13872,7 @@
           "url": "https://github.com/Significant-Gravitas/AutoGPT",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 184683,
+          "stargazerCount": 184708,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [
@@ -13923,7 +13918,7 @@
           "url": "https://github.com/invertase/react-native-google-mobile-ads",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 1009,
+          "stargazerCount": 1008,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [
@@ -13948,7 +13943,7 @@
           "url": "https://github.com/Torteous44/radioform",
           "primaryLanguage": "Swift",
           "primaryLanguageColor": "#F05138",
-          "stargazerCount": 139,
+          "stargazerCount": 140,
           "licenseName": "GNU General Public License v3.0",
           "licenseSpdx": "GPL-3.0",
           "topics": [
@@ -13970,7 +13965,7 @@
           "url": "https://github.com/Priivacy-ai/spec-kitty",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 1281,
+          "stargazerCount": 1282,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -14067,14 +14062,10 @@
         "totalPRs": 46,
         "totalIssues": 254,
         "totalPRReviews": 148,
-        "totalPRComments": 294,
+        "totalPRComments": 289,
         "totalIssueComments": 132
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 1044
-        },
         {
           "date": "2025-12-05",
           "total": 1044
@@ -14789,7 +14780,11 @@
         },
         {
           "date": "2026-06-01",
-          "total": 914
+          "total": 920
+        },
+        {
+          "date": "2026-06-02",
+          "total": 917
         }
       ]
     },
@@ -14804,7 +14799,7 @@
         "blog": "Https://wood-client.vercel.app/",
         "twitterUsername": null,
         "publicRepos": 58,
-        "followers": 3,
+        "followers": 2,
         "following": 2,
         "accountType": "User",
         "createdAt": "2023-04-02T11:20:47.000Z"
@@ -14876,10 +14871,6 @@
         "totalIssueComments": 7
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 0
-        },
         {
           "date": "2025-12-05",
           "total": 0
@@ -15595,6 +15586,10 @@
         {
           "date": "2026-06-01",
           "total": 29
+        },
+        {
+          "date": "2026-06-02",
+          "total": 29
         }
       ]
     },
@@ -15621,7 +15616,7 @@
           "url": "https://github.com/hey-api/openapi-ts",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 4879,
+          "stargazerCount": 4885,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -15656,7 +15651,7 @@
           "url": "https://github.com/orval-labs/orval",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 6027,
+          "stargazerCount": 6034,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -15750,10 +15745,6 @@
         "totalIssueComments": 3
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 0
-        },
         {
           "date": "2025-12-05",
           "total": 0
@@ -16469,6 +16460,10 @@
         {
           "date": "2026-06-01",
           "total": 87
+        },
+        {
+          "date": "2026-06-02",
+          "total": 87
         }
       ]
     },
@@ -16495,7 +16490,7 @@
           "url": "https://github.com/manaflow-ai/cmux",
           "primaryLanguage": "JavaScript",
           "primaryLanguageColor": "#f1e05a",
-          "stargazerCount": 20604,
+          "stargazerCount": 20717,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [
@@ -16521,7 +16516,7 @@
           "url": "https://github.com/VoltAgent/awesome-agent-skills",
           "primaryLanguage": null,
           "primaryLanguageColor": null,
-          "stargazerCount": 23800,
+          "stargazerCount": 23933,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -16589,7 +16584,7 @@
           "url": "https://github.com/npm/cli",
           "primaryLanguage": "JavaScript",
           "primaryLanguageColor": "#f1e05a",
-          "stargazerCount": 9800,
+          "stargazerCount": 9799,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [
@@ -16613,7 +16608,7 @@
           "url": "https://github.com/hesreallyhim/awesome-claude-code",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 45350,
+          "stargazerCount": 45426,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [
@@ -16650,7 +16645,7 @@
           "url": "https://github.com/Arize-ai/openinference",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 998,
+          "stargazerCount": 1003,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -16687,7 +16682,7 @@
           "url": "https://github.com/BerriAI/litellm",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 48883,
+          "stargazerCount": 48979,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [
@@ -16719,7 +16714,7 @@
           "url": "https://github.com/ComposioHQ/awesome-claude-skills",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 62723,
+          "stargazerCount": 62849,
           "licenseName": null,
           "licenseSpdx": null,
           "topics": [
@@ -16754,7 +16749,7 @@
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 39306,
+          "stargazerCount": 39427,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -16792,7 +16787,7 @@
           "url": "https://github.com/astral-sh/uv",
           "primaryLanguage": "Rust",
           "primaryLanguageColor": "#dea584",
-          "stargazerCount": 85807,
+          "stargazerCount": 85853,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -16814,7 +16809,7 @@
           "url": "https://github.com/webfuse-com/awesome-claude",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 1491,
+          "stargazerCount": 1494,
           "licenseName": "Creative Commons Zero v1.0 Universal",
           "licenseSpdx": "CC0-1.0",
           "topics": [
@@ -16846,7 +16841,7 @@
           "url": "https://github.com/zed-industries/zed",
           "primaryLanguage": "Rust",
           "primaryLanguageColor": "#dea584",
-          "stargazerCount": 84214,
+          "stargazerCount": 84273,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [
@@ -16868,7 +16863,7 @@
           "url": "https://github.com/alexballas/go2tv",
           "primaryLanguage": "Go",
           "primaryLanguageColor": "#00ADD8",
-          "stargazerCount": 835,
+          "stargazerCount": 836,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -16898,7 +16893,7 @@
           "url": "https://github.com/BehiSecc/awesome-claude-skills",
           "primaryLanguage": null,
           "primaryLanguageColor": null,
-          "stargazerCount": 9346,
+          "stargazerCount": 9363,
           "licenseName": null,
           "licenseSpdx": null,
           "topics": [],
@@ -16915,7 +16910,7 @@
           "url": "https://github.com/AlmogBaku/debug-skill",
           "primaryLanguage": "Go",
           "primaryLanguageColor": "#00ADD8",
-          "stargazerCount": 275,
+          "stargazerCount": 278,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [],
@@ -16932,7 +16927,7 @@
           "url": "https://github.com/pydantic/monty",
           "primaryLanguage": "Rust",
           "primaryLanguageColor": "#dea584",
-          "stargazerCount": 7270,
+          "stargazerCount": 7272,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [],
@@ -16949,7 +16944,7 @@
           "url": "https://github.com/travisvn/awesome-claude-skills",
           "primaryLanguage": null,
           "primaryLanguageColor": null,
-          "stargazerCount": 13074,
+          "stargazerCount": 13100,
           "licenseName": null,
           "licenseSpdx": null,
           "topics": [
@@ -16978,7 +16973,7 @@
           "url": "https://github.com/pydantic/pydantic-ai",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 17431,
+          "stargazerCount": 17452,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -17005,10 +17000,6 @@
         "totalIssueComments": 5
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 32
-        },
         {
           "date": "2025-12-05",
           "total": 32
@@ -17724,6 +17715,10 @@
         {
           "date": "2026-06-01",
           "total": 126
+        },
+        {
+          "date": "2026-06-02",
+          "total": 126
         }
       ]
     },
@@ -17813,10 +17808,6 @@
         "totalIssueComments": 13
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 166
-        },
         {
           "date": "2025-12-05",
           "total": 176
@@ -18532,6 +18523,10 @@
         {
           "date": "2026-06-01",
           "total": 328
+        },
+        {
+          "date": "2026-06-02",
+          "total": 326
         }
       ]
     },
@@ -18598,10 +18593,6 @@
         "totalIssueComments": 0
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 15
-        },
         {
           "date": "2025-12-05",
           "total": 15
@@ -19317,6 +19308,10 @@
         {
           "date": "2026-06-01",
           "total": 7
+        },
+        {
+          "date": "2026-06-02",
+          "total": 7
         }
       ]
     },
@@ -19331,7 +19326,7 @@
         "blog": null,
         "twitterUsername": null,
         "publicRepos": 46,
-        "followers": 100,
+        "followers": 101,
         "following": 15,
         "accountType": "User",
         "createdAt": "2012-07-06T23:12:39.000Z"
@@ -19343,7 +19338,7 @@
           "url": "https://github.com/a5c-ai/babysitter",
           "primaryLanguage": "JavaScript",
           "primaryLanguageColor": "#f1e05a",
-          "stargazerCount": 1098,
+          "stargazerCount": 1190,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -19369,10 +19364,10 @@
           ],
           "commits": 62,
           "pullRequests": 25,
-          "issues": 130,
+          "issues": 149,
           "prReviews": 0,
           "prComments": 77,
-          "issueComments": 521
+          "issueComments": 531
         },
         {
           "repoName": "anthropics/claude-code",
@@ -19380,7 +19375,7 @@
           "url": "https://github.com/anthropics/claude-code",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 129074,
+          "stargazerCount": 129401,
           "licenseName": null,
           "licenseSpdx": null,
           "topics": [],
@@ -19397,7 +19392,7 @@
           "url": "https://github.com/google-gemini/gemini-cli",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 104803,
+          "stargazerCount": 104850,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -19422,7 +19417,7 @@
           "url": "https://github.com/MemPalace/mempalace",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 53188,
+          "stargazerCount": 53274,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -19444,16 +19439,12 @@
       "summary": {
         "totalCommits": 88,
         "totalPRs": 29,
-        "totalIssues": 131,
+        "totalIssues": 150,
         "totalPRReviews": 0,
         "totalPRComments": 79,
-        "totalIssueComments": 523
+        "totalIssueComments": 533
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 4
-        },
         {
           "date": "2025-12-05",
           "total": 4
@@ -20168,7 +20159,11 @@
         },
         {
           "date": "2026-06-01",
-          "total": 850
+          "total": 879
+        },
+        {
+          "date": "2026-06-02",
+          "total": 879
         }
       ]
     },
@@ -20195,7 +20190,7 @@
           "url": "https://github.com/pingdotgg/t3code",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 12250,
+          "stargazerCount": 12287,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [],
@@ -20212,7 +20207,7 @@
           "url": "https://github.com/anthropics/claude-code",
           "primaryLanguage": "Python",
           "primaryLanguageColor": "#3572A5",
-          "stargazerCount": 129074,
+          "stargazerCount": 129401,
           "licenseName": null,
           "licenseSpdx": null,
           "topics": [],
@@ -20229,7 +20224,7 @@
           "url": "https://github.com/nativewind/nativewind",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 7904,
+          "stargazerCount": 7905,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -20273,11 +20268,11 @@
             "memory",
             "model-context-protocol"
           ],
-          "commits": 646,
-          "pullRequests": 376,
+          "commits": 652,
+          "pullRequests": 383,
           "issues": 5,
           "prReviews": 3,
-          "prComments": 1094,
+          "prComments": 1115,
           "issueComments": 0
         },
         {
@@ -20303,7 +20298,7 @@
           "url": "https://github.com/zed-industries/extensions",
           "primaryLanguage": "JavaScript",
           "primaryLanguageColor": "#f1e05a",
-          "stargazerCount": 1720,
+          "stargazerCount": 1723,
           "licenseName": null,
           "licenseSpdx": null,
           "topics": [],
@@ -20320,7 +20315,7 @@
           "url": "https://github.com/lharries/whatsapp-mcp",
           "primaryLanguage": "Go",
           "primaryLanguageColor": "#00ADD8",
-          "stargazerCount": 5711,
+          "stargazerCount": 5715,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -20361,7 +20356,7 @@
           "url": "https://github.com/punkpeye/awesome-mcp-servers",
           "primaryLanguage": null,
           "primaryLanguageColor": null,
-          "stargazerCount": 88261,
+          "stargazerCount": 88329,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -20381,7 +20376,7 @@
           "url": "https://github.com/twitter/twemoji",
           "primaryLanguage": "HTML",
           "primaryLanguageColor": "#e34c26",
-          "stargazerCount": 17659,
+          "stargazerCount": 17660,
           "licenseName": "MIT License",
           "licenseSpdx": "MIT",
           "topics": [
@@ -20426,7 +20421,7 @@
           "url": "https://github.com/manaflow-ai/cmux",
           "primaryLanguage": "JavaScript",
           "primaryLanguageColor": "#f1e05a",
-          "stargazerCount": 20604,
+          "stargazerCount": 20717,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [
@@ -20469,7 +20464,7 @@
           "url": "https://github.com/modelcontextprotocol/typescript-sdk",
           "primaryLanguage": "TypeScript",
           "primaryLanguageColor": "#3178c6",
-          "stargazerCount": 12579,
+          "stargazerCount": 12583,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [],
@@ -20501,18 +20496,14 @@
         }
       ],
       "summary": {
-        "totalCommits": 653,
-        "totalPRs": 394,
+        "totalCommits": 659,
+        "totalPRs": 401,
         "totalIssues": 11,
         "totalPRReviews": 3,
-        "totalPRComments": 1114,
+        "totalPRComments": 1135,
         "totalIssueComments": 4
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 7
-        },
         {
           "date": "2025-12-05",
           "total": 7
@@ -21227,7 +21218,11 @@
         },
         {
           "date": "2026-06-01",
-          "total": 2179
+          "total": 2213
+        },
+        {
+          "date": "2026-06-02",
+          "total": 2213
         }
       ]
     },
@@ -21346,7 +21341,7 @@
           "url": "https://github.com/isl-org/Open3D",
           "primaryLanguage": "C++",
           "primaryLanguageColor": "#f34b7d",
-          "stargazerCount": 13641,
+          "stargazerCount": 13647,
           "licenseName": "Other",
           "licenseSpdx": "NOASSERTION",
           "topics": [
@@ -21427,10 +21422,6 @@
         "totalIssueComments": 27
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 111
-        },
         {
           "date": "2025-12-05",
           "total": 111
@@ -22146,6 +22137,10 @@
         {
           "date": "2026-06-01",
           "total": 97
+        },
+        {
+          "date": "2026-06-02",
+          "total": 94
         }
       ]
     },
@@ -22225,7 +22220,7 @@
           "url": "https://github.com/diffplug/spotless",
           "primaryLanguage": "Java",
           "primaryLanguageColor": "#b07219",
-          "stargazerCount": 5493,
+          "stargazerCount": 5494,
           "licenseName": "Apache License 2.0",
           "licenseSpdx": "Apache-2.0",
           "topics": [
@@ -22261,10 +22256,6 @@
         "totalIssueComments": 1
       },
       "rollingActivity": [
-        {
-          "date": "2025-12-04",
-          "total": 111
-        },
         {
           "date": "2025-12-05",
           "total": 111
@@ -22980,22 +22971,26 @@
         {
           "date": "2026-06-01",
           "total": 15
+        },
+        {
+          "date": "2026-06-02",
+          "total": 15
         }
       ]
     }
   ],
   "globalSummary": {
-    "totalCommits": 3883,
-    "totalPRs": 1349,
-    "totalIssues": 668,
-    "totalPRReviews": 1053,
-    "totalPRComments": 3358,
-    "totalIssueComments": 1134,
+    "totalCommits": 3888,
+    "totalPRs": 1357,
+    "totalIssues": 687,
+    "totalPRReviews": 1048,
+    "totalPRComments": 3363,
+    "totalIssueComments": 1141,
     "totalRepos": 407,
     "successfulUsers": 18,
     "failedUsers": 0,
     "totalUsers": 18,
-    "analysisTimeframe": "2025-12-03 to 2026-06-01",
+    "analysisTimeframe": "2025-12-04 to 2026-06-02",
     "minForkCountFilter": "3"
   },
   "repoLeaderboard": [
@@ -23016,12 +23011,12 @@
         "testing-framework",
         "cassandra"
       ],
-      "commits": 331,
-      "pullRequests": 213,
+      "commits": 333,
+      "pullRequests": 214,
       "issues": 8,
-      "prReviews": 546,
-      "prComments": 1079,
-      "issueComments": 106,
+      "prReviews": 543,
+      "prComments": 1073,
+      "issueComments": 104,
       "contributors": 1,
       "contributorList": [
         {
@@ -23029,7 +23024,7 @@
           "avatarUrl": "https://avatars.githubusercontent.com/u/340979?v=4"
         }
       ],
-      "totalActivity": 2283
+      "totalActivity": 2275
     },
     {
       "repoName": "EtanHey/brainlayer",
@@ -23057,11 +23052,11 @@
         "memory",
         "model-context-protocol"
       ],
-      "commits": 646,
-      "pullRequests": 376,
+      "commits": 652,
+      "pullRequests": 383,
       "issues": 5,
       "prReviews": 3,
-      "prComments": 1094,
+      "prComments": 1115,
       "issueComments": 0,
       "contributors": 1,
       "contributorList": [
@@ -23070,14 +23065,14 @@
           "avatarUrl": "https://avatars.githubusercontent.com/u/93338119?u=4d6c7c6ba0c13c0304492f86490b1d3365affd55&v=4"
         }
       ],
-      "totalActivity": 2124
+      "totalActivity": 2158
     },
     {
       "repoName": "a5c-ai/babysitter",
       "description": "Babysitter enforces obedience on agentic workforces and enables them to manage extremely complex tasks and workflows through deterministic, hallucination-free self-orchestration",
       "url": "https://github.com/a5c-ai/babysitter",
-      "forkCount": 69,
-      "stargazerCount": 1098,
+      "forkCount": 72,
+      "stargazerCount": 1190,
       "primaryLanguage": "JavaScript",
       "primaryLanguageColor": "#f1e05a",
       "licenseName": "MIT License",
@@ -23105,10 +23100,10 @@
       ],
       "commits": 62,
       "pullRequests": 25,
-      "issues": 131,
+      "issues": 150,
       "prReviews": 0,
       "prComments": 77,
-      "issueComments": 521,
+      "issueComments": 531,
       "contributors": 2,
       "contributorList": [
         {
@@ -23120,7 +23115,7 @@
           "avatarUrl": "https://avatars.githubusercontent.com/u/1934369?u=e663b09710c7cd55dc40f74255378b69e23557b2&v=4"
         }
       ],
-      "totalActivity": 816
+      "totalActivity": 845
     },
     {
       "repoName": "qelos-io/qelos",
@@ -23138,7 +23133,7 @@
         "nodejs",
         "saas"
       ],
-      "commits": 431,
+      "commits": 426,
       "pullRequests": 88,
       "issues": 3,
       "prReviews": 7,
@@ -23155,7 +23150,7 @@
           "avatarUrl": "https://avatars.githubusercontent.com/u/55977831?u=934f03011300cc1616c420d2217560a09654b691&v=4"
         }
       ],
-      "totalActivity": 540
+      "totalActivity": 535
     },
     {
       "repoName": "Deadlink-Hunter/Broken-Link-Website",
@@ -23366,8 +23361,8 @@
       "repoName": "scylladb/scylladb",
       "description": "NoSQL data store using the Seastar framework, compatible with Apache Cassandra and Amazon DynamoDB",
       "url": "https://github.com/scylladb/scylladb",
-      "forkCount": 1493,
-      "stargazerCount": 15575,
+      "forkCount": 1494,
+      "stargazerCount": 15571,
       "primaryLanguage": "C++",
       "primaryLanguageColor": "#f34b7d",
       "licenseName": "Other",
@@ -23386,7 +23381,7 @@
       "issues": 3,
       "prReviews": 13,
       "prComments": 56,
-      "issueComments": 64,
+      "issueComments": 63,
       "contributors": 1,
       "contributorList": [
         {
@@ -23394,7 +23389,7 @@
           "avatarUrl": "https://avatars.githubusercontent.com/u/340979?v=4"
         }
       ],
-      "totalActivity": 147
+      "totalActivity": 146
     },
     {
       "repoName": "OSDC-Code-Maven/OSDC-Code-Maven.github.io",
@@ -23452,32 +23447,6 @@
         }
       ],
       "totalActivity": 143
-    },
-    {
-      "repoName": "ColmanDevClubORG/calculator_ex_2025",
-      "description": null,
-      "url": "https://github.com/ColmanDevClubORG/calculator_ex_2025",
-      "forkCount": 25,
-      "stargazerCount": 0,
-      "primaryLanguage": "CSS",
-      "primaryLanguageColor": "#663399",
-      "licenseName": null,
-      "licenseSpdx": null,
-      "topics": [],
-      "commits": 0,
-      "pullRequests": 0,
-      "issues": 0,
-      "prReviews": 15,
-      "prComments": 112,
-      "issueComments": 0,
-      "contributors": 1,
-      "contributorList": [
-        {
-          "login": "Tamir198",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/34707669?u=8fc17f3cb3f3496b3343304d9685abd919936b9d&v=4"
-        }
-      ],
-      "totalActivity": 127
     },
     {
       "repoName": "scylladb/scylla-ccm",
@@ -23539,7 +23508,7 @@
       "description": "The testing framework for skills, MCPs, commands, subagents, and LLM models!    Docs at https://testingai.ai",
       "url": "https://github.com/qelos-io/testai",
       "forkCount": 14,
-      "stargazerCount": 103,
+      "stargazerCount": 104,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": null,
@@ -23561,6 +23530,32 @@
       "totalActivity": 117
     },
     {
+      "repoName": "ColmanDevClubORG/calculator_ex_2025",
+      "description": null,
+      "url": "https://github.com/ColmanDevClubORG/calculator_ex_2025",
+      "forkCount": 25,
+      "stargazerCount": 0,
+      "primaryLanguage": "CSS",
+      "primaryLanguageColor": "#663399",
+      "licenseName": null,
+      "licenseSpdx": null,
+      "topics": [],
+      "commits": 0,
+      "pullRequests": 0,
+      "issues": 0,
+      "prReviews": 14,
+      "prComments": 102,
+      "issueComments": 0,
+      "contributors": 1,
+      "contributorList": [
+        {
+          "login": "Tamir198",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/34707669?u=8fc17f3cb3f3496b3343304d9685abd919936b9d&v=4"
+        }
+      ],
+      "totalActivity": 116
+    },
+    {
       "repoName": "szabgab/perlweekly",
       "description": "A free, once a week e-mail round-up of hand-picked news and articles about Perl",
       "url": "https://github.com/szabgab/perlweekly",
@@ -23576,7 +23571,7 @@
         "website",
         "html"
       ],
-      "commits": 59,
+      "commits": 63,
       "pullRequests": 0,
       "issues": 2,
       "prReviews": 0,
@@ -23589,14 +23584,14 @@
           "avatarUrl": "https://avatars.githubusercontent.com/u/48833?v=4"
         }
       ],
-      "totalActivity": 102
+      "totalActivity": 106
     },
     {
       "repoName": "AlmogBaku/debug-skill",
       "description": null,
       "url": "https://github.com/AlmogBaku/debug-skill",
-      "forkCount": 23,
-      "stargazerCount": 275,
+      "forkCount": 24,
+      "stargazerCount": 278,
       "primaryLanguage": "Go",
       "primaryLanguageColor": "#00ADD8",
       "licenseName": "MIT License",
@@ -23664,7 +23659,7 @@
         "rust-lang",
         "web"
       ],
-      "commits": 80,
+      "commits": 79,
       "pullRequests": 0,
       "issues": 1,
       "prReviews": 0,
@@ -23677,7 +23672,7 @@
           "avatarUrl": "https://avatars.githubusercontent.com/u/48833?v=4"
         }
       ],
-      "totalActivity": 81
+      "totalActivity": 80
     },
     {
       "repoName": "szabgab/code-maven.com",
@@ -23780,7 +23775,7 @@
       "description": "safely install npm packages by auditing them pre-install stage",
       "url": "https://github.com/lirantal/npq",
       "forkCount": 37,
-      "stargazerCount": 1684,
+      "stargazerCount": 1689,
       "primaryLanguage": "JavaScript",
       "primaryLanguageColor": "#f1e05a",
       "licenseName": "Apache License 2.0",
@@ -23986,7 +23981,7 @@
         "static-site",
         "hebrew"
       ],
-      "commits": 32,
+      "commits": 31,
       "pullRequests": 7,
       "issues": 2,
       "prReviews": 11,
@@ -23999,7 +23994,7 @@
           "avatarUrl": "https://avatars.githubusercontent.com/u/17686879?v=4"
         }
       ],
-      "totalActivity": 55
+      "totalActivity": 54
     },
     {
       "repoName": "brafdlog/caspion",
@@ -24069,6 +24064,44 @@
       "totalActivity": 50
     },
     {
+      "repoName": "lirantal/npm-security-best-practices",
+      "description": "Collection of npm package manager Security Best Practices",
+      "url": "https://github.com/lirantal/npm-security-best-practices",
+      "forkCount": 36,
+      "stargazerCount": 1125,
+      "primaryLanguage": null,
+      "primaryLanguageColor": null,
+      "licenseName": "Apache License 2.0",
+      "licenseSpdx": "Apache-2.0",
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "best-practices",
+        "nodejs",
+        "npm",
+        "security",
+        "supply-chain-security",
+        "vulnerabilities",
+        "shai-hulud",
+        "shai-hulud-attack",
+        "shai-hulud-detector"
+      ],
+      "commits": 20,
+      "pullRequests": 5,
+      "issues": 5,
+      "prReviews": 6,
+      "prComments": 6,
+      "issueComments": 4,
+      "contributors": 1,
+      "contributorList": [
+        {
+          "login": "lirantal",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/316371?u=fbeb86cd9656b5dccd7d84b8851b93ae0932fb67&v=4"
+        }
+      ],
+      "totalActivity": 46
+    },
+    {
       "repoName": "Maakaf/friends-activity-backend",
       "description": "A backend service that collects and processes GitHub activity to showcase the contributions of community members.",
       "url": "https://github.com/Maakaf/friends-activity-backend",
@@ -24085,7 +24118,7 @@
       "pullRequests": 11,
       "issues": 1,
       "prReviews": 0,
-      "prComments": 5,
+      "prComments": 2,
       "issueComments": 1,
       "contributors": 7,
       "contributorList": [
@@ -24118,45 +24151,7 @@
           "avatarUrl": "https://avatars.githubusercontent.com/u/194807351?u=ba725b2db6f469bd44bf4d59519681658c23ed8a&v=4"
         }
       ],
-      "totalActivity": 48
-    },
-    {
-      "repoName": "lirantal/npm-security-best-practices",
-      "description": "Collection of npm package manager Security Best Practices",
-      "url": "https://github.com/lirantal/npm-security-best-practices",
-      "forkCount": 35,
-      "stargazerCount": 1109,
-      "primaryLanguage": null,
-      "primaryLanguageColor": null,
-      "licenseName": "Apache License 2.0",
-      "licenseSpdx": "Apache-2.0",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "best-practices",
-        "nodejs",
-        "npm",
-        "security",
-        "supply-chain-security",
-        "vulnerabilities",
-        "shai-hulud",
-        "shai-hulud-attack",
-        "shai-hulud-detector"
-      ],
-      "commits": 20,
-      "pullRequests": 5,
-      "issues": 5,
-      "prReviews": 6,
-      "prComments": 6,
-      "issueComments": 4,
-      "contributors": 1,
-      "contributorList": [
-        {
-          "login": "lirantal",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/316371?u=fbeb86cd9656b5dccd7d84b8851b93ae0932fb67&v=4"
-        }
-      ],
-      "totalActivity": 46
+      "totalActivity": 45
     },
     {
       "repoName": "szabgab/rust.org.il",
@@ -24312,11 +24307,44 @@
       "totalActivity": 38
     },
     {
+      "repoName": "Deadlink-Hunter/Deadlink-crawler",
+      "description": null,
+      "url": "https://github.com/Deadlink-Hunter/Deadlink-crawler",
+      "forkCount": 4,
+      "stargazerCount": 3,
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageColor": "#3178c6",
+      "licenseName": "MIT License",
+      "licenseSpdx": "MIT",
+      "topics": [
+        "hacktoberfest",
+        "hacktoberfest2025"
+      ],
+      "commits": 6,
+      "pullRequests": 6,
+      "issues": 6,
+      "prReviews": 5,
+      "prComments": 9,
+      "issueComments": 4,
+      "contributors": 2,
+      "contributorList": [
+        {
+          "login": "michal-bakshi",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/194807351?u=ba725b2db6f469bd44bf4d59519681658c23ed8a&v=4"
+        },
+        {
+          "login": "Tamir198",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/34707669?u=8fc17f3cb3f3496b3343304d9685abd919936b9d&v=4"
+        }
+      ],
+      "totalActivity": 36
+    },
+    {
       "repoName": "hey-api/openapi-ts",
       "description": "🌀 OpenAPI to TypeScript codegen. Production-grade SDKs, Zod schemas, TanStack Query hooks, and 20+ plugins. Used by Vercel, OpenCode, and PayPal.",
       "url": "https://github.com/hey-api/openapi-ts",
       "forkCount": 378,
-      "stargazerCount": 4879,
+      "stargazerCount": 4885,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "MIT License",
@@ -24444,8 +24472,8 @@
       "repoName": "MemPalace/mempalace",
       "description": "The best-benchmarked open-source AI memory system. And it's free.",
       "url": "https://github.com/MemPalace/mempalace",
-      "forkCount": 7016,
-      "stargazerCount": 53188,
+      "forkCount": 7023,
+      "stargazerCount": 53274,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "MIT License",
@@ -24472,39 +24500,6 @@
         }
       ],
       "totalActivity": 31
-    },
-    {
-      "repoName": "Deadlink-Hunter/Deadlink-crawler",
-      "description": null,
-      "url": "https://github.com/Deadlink-Hunter/Deadlink-crawler",
-      "forkCount": 4,
-      "stargazerCount": 3,
-      "primaryLanguage": "TypeScript",
-      "primaryLanguageColor": "#3178c6",
-      "licenseName": "MIT License",
-      "licenseSpdx": "MIT",
-      "topics": [
-        "hacktoberfest",
-        "hacktoberfest2025"
-      ],
-      "commits": 6,
-      "pullRequests": 6,
-      "issues": 6,
-      "prReviews": 4,
-      "prComments": 4,
-      "issueComments": 4,
-      "contributors": 2,
-      "contributorList": [
-        {
-          "login": "michal-bakshi",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/194807351?u=ba725b2db6f469bd44bf4d59519681658c23ed8a&v=4"
-        },
-        {
-          "login": "Tamir198",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/34707669?u=8fc17f3cb3f3496b3343304d9685abd919936b9d&v=4"
-        }
-      ],
-      "totalActivity": 30
     },
     {
       "repoName": "szabgab/rust-digger",
@@ -24636,7 +24631,7 @@
       "repoName": "lirantal/awesome-nodejs-security",
       "description": "Awesome Node.js Security resources",
       "url": "https://github.com/lirantal/awesome-nodejs-security",
-      "forkCount": 289,
+      "forkCount": 290,
       "stargazerCount": 3012,
       "primaryLanguage": null,
       "primaryLanguageColor": null,
@@ -24675,7 +24670,7 @@
       "description": "Lint an npm or yarn lockfile to analyze and detect security issues",
       "url": "https://github.com/lirantal/lockfile-lint",
       "forkCount": 36,
-      "stargazerCount": 860,
+      "stargazerCount": 862,
       "primaryLanguage": "JavaScript",
       "primaryLanguageColor": "#f1e05a",
       "licenseName": "Apache License 2.0",
@@ -24733,32 +24728,6 @@
         {
           "login": "lirantal",
           "avatarUrl": "https://avatars.githubusercontent.com/u/316371?u=fbeb86cd9656b5dccd7d84b8851b93ae0932fb67&v=4"
-        }
-      ],
-      "totalActivity": 27
-    },
-    {
-      "repoName": "eshaham/israeli-bank-scrapers",
-      "description": "Provide scrapers for all major Israeli banks and credit card companies",
-      "url": "https://github.com/eshaham/israeli-bank-scrapers",
-      "forkCount": 258,
-      "stargazerCount": 993,
-      "primaryLanguage": "TypeScript",
-      "primaryLanguageColor": "#3178c6",
-      "licenseName": "MIT License",
-      "licenseSpdx": "MIT",
-      "topics": [],
-      "commits": 5,
-      "pullRequests": 2,
-      "issues": 0,
-      "prReviews": 8,
-      "prComments": 10,
-      "issueComments": 2,
-      "contributors": 1,
-      "contributorList": [
-        {
-          "login": "baruchiro",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/17686879?v=4"
         }
       ],
       "totalActivity": 27
@@ -24854,7 +24823,7 @@
       "description": "High performance server-side application framework",
       "url": "https://github.com/scylladb/seastar",
       "forkCount": 1681,
-      "stargazerCount": 9240,
+      "stargazerCount": 9241,
       "primaryLanguage": "C++",
       "primaryLanguageColor": "#f34b7d",
       "licenseName": "Apache License 2.0",
@@ -24886,7 +24855,7 @@
       "description": "Data for this-week-in-rust.org",
       "url": "https://github.com/rust-lang/this-week-in-rust",
       "forkCount": 1481,
-      "stargazerCount": 2556,
+      "stargazerCount": 2558,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": null,
@@ -24916,8 +24885,8 @@
       "repoName": "tokio-rs/axum",
       "description": "HTTP routing and request-handling library for Rust that focuses on ergonomics and modularity",
       "url": "https://github.com/tokio-rs/axum",
-      "forkCount": 1405,
-      "stargazerCount": 26102,
+      "forkCount": 1406,
+      "stargazerCount": 26108,
       "primaryLanguage": "Rust",
       "primaryLanguageColor": "#dea584",
       "licenseName": "MIT License",
@@ -24975,6 +24944,32 @@
       "totalActivity": 23
     },
     {
+      "repoName": "eshaham/israeli-bank-scrapers",
+      "description": "Provide scrapers for all major Israeli banks and credit card companies",
+      "url": "https://github.com/eshaham/israeli-bank-scrapers",
+      "forkCount": 258,
+      "stargazerCount": 993,
+      "primaryLanguage": "TypeScript",
+      "primaryLanguageColor": "#3178c6",
+      "licenseName": "MIT License",
+      "licenseSpdx": "MIT",
+      "topics": [],
+      "commits": 5,
+      "pullRequests": 2,
+      "issues": 0,
+      "prReviews": 6,
+      "prComments": 8,
+      "issueComments": 2,
+      "contributors": 1,
+      "contributorList": [
+        {
+          "login": "baruchiro",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/17686879?v=4"
+        }
+      ],
+      "totalActivity": 23
+    },
+    {
       "repoName": "Maakaf/maakaf_home",
       "description": "Website for Ma'akaf - Israeli Open Source Community",
       "url": "https://github.com/Maakaf/maakaf_home",
@@ -25027,7 +25022,7 @@
       "description": "Collection of PyPI registry package manager Security Best Practices featuring uv and pip",
       "url": "https://github.com/lirantal/pypi-security-best-practices",
       "forkCount": 6,
-      "stargazerCount": 102,
+      "stargazerCount": 103,
       "primaryLanguage": null,
       "primaryLanguageColor": null,
       "licenseName": "Apache License 2.0",
@@ -25064,7 +25059,7 @@
       "description": "The largest Node.js CLI Apps best practices list ✨",
       "url": "https://github.com/lirantal/nodejs-cli-apps-best-practices",
       "forkCount": 159,
-      "stargazerCount": 3991,
+      "stargazerCount": 3993,
       "primaryLanguage": "JavaScript",
       "primaryLanguageColor": "#f1e05a",
       "licenseName": "Creative Commons Attribution Share Alike 4.0 International",
@@ -25099,7 +25094,7 @@
       "description": "Immersive terminal interface for managing docker containers and services",
       "url": "https://github.com/lirantal/dockly",
       "forkCount": 163,
-      "stargazerCount": 4014,
+      "stargazerCount": 4015,
       "primaryLanguage": "JavaScript",
       "primaryLanguageColor": "#f1e05a",
       "licenseName": "MIT License",
@@ -25132,8 +25127,8 @@
       "repoName": "microsoft/apm",
       "description": "Agent Package Manager",
       "url": "https://github.com/microsoft/apm",
-      "forkCount": 218,
-      "stargazerCount": 2705,
+      "forkCount": 220,
+      "stargazerCount": 2721,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "MIT License",
@@ -25197,8 +25192,8 @@
       "repoName": "manaflow-ai/cmux",
       "description": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
       "url": "https://github.com/manaflow-ai/cmux",
-      "forkCount": 1553,
-      "stargazerCount": 20604,
+      "forkCount": 1551,
+      "stargazerCount": 20717,
       "primaryLanguage": "JavaScript",
       "primaryLanguageColor": "#f1e05a",
       "licenseName": "Other",
@@ -25236,8 +25231,8 @@
       "repoName": "mattogodoy/nametag",
       "description": "A simple, yet effective Personal Relationship Manager",
       "url": "https://github.com/mattogodoy/nametag",
-      "forkCount": 52,
-      "stargazerCount": 952,
+      "forkCount": 51,
+      "stargazerCount": 951,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "GNU Affero General Public License v3.0",
@@ -25343,8 +25338,8 @@
       "repoName": "orval-labs/orval",
       "description": "orval is able to generate client with appropriate type-signatures (TypeScript) from any valid OpenAPI v3 or Swagger v2 specification, either in yaml or json formats. 🍺",
       "url": "https://github.com/orval-labs/orval",
-      "forkCount": 618,
-      "stargazerCount": 6027,
+      "forkCount": 620,
+      "stargazerCount": 6034,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "MIT License",
@@ -25499,8 +25494,8 @@
       "repoName": "punkpeye/awesome-mcp-servers",
       "description": "A collection of MCP servers.",
       "url": "https://github.com/punkpeye/awesome-mcp-servers",
-      "forkCount": 10970,
-      "stargazerCount": 88261,
+      "forkCount": 10997,
+      "stargazerCount": 88329,
       "primaryLanguage": null,
       "primaryLanguageColor": null,
       "licenseName": "MIT License",
@@ -25532,7 +25527,7 @@
       "repoName": "szabgab/awesome-lists",
       "description": "The awesome list of all the awesome lists",
       "url": "https://github.com/szabgab/awesome-lists",
-      "forkCount": 38,
+      "forkCount": 39,
       "stargazerCount": 373,
       "primaryLanguage": "Perl",
       "primaryLanguageColor": "#0298c3",
@@ -25563,8 +25558,8 @@
       "repoName": "isl-org/Open3D",
       "description": "Open3D: A Modern Library for 3D Data Processing",
       "url": "https://github.com/isl-org/Open3D",
-      "forkCount": 2572,
-      "stargazerCount": 13641,
+      "forkCount": 2573,
+      "stargazerCount": 13647,
       "primaryLanguage": "C++",
       "primaryLanguageColor": "#f34b7d",
       "licenseName": "Other",
@@ -25611,7 +25606,7 @@
       "description": "Security scanner for AI agents, MCP servers and agent skills.",
       "url": "https://github.com/snyk/agent-scan",
       "forkCount": 226,
-      "stargazerCount": 2505,
+      "stargazerCount": 2511,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "Apache License 2.0",
@@ -25643,7 +25638,7 @@
       "description": "ToxicSkills - malicious agent skills in openclaw / clawhub / agent supply chain",
       "url": "https://github.com/snyk-labs/toxicskills-goof",
       "forkCount": 6,
-      "stargazerCount": 10,
+      "stargazerCount": 11,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": null,
@@ -25761,7 +25756,7 @@
       "description": null,
       "url": "https://github.com/szabgab/awesome-for-non-programmers",
       "forkCount": 182,
-      "stargazerCount": 1855,
+      "stargazerCount": 1854,
       "primaryLanguage": null,
       "primaryLanguageColor": null,
       "licenseName": null,
@@ -25823,8 +25818,8 @@
       "repoName": "zed-industries/zed",
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "url": "https://github.com/zed-industries/zed",
-      "forkCount": 8813,
-      "stargazerCount": 84214,
+      "forkCount": 8832,
+      "stargazerCount": 84273,
       "primaryLanguage": "Rust",
       "primaryLanguageColor": "#dea584",
       "licenseName": "Other",
@@ -26358,8 +26353,8 @@
       "repoName": "rust-lang/mdBook",
       "description": "Create book from markdown files. Like Gitbook but implemented in Rust",
       "url": "https://github.com/rust-lang/mdBook",
-      "forkCount": 1849,
-      "stargazerCount": 21730,
+      "forkCount": 1850,
+      "stargazerCount": 21737,
       "primaryLanguage": "Rust",
       "primaryLanguageColor": "#dea584",
       "licenseName": "Mozilla Public License 2.0",
@@ -26385,7 +26380,7 @@
       "description": "Automatically save transactions from all major Israeli banks and credit card companies, using GitHub actions (or a self hosted docker image)",
       "url": "https://github.com/daniel-hauser/moneyman",
       "forkCount": 78,
-      "stargazerCount": 95,
+      "stargazerCount": 96,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "MIT License",
@@ -26593,8 +26588,8 @@
       "repoName": "andrewyng/context-hub",
       "description": null,
       "url": "https://github.com/andrewyng/context-hub",
-      "forkCount": 1181,
-      "stargazerCount": 13470,
+      "forkCount": 1180,
+      "stargazerCount": 13478,
       "primaryLanguage": "JavaScript",
       "primaryLanguageColor": "#f1e05a",
       "licenseName": "MIT License",
@@ -26780,8 +26775,8 @@
       "repoName": "zed-industries/extensions",
       "description": "Extensions for the Zed editor",
       "url": "https://github.com/zed-industries/extensions",
-      "forkCount": 1970,
-      "stargazerCount": 1720,
+      "forkCount": 1973,
+      "stargazerCount": 1723,
       "primaryLanguage": "JavaScript",
       "primaryLanguageColor": "#f1e05a",
       "licenseName": null,
@@ -27162,8 +27157,8 @@
       "repoName": "BehiSecc/awesome-claude-skills",
       "description": "A curated list of Claude Skills.",
       "url": "https://github.com/BehiSecc/awesome-claude-skills",
-      "forkCount": 1192,
-      "stargazerCount": 9346,
+      "forkCount": 1193,
+      "stargazerCount": 9363,
       "primaryLanguage": null,
       "primaryLanguageColor": null,
       "licenseName": null,
@@ -27189,7 +27184,7 @@
       "description": "Offline security scanner for AI-agent repos, skills, plugins, and MCP servers.",
       "url": "https://github.com/alexgreensh/repo-forensics",
       "forkCount": 14,
-      "stargazerCount": 93,
+      "stargazerCount": 94,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "Other",
@@ -27463,8 +27458,8 @@
       "repoName": "pydantic/monty",
       "description": "A minimal, secure Python interpreter written in Rust for use by AI",
       "url": "https://github.com/pydantic/monty",
-      "forkCount": 321,
-      "stargazerCount": 7270,
+      "forkCount": 322,
+      "stargazerCount": 7272,
       "primaryLanguage": "Rust",
       "primaryLanguageColor": "#dea584",
       "licenseName": "MIT License",
@@ -27599,8 +27594,8 @@
       "repoName": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "url": "https://github.com/anthropics/claude-code",
-      "forkCount": 21011,
-      "stargazerCount": 129074,
+      "forkCount": 21053,
+      "stargazerCount": 129401,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": null,
@@ -27630,7 +27625,7 @@
       "description": "Model Context Protocol for Actual Budget API",
       "url": "https://github.com/s-stefanov/actual-mcp",
       "forkCount": 60,
-      "stargazerCount": 150,
+      "stargazerCount": 151,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "MIT License",
@@ -27707,8 +27702,8 @@
       "repoName": "sickn33/antigravity-awesome-skills",
       "description": "Installable GitHub library of 1,400+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes installer CLI, bundles, workflows, and official/community skill collections.",
       "url": "https://github.com/sickn33/antigravity-awesome-skills",
-      "forkCount": 6386,
-      "stargazerCount": 39306,
+      "forkCount": 6397,
+      "stargazerCount": 39427,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "MIT License",
@@ -27807,7 +27802,7 @@
       "description": "Hugo theme for open source documentation",
       "url": "https://github.com/google/docsy",
       "forkCount": 976,
-      "stargazerCount": 2937,
+      "stargazerCount": 2938,
       "primaryLanguage": "JavaScript",
       "primaryLanguageColor": "#f1e05a",
       "licenseName": "Apache License 2.0",
@@ -27869,8 +27864,8 @@
       "repoName": "github/docs",
       "description": "The open-source repo for docs.github.com",
       "url": "https://github.com/github/docs",
-      "forkCount": 67294,
-      "stargazerCount": 19789,
+      "forkCount": 67303,
+      "stargazerCount": 19842,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "Creative Commons Attribution 4.0 International",
@@ -27925,7 +27920,7 @@
       "description": "Cast media files to Smart TVs and Chromecast devices.",
       "url": "https://github.com/alexballas/go2tv",
       "forkCount": 68,
-      "stargazerCount": 835,
+      "stargazerCount": 836,
       "primaryLanguage": "Go",
       "primaryLanguageColor": "#00ADD8",
       "licenseName": "MIT License",
@@ -28016,7 +28011,7 @@
       "description": "The utility-first workflow you love from Tailwind CSS in your React Native applications.",
       "url": "https://github.com/nativewind/nativewind",
       "forkCount": 384,
-      "stargazerCount": 7904,
+      "stargazerCount": 7905,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "MIT License",
@@ -28081,7 +28076,7 @@
       "description": "BDD testing with Playwright runner",
       "url": "https://github.com/vitalets/playwright-bdd",
       "forkCount": 81,
-      "stargazerCount": 699,
+      "stargazerCount": 698,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "MIT License",
@@ -28113,8 +28108,8 @@
       "repoName": "BerriAI/litellm",
       "description": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
       "url": "https://github.com/BerriAI/litellm",
-      "forkCount": 8511,
-      "stargazerCount": 48883,
+      "forkCount": 8541,
+      "stargazerCount": 48979,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "Other",
@@ -28206,8 +28201,8 @@
       "repoName": "google-gemini/gemini-cli",
       "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
       "url": "https://github.com/google-gemini/gemini-cli",
-      "forkCount": 13966,
-      "stargazerCount": 104803,
+      "forkCount": 13970,
+      "stargazerCount": 104850,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "Apache License 2.0",
@@ -28240,8 +28235,8 @@
       "repoName": "taylorwilsdon/google_workspace_mcp",
       "description": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool",
       "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
-      "forkCount": 774,
-      "stargazerCount": 2524,
+      "forkCount": 775,
+      "stargazerCount": 2531,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "MIT License",
@@ -28287,8 +28282,8 @@
       "repoName": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "url": "https://github.com/anomalyco/opencode",
-      "forkCount": 20063,
-      "stargazerCount": 167982,
+      "forkCount": 20128,
+      "stargazerCount": 168495,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "MIT License",
@@ -28345,7 +28340,7 @@
       "description": "Spec-Driven Development for serious software developers. Spec Coding with with Claude, Cursor, Gemini, Codex. Kanban dashboard, git worktrees, auto-merge and more.",
       "url": "https://github.com/Priivacy-ai/spec-kitty",
       "forkCount": 105,
-      "stargazerCount": 1281,
+      "stargazerCount": 1282,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "MIT License",
@@ -28391,8 +28386,8 @@
       "repoName": "travisvn/awesome-claude-skills",
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
       "url": "https://github.com/travisvn/awesome-claude-skills",
-      "forkCount": 1448,
-      "stargazerCount": 13074,
+      "forkCount": 1452,
+      "stargazerCount": 13100,
       "primaryLanguage": null,
       "primaryLanguageColor": null,
       "licenseName": null,
@@ -28429,8 +28424,8 @@
       "repoName": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "url": "https://github.com/openclaw/openclaw",
-      "forkCount": 78504,
-      "stargazerCount": 375927,
+      "forkCount": 78556,
+      "stargazerCount": 376105,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "Other",
@@ -28487,19 +28482,17 @@
     },
     {
       "repoName": "code-yeongyu/oh-my-openagent",
-      "description": "omo; the best agent harness - previously oh-my-opencode",
+      "description": "omo; the one and only agent harness for complex codebases; the pickaxe for complex software engineering",
       "url": "https://github.com/code-yeongyu/oh-my-openagent",
-      "forkCount": 4912,
-      "stargazerCount": 60490,
+      "forkCount": 4926,
+      "stargazerCount": 60625,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "Other",
       "licenseSpdx": "NOASSERTION",
       "topics": [
-        "claude-code",
         "opencode",
         "ai",
-        "amp",
         "anthropic",
         "claude",
         "claude-skills",
@@ -28511,7 +28504,8 @@
         "tui",
         "typescript",
         "ai-agents",
-        "chatgpt"
+        "chatgpt",
+        "codex"
       ],
       "commits": 0,
       "pullRequests": 0,
@@ -28558,8 +28552,8 @@
       "repoName": "openclaw/clawhub",
       "description": "Skill + Plugin Registry for OpenClaw",
       "url": "https://github.com/openclaw/clawhub",
-      "forkCount": 1377,
-      "stargazerCount": 8829,
+      "forkCount": 1378,
+      "stargazerCount": 8839,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "MIT License",
@@ -28625,8 +28619,8 @@
       "repoName": "pingdotgg/t3code",
       "description": null,
       "url": "https://github.com/pingdotgg/t3code",
-      "forkCount": 2419,
-      "stargazerCount": 12250,
+      "forkCount": 2432,
+      "stargazerCount": 12287,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "MIT License",
@@ -28707,7 +28701,7 @@
       "description": "A Github Action used to build and publish Docker images",
       "url": "https://github.com/elgohr/Publish-Docker-Github-Action",
       "forkCount": 204,
-      "stargazerCount": 791,
+      "stargazerCount": 792,
       "primaryLanguage": "Shell",
       "primaryLanguageColor": "#89e051",
       "licenseName": "MIT License",
@@ -28808,7 +28802,7 @@
       "description": "Better GitHub statistics images for your profile, with stats from private repos too",
       "url": "https://github.com/jstrieb/github-stats",
       "forkCount": 746,
-      "stargazerCount": 3467,
+      "stargazerCount": 3470,
       "primaryLanguage": "Zig",
       "primaryLanguageColor": "#ec915c",
       "licenseName": "GNU General Public License v3.0",
@@ -28848,8 +28842,8 @@
       "repoName": "diffplug/spotless",
       "description": "Keep your code spotless",
       "url": "https://github.com/diffplug/spotless",
-      "forkCount": 531,
-      "stargazerCount": 5493,
+      "forkCount": 532,
+      "stargazerCount": 5494,
       "primaryLanguage": "Java",
       "primaryLanguageColor": "#b07219",
       "licenseName": "Apache License 2.0",
@@ -28889,8 +28883,8 @@
       "repoName": "usememos/memos",
       "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
       "url": "https://github.com/usememos/memos",
-      "forkCount": 4438,
-      "stargazerCount": 60288,
+      "forkCount": 4443,
+      "stargazerCount": 60313,
       "primaryLanguage": "Go",
       "primaryLanguageColor": "#00ADD8",
       "licenseName": "MIT License",
@@ -29080,7 +29074,7 @@
       "repoName": "FalkorDB/docs",
       "description": "FalkorDB documentation pages",
       "url": "https://github.com/FalkorDB/docs",
-      "forkCount": 10,
+      "forkCount": 11,
       "stargazerCount": 14,
       "primaryLanguage": "HTML",
       "primaryLanguageColor": "#e34c26",
@@ -29165,8 +29159,8 @@
       "repoName": "pydantic/pydantic-ai",
       "description": "AI Agent Framework, the Pydantic way",
       "url": "https://github.com/pydantic/pydantic-ai",
-      "forkCount": 2160,
-      "stargazerCount": 17431,
+      "forkCount": 2163,
+      "stargazerCount": 17452,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "MIT License",
@@ -29197,8 +29191,8 @@
       "repoName": "scikit-learn/scikit-learn",
       "description": "scikit-learn: machine learning in Python",
       "url": "https://github.com/scikit-learn/scikit-learn",
-      "forkCount": 27044,
-      "stargazerCount": 66208,
+      "forkCount": 27052,
+      "stargazerCount": 66222,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -29260,8 +29254,8 @@
       "repoName": "modelcontextprotocol/typescript-sdk",
       "description": "The official TypeScript SDK for Model Context Protocol servers and clients",
       "url": "https://github.com/modelcontextprotocol/typescript-sdk",
-      "forkCount": 1888,
-      "stargazerCount": 12579,
+      "forkCount": 1891,
+      "stargazerCount": 12583,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "Other",
@@ -29312,8 +29306,8 @@
       "repoName": "lharries/whatsapp-mcp",
       "description": "WhatsApp MCP server",
       "url": "https://github.com/lharries/whatsapp-mcp",
-      "forkCount": 1080,
-      "stargazerCount": 5711,
+      "forkCount": 1082,
+      "stargazerCount": 5715,
       "primaryLanguage": "Go",
       "primaryLanguageColor": "#00ADD8",
       "licenseName": "MIT License",
@@ -29343,8 +29337,8 @@
       "repoName": "Klavis-AI/klavis",
       "description": "Klavis AI:  MCP integration platforms that let AI agents use tools reliably at any scale",
       "url": "https://github.com/Klavis-AI/klavis",
-      "forkCount": 549,
-      "stargazerCount": 5750,
+      "forkCount": 548,
+      "stargazerCount": 5749,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "Apache License 2.0",
@@ -29385,7 +29379,7 @@
       "description": "Production-ready Rust web backend template.",
       "url": "https://github.com/levish0/AxumKit",
       "forkCount": 13,
-      "stargazerCount": 83,
+      "stargazerCount": 84,
       "primaryLanguage": "Rust",
       "primaryLanguageColor": "#dea584",
       "licenseName": "MIT License",
@@ -29576,7 +29570,7 @@
       "description": "A curated list of awesome things related to Anthropic Claude",
       "url": "https://github.com/webfuse-com/awesome-claude",
       "forkCount": 290,
-      "stargazerCount": 1491,
+      "stargazerCount": 1494,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "Creative Commons Zero v1.0 Universal",
@@ -29616,7 +29610,7 @@
       "repoName": "Garletz/escpos-virtual-printer-emulator",
       "description": "ESC/POS virtual printer emulator built in Rust",
       "url": "https://github.com/Garletz/escpos-virtual-printer-emulator",
-      "forkCount": 27,
+      "forkCount": 28,
       "stargazerCount": 79,
       "primaryLanguage": "Rust",
       "primaryLanguageColor": "#dea584",
@@ -29642,8 +29636,8 @@
       "repoName": "homeassistant-ai/ha-mcp",
       "description": "The Unofficial and Awesome Home Assistant MCP Server",
       "url": "https://github.com/homeassistant-ai/ha-mcp",
-      "forkCount": 124,
-      "stargazerCount": 3183,
+      "forkCount": 126,
+      "stargazerCount": 3202,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "MIT License",
@@ -29724,7 +29718,7 @@
       "description": "Rust bindings for NetworkManager over D-Bus.",
       "url": "https://github.com/networkmanager-rs/nmrs",
       "forkCount": 23,
-      "stargazerCount": 265,
+      "stargazerCount": 266,
       "primaryLanguage": "Rust",
       "primaryLanguageColor": "#dea584",
       "licenseName": "Apache License 2.0",
@@ -29754,8 +29748,8 @@
       "repoName": "ComposioHQ/awesome-claude-skills",
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "forkCount": 6887,
-      "stargazerCount": 62723,
+      "forkCount": 6901,
+      "stargazerCount": 62849,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": null,
@@ -29798,8 +29792,8 @@
       "repoName": "A-EDev/Flow",
       "description": "A modern, feature-rich YouTube client for Android built with Jetpack Compose",
       "url": "https://github.com/A-EDev/Flow",
-      "forkCount": 27,
-      "stargazerCount": 1048,
+      "forkCount": 26,
+      "stargazerCount": 1047,
       "primaryLanguage": "Kotlin",
       "primaryLanguageColor": "#A97BFF",
       "licenseName": "GNU General Public License v3.0",
@@ -29868,8 +29862,8 @@
       "repoName": "VoltAgent/awesome-agent-skills",
       "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
       "url": "https://github.com/VoltAgent/awesome-agent-skills",
-      "forkCount": 2555,
-      "stargazerCount": 23800,
+      "forkCount": 2565,
+      "stargazerCount": 23933,
       "primaryLanguage": null,
       "primaryLanguageColor": null,
       "licenseName": "MIT License",
@@ -29985,11 +29979,11 @@
       "totalActivity": 1
     },
     {
-      "repoName": "containers/podman",
+      "repoName": "podman-container-tools/podman",
       "description": "Podman: A tool for managing OCI containers and pods.",
-      "url": "https://github.com/containers/podman",
-      "forkCount": 3135,
-      "stargazerCount": 31853,
+      "url": "https://github.com/podman-container-tools/podman",
+      "forkCount": 3136,
+      "stargazerCount": 31860,
       "primaryLanguage": "Go",
       "primaryLanguageColor": "#00ADD8",
       "licenseName": "Apache License 2.0",
@@ -30222,7 +30216,7 @@
       "description": "Music is meant to sound good. Use an EQ to hear that difference.",
       "url": "https://github.com/Torteous44/radioform",
       "forkCount": 8,
-      "stargazerCount": 139,
+      "stargazerCount": 140,
       "primaryLanguage": "Swift",
       "primaryLanguageColor": "#F05138",
       "licenseName": "GNU General Public License v3.0",
@@ -30253,7 +30247,7 @@
       "description": "Agentic Skills focused on Rust Language.",
       "url": "https://github.com/udapy/rust-agentic-skills",
       "forkCount": 7,
-      "stargazerCount": 40,
+      "stargazerCount": 41,
       "primaryLanguage": "Rust",
       "primaryLanguageColor": "#dea584",
       "licenseName": "MIT License",
@@ -30436,8 +30430,8 @@
       "repoName": "khashashin/ogi",
       "description": "Open Source Link Analysis & OSINT Framework",
       "url": "https://github.com/khashashin/ogi",
-      "forkCount": 22,
-      "stargazerCount": 168,
+      "forkCount": 23,
+      "stargazerCount": 181,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "GNU Affero General Public License v3.0",
@@ -30467,7 +30461,7 @@
       "description": null,
       "url": "https://github.com/vamshi4001/saas-clawds",
       "forkCount": 20,
-      "stargazerCount": 65,
+      "stargazerCount": 66,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "MIT License",
@@ -30579,8 +30573,8 @@
       "repoName": "grafana/loki",
       "description": "Like Prometheus, but for logs.",
       "url": "https://github.com/grafana/loki",
-      "forkCount": 4012,
-      "stargazerCount": 28274,
+      "forkCount": 4013,
+      "stargazerCount": 28281,
       "primaryLanguage": "Go",
       "primaryLanguageColor": "#00ADD8",
       "licenseName": "GNU Affero General Public License v3.0",
@@ -30681,8 +30675,8 @@
       "repoName": "npm/cli",
       "description": "the package manager for JavaScript",
       "url": "https://github.com/npm/cli",
-      "forkCount": 4381,
-      "stargazerCount": 9800,
+      "forkCount": 4383,
+      "stargazerCount": 9799,
       "primaryLanguage": "JavaScript",
       "primaryLanguageColor": "#f1e05a",
       "licenseName": "Other",
@@ -30805,8 +30799,8 @@
       "repoName": "microsoft/microsoft-ui-xaml",
       "description": "WinUI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications.",
       "url": "https://github.com/microsoft/microsoft-ui-xaml",
-      "forkCount": 832,
-      "stargazerCount": 7629,
+      "forkCount": 833,
+      "stargazerCount": 7632,
       "primaryLanguage": "C++",
       "primaryLanguageColor": "#f34b7d",
       "licenseName": "MIT License",
@@ -30842,8 +30836,8 @@
       "repoName": "vectordotdev/vector",
       "description": "A high-performance observability data pipeline.",
       "url": "https://github.com/vectordotdev/vector",
-      "forkCount": 2150,
-      "stargazerCount": 21956,
+      "forkCount": 2152,
+      "stargazerCount": 21959,
       "primaryLanguage": "Rust",
       "primaryLanguageColor": "#dea584",
       "licenseName": "Mozilla Public License 2.0",
@@ -31006,8 +31000,8 @@
       "repoName": "godotengine/godot",
       "description": "Godot Engine – Multi-platform 2D and 3D game engine",
       "url": "https://github.com/godotengine/godot",
-      "forkCount": 25496,
-      "stargazerCount": 111458,
+      "forkCount": 25513,
+      "stargazerCount": 111722,
       "primaryLanguage": "C++",
       "primaryLanguageColor": "#f34b7d",
       "licenseName": "MIT License",
@@ -31040,8 +31034,8 @@
       "repoName": "igamezgamble/slot-games-casino-slot-machine-source",
       "description": "Casino Game Hub, Online Casino, Slot game machine, Casino web3 platform Casino Game Hub, Slot game machine, Casino web3 platform Casino Game Hub, Slot game machine, Casino web3 platform Casino Game Hub, Slot game machine, Casino web3 platform, Gambling, Fishing Game, Casino Site",
       "url": "https://github.com/igamezgamble/slot-games-casino-slot-machine-source",
-      "forkCount": 793,
-      "stargazerCount": 189,
+      "forkCount": 794,
+      "stargazerCount": 191,
       "primaryLanguage": "PHP",
       "primaryLanguageColor": "#4F5D95",
       "licenseName": null,
@@ -31119,8 +31113,8 @@
       "repoName": "sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "url": "https://github.com/sherlock-project/sherlock",
-      "forkCount": 9836,
-      "stargazerCount": 84307,
+      "forkCount": 9842,
+      "stargazerCount": 84362,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "MIT License",
@@ -31686,7 +31680,7 @@
       "description": "🧰 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite.",
       "url": "https://github.com/transact-rs/sqlx",
       "forkCount": 1619,
-      "stargazerCount": 17078,
+      "stargazerCount": 17082,
       "primaryLanguage": "Rust",
       "primaryLanguageColor": "#dea584",
       "licenseName": "Apache License 2.0",
@@ -31898,7 +31892,7 @@
       "description": "Emoji for everyone. https://twemoji.twitter.com/",
       "url": "https://github.com/twitter/twemoji",
       "forkCount": 1897,
-      "stargazerCount": 17659,
+      "stargazerCount": 17660,
       "primaryLanguage": "HTML",
       "primaryLanguageColor": "#e34c26",
       "licenseName": "MIT License",
@@ -32110,7 +32104,7 @@
       "repoName": "abhisheknaiidu/abhisheknaiidu",
       "description": "👀",
       "url": "https://github.com/abhisheknaiidu/abhisheknaiidu",
-      "forkCount": 2077,
+      "forkCount": 2078,
       "stargazerCount": 446,
       "primaryLanguage": null,
       "primaryLanguageColor": null,
@@ -32165,7 +32159,7 @@
       "repoName": "MrStanDu33/MrStanDu33",
       "description": null,
       "url": "https://github.com/MrStanDu33/MrStanDu33",
-      "forkCount": 159,
+      "forkCount": 160,
       "stargazerCount": 137,
       "primaryLanguage": null,
       "primaryLanguageColor": null,
@@ -32192,7 +32186,7 @@
       "description": "This GitHub action helps to add cool dev metrics to your github profile Readme",
       "url": "https://github.com/anmol098/waka-readme-stats",
       "forkCount": 634,
-      "stargazerCount": 3948,
+      "stargazerCount": 3949,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "MIT License",
@@ -32535,7 +32529,7 @@
       "repoName": "scylladb/scylla-rust-driver",
       "description": "Async CQL driver for Rust, optimized for ScyllaDB!",
       "url": "https://github.com/scylladb/scylla-rust-driver",
-      "forkCount": 154,
+      "forkCount": 155,
       "stargazerCount": 673,
       "primaryLanguage": "Rust",
       "primaryLanguageColor": "#dea584",
@@ -32904,7 +32898,7 @@
       "description": "React Native Google Mobile Ads enables you to monetize your app with AdMob.",
       "url": "https://github.com/invertase/react-native-google-mobile-ads",
       "forkCount": 212,
-      "stargazerCount": 1009,
+      "stargazerCount": 1008,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "Other",
@@ -32937,7 +32931,7 @@
       "repoName": "rafaballerini/PerfilGithub",
       "description": null,
       "url": "https://github.com/rafaballerini/PerfilGithub",
-      "forkCount": 1240,
+      "forkCount": 1239,
       "stargazerCount": 705,
       "primaryLanguage": null,
       "primaryLanguageColor": null,
@@ -32989,7 +32983,7 @@
       "repoName": "hasadna/open-bus-stride-etl",
       "description": "ETL processing tasks for Stride data enrichment",
       "url": "https://github.com/hasadna/open-bus-stride-etl",
-      "forkCount": 3,
+      "forkCount": 4,
       "stargazerCount": 0,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
@@ -33095,8 +33089,8 @@
       "repoName": "microsoft/vscode",
       "description": "Visual Studio Code",
       "url": "https://github.com/microsoft/vscode",
-      "forkCount": 40277,
-      "stargazerCount": 185627,
+      "forkCount": 40298,
+      "stargazerCount": 185663,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "MIT License",
@@ -33127,8 +33121,8 @@
       "repoName": "launchbadge/realworld-axum-sqlx",
       "description": "A Rust implementation of the Realworld demo app spec using Axum and SQLx.",
       "url": "https://github.com/launchbadge/realworld-axum-sqlx",
-      "forkCount": 104,
-      "stargazerCount": 1080,
+      "forkCount": 105,
+      "stargazerCount": 1081,
       "primaryLanguage": "Rust",
       "primaryLanguageColor": "#dea584",
       "licenseName": "GNU Affero General Public License v3.0",
@@ -33279,7 +33273,7 @@
       "description": "Podman Desktop is the best free and open source tool to work with Containers and Kubernetes for developers. Get an intuitive and user-friendly interface to effortlessly build, manage, and deploy containers and Kubernetes — all from your desktop.",
       "url": "https://github.com/podman-desktop/podman-desktop",
       "forkCount": 514,
-      "stargazerCount": 7674,
+      "stargazerCount": 7677,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "Apache License 2.0",
@@ -33367,8 +33361,8 @@
       "repoName": "lesspass/lesspass",
       "description": ":key: stateless open source password manager",
       "url": "https://github.com/lesspass/lesspass",
-      "forkCount": 355,
-      "stargazerCount": 6028,
+      "forkCount": 356,
+      "stargazerCount": 6026,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "GNU General Public License v3.0",
@@ -33603,7 +33597,7 @@
       "repoName": "snyk-labs/nodejs-goof",
       "description": "Super vulnerable todo list application",
       "url": "https://github.com/snyk-labs/nodejs-goof",
-      "forkCount": 3500,
+      "forkCount": 3502,
       "stargazerCount": 543,
       "primaryLanguage": "JavaScript",
       "primaryLanguageColor": "#f1e05a",
@@ -33687,7 +33681,7 @@
       "description": "A framework for building Mobile cross-platform UI",
       "url": "https://github.com/alibaba/weex",
       "forkCount": 2127,
-      "stargazerCount": 18528,
+      "stargazerCount": 18527,
       "primaryLanguage": "C++",
       "primaryLanguageColor": "#f34b7d",
       "licenseName": "Apache License 2.0",
@@ -33719,8 +33713,8 @@
       "repoName": "Hack-with-Github/Awesome-Hacking",
       "description": "A collection of various awesome lists for hackers, pentesters and security researchers",
       "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
-      "forkCount": 10386,
-      "stargazerCount": 113540,
+      "forkCount": 10391,
+      "stargazerCount": 113595,
       "primaryLanguage": null,
       "primaryLanguageColor": null,
       "licenseName": "Creative Commons Zero v1.0 Universal",
@@ -33849,7 +33843,7 @@
       "description": "A web-based dashboard built to provide real-time weather forecasts, global news, task management and personalized tools using Redis-powered caching.",
       "url": "https://github.com/Temavrix/NexaView",
       "forkCount": 6,
-      "stargazerCount": 96,
+      "stargazerCount": 97,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "GNU Affero General Public License v3.0",
@@ -33944,7 +33938,7 @@
       "description": "Learn React native with this free series on youtube (powered by Hashnode)",
       "url": "https://github.com/hiteshchoudhary/React-native-projects",
       "forkCount": 297,
-      "stargazerCount": 823,
+      "stargazerCount": 824,
       "primaryLanguage": "Java",
       "primaryLanguageColor": "#b07219",
       "licenseName": null,
@@ -34001,8 +33995,8 @@
       "repoName": "Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "forkCount": 46201,
-      "stargazerCount": 184683,
+      "forkCount": 46197,
+      "stargazerCount": 184708,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "Other",
@@ -34249,7 +34243,7 @@
       "description": "Unofficial API Wrapper for Perplexity.ai + Account Generator with Web Interface",
       "url": "https://github.com/helallao/perplexity-ai",
       "forkCount": 317,
-      "stargazerCount": 1658,
+      "stargazerCount": 1657,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "MIT License",
@@ -34385,8 +34379,8 @@
       "repoName": "gitroomhq/postiz-app",
       "description": "📨 The ultimate agentic social media scheduling tool 🤖",
       "url": "https://github.com/gitroomhq/postiz-app",
-      "forkCount": 5758,
-      "stargazerCount": 31309,
+      "forkCount": 5775,
+      "stargazerCount": 31357,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "GNU Affero General Public License v3.0",
@@ -34421,7 +34415,7 @@
       "description": "Accurate, full-featured, cross-platform library aiming to emulate every aspect of the Sega Dreamcast's Visual Memory Unit (VMU).",
       "url": "https://github.com/gyrovorbis/libevmu",
       "forkCount": 8,
-      "stargazerCount": 70,
+      "stargazerCount": 71,
       "primaryLanguage": "C",
       "primaryLanguageColor": "#555555",
       "licenseName": "MIT License",
@@ -34525,8 +34519,8 @@
       "repoName": "karpathy/llama2.c",
       "description": "Inference Llama 2 in one file of pure C",
       "url": "https://github.com/karpathy/llama2.c",
-      "forkCount": 2559,
-      "stargazerCount": 19574,
+      "forkCount": 2558,
+      "stargazerCount": 19576,
       "primaryLanguage": "C",
       "primaryLanguageColor": "#555555",
       "licenseName": "MIT License",
@@ -34649,8 +34643,8 @@
       "repoName": "astral-sh/uv",
       "description": "An extremely fast Python package and project manager, written in Rust.",
       "url": "https://github.com/astral-sh/uv",
-      "forkCount": 3154,
-      "stargazerCount": 85807,
+      "forkCount": 3161,
+      "stargazerCount": 85853,
       "primaryLanguage": "Rust",
       "primaryLanguageColor": "#dea584",
       "licenseName": "Apache License 2.0",
@@ -34680,8 +34674,8 @@
       "repoName": "golemcloud/golem",
       "description": "Golem Cloud is the agent-native platform for building AI agents and distributed applications that never lose state, never duplicate work, and never require you to build infrastructure.",
       "url": "https://github.com/golemcloud/golem",
-      "forkCount": 203,
-      "stargazerCount": 1631,
+      "forkCount": 202,
+      "stargazerCount": 1620,
       "primaryLanguage": "Rust",
       "primaryLanguageColor": "#dea584",
       "licenseName": "Other",
@@ -34767,8 +34761,8 @@
       "repoName": "Arize-ai/openinference",
       "description": "OpenTelemetry Instrumentation for AI Observability",
       "url": "https://github.com/Arize-ai/openinference",
-      "forkCount": 245,
-      "stargazerCount": 998,
+      "forkCount": 248,
+      "stargazerCount": 1003,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "Apache License 2.0",
@@ -34986,7 +34980,7 @@
       "description": "Keep passwords and other sensitive information out of your inboxes and chat logs.",
       "url": "https://github.com/onetimesecret/onetimesecret",
       "forkCount": 441,
-      "stargazerCount": 2823,
+      "stargazerCount": 2824,
       "primaryLanguage": "Ruby",
       "primaryLanguageColor": "#701516",
       "licenseName": "MIT License",
@@ -35072,7 +35066,7 @@
       "description": "A template rendering engine based on Jinja, generating type-safe Rust code at compile time.",
       "url": "https://github.com/askama-rs/askama",
       "forkCount": 52,
-      "stargazerCount": 1101,
+      "stargazerCount": 1102,
       "primaryLanguage": "Rust",
       "primaryLanguageColor": "#dea584",
       "licenseName": "Apache License 2.0",
@@ -35155,7 +35149,7 @@
       "description": "3D-printed open-source humanoid robot platform for sim-to-real and RL",
       "url": "https://github.com/zeroth-robotics/zeroth-bot",
       "forkCount": 125,
-      "stargazerCount": 785,
+      "stargazerCount": 786,
       "primaryLanguage": null,
       "primaryLanguageColor": null,
       "licenseName": "MIT License",
@@ -35244,8 +35238,8 @@
       "repoName": "PanJiaChen/vue-element-admin",
       "description": ":tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin",
       "url": "https://github.com/PanJiaChen/vue-element-admin",
-      "forkCount": 30466,
-      "stargazerCount": 90265,
+      "forkCount": 30464,
+      "stargazerCount": 90266,
       "primaryLanguage": "Vue",
       "primaryLanguageColor": "#41b883",
       "licenseName": "MIT License",
@@ -35342,8 +35336,8 @@
       "repoName": "fastrepl/anarlog",
       "description": "Open source Granola AI Alternative",
       "url": "https://github.com/fastrepl/anarlog",
-      "forkCount": 622,
-      "stargazerCount": 8547,
+      "forkCount": 621,
+      "stargazerCount": 8556,
       "primaryLanguage": "Rust",
       "primaryLanguageColor": "#dea584",
       "licenseName": "MIT License",
@@ -35480,8 +35474,8 @@
       "repoName": "LearningCircuit/local-deep-research",
       "description": " ~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
       "url": "https://github.com/LearningCircuit/local-deep-research",
-      "forkCount": 708,
-      "stargazerCount": 8256,
+      "forkCount": 709,
+      "stargazerCount": 8277,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "MIT License",
@@ -35528,7 +35522,7 @@
       "description": "📅 A sleek and highly customizable calendar card for Home Assistant, designed for performance and a clean, modern look.",
       "url": "https://github.com/alexpfau/calendar-card-pro",
       "forkCount": 91,
-      "stargazerCount": 1114,
+      "stargazerCount": 1115,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": "Other",
@@ -35587,8 +35581,8 @@
       "repoName": "CodeBoarding/CodeBoarding",
       "description": "Interactive architecture diagrams for codebases",
       "url": "https://github.com/CodeBoarding/CodeBoarding",
-      "forkCount": 176,
-      "stargazerCount": 2022,
+      "forkCount": 177,
+      "stargazerCount": 2051,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "MIT License",
@@ -35630,8 +35624,8 @@
       "repoName": "hesreallyhim/awesome-claude-code",
       "description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
-      "forkCount": 3935,
-      "stargazerCount": 45350,
+      "forkCount": 3945,
+      "stargazerCount": 45426,
       "primaryLanguage": "Python",
       "primaryLanguageColor": "#3572A5",
       "licenseName": "Other",
@@ -35677,7 +35671,7 @@
       "description": "making the fastest and most capable todo app ever",
       "url": "https://github.com/R44VC0RP/agenda.dev",
       "forkCount": 30,
-      "stargazerCount": 298,
+      "stargazerCount": 299,
       "primaryLanguage": "TypeScript",
       "primaryLanguageColor": "#3178c6",
       "licenseName": null,
@@ -35849,12 +35843,8 @@
   ],
   "communityRolling": [
     {
-      "date": "2025-12-03",
-      "total": 36
-    },
-    {
       "date": "2025-12-04",
-      "total": 6864
+      "total": 36
     },
     {
       "date": "2025-12-05",
@@ -36546,31 +36536,35 @@
     },
     {
       "date": "2026-05-26",
-      "total": 10855
+      "total": 10852
     },
     {
       "date": "2026-05-27",
-      "total": 10883
+      "total": 10880
     },
     {
       "date": "2026-05-28",
-      "total": 11030
+      "total": 11027
     },
     {
       "date": "2026-05-29",
-      "total": 11101
+      "total": 11098
     },
     {
       "date": "2026-05-30",
-      "total": 11451
+      "total": 11448
     },
     {
       "date": "2026-05-31",
-      "total": 11444
+      "total": 11443
     },
     {
       "date": "2026-06-01",
-      "total": 11399
+      "total": 11484
+    },
+    {
+      "date": "2026-06-02",
+      "total": 11447
     }
   ],
   "excludedUsers": []
