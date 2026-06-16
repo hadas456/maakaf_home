@@ -9,30 +9,54 @@ menu:
     identifier: mentorship
 ---
 
-{{% alert title="🚧 בבנייה" color="warning" %}}
-מערכת המנטורינג החדשה נמצאת בפיתוח. העמודים הבאים מציגים תצוגה מקדימה של המבנה
-והעיצוב, ועדיין אינם מחוברים למערכת בפועל.
-{{% /alert %}}
+<div id="cta-guest" class="row mb-5" dir="rtl">
+  <div class="col-md-6 mb-3">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">📝 הרשמה</h5>
+        <p class="card-text">הירשמו כמנטור/ית או כמנטי כדי להתחיל את התהליך.</p>
+        <a href="/he/mentorship/register/" class="btn btn-primary">להרשמה</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 mb-3">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">🔑 התחברות</h5>
+        <p class="card-text">כבר נרשמתם? התחברו כדי לראות ולנהל את הבקשות שלכם.</p>
+        <a href="/he/mentorship/login/" class="btn btn-outline-primary">להתחברות</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-מערכת המנטורינג של מעקף מחברת בין מתכנתים מנוסים (מנטורים) לבין מתכנתים
-בתחילת דרכם (מנטים), ומאפשרת ניהול מלא של תהליך המנטורינג - מהרשמה ועד מעקב
-אחר בקשות.
+<div id="cta-user" hidden class="mb-5 text-center" dir="rtl">
+  <a id="cta-dashboard-link" href="#" class="btn btn-primary btn-lg">לדשבורד שלי</a>
+</div>
 
-{{< cardpane >}}
-  {{< card header="🔍 ספריית מנטורים" >}}
-    חפשו מנטור או מנטורית מתאימים לפי תחום, ניסיון וזמינות. אין צורך
-    בהתחברות כדי לעיין בספרייה.
-    <br>
-    <a class="btn btn-outline-primary mt-2" href="/he/mentorship/directory/">למעבר לספרייה</a>
-  {{< /card >}}
-  {{< card header="📝 הרשמה" >}}
-    הירשמו כמנטור/ית או כמנטי/ה כדי להתחיל את התהליך.
-    <br>
-    <a class="btn btn-outline-primary mt-2" href="/he/mentorship/register/">להרשמה</a>
-  {{< /card >}}
-  {{< card header="🔑 התחברות" >}}
-    כבר נרשמתם? התחברו כדי לראות ולנהל את הבקשות שלכם.
-    <br>
-    <a class="btn btn-outline-primary mt-2" href="/he/mentorship/login/">להתחברות</a>
-  {{< /card >}}
-{{< /cardpane >}}
+<hr class="mb-4">
+
+<h4 dir="rtl">ספריית מנטורים</h4>
+
+<div class="row mb-4" dir="rtl">
+  <div class="col-md-6 mb-2">
+    <input id="dir-search" type="text" class="form-control" placeholder="חיפוש לפי שם, תחום או טכנולוגיה...">
+  </div>
+  <div class="col-md-3 mb-2">
+    <select id="dir-topic" class="form-select">
+      <option value="">תחום: הכל</option>
+    </select>
+  </div>
+  <div class="col-md-3 mb-2">
+    <select id="dir-avail" class="form-select">
+      <option value="">זמינות: הכל</option>
+      <option value="available">פנוי/ה למנטורינג</option>
+      <option value="unavailable">לא פנוי/ה כרגע</option>
+    </select>
+  </div>
+</div>
+
+<div id="mentor-grid" class="row" dir="rtl"></div>
+
+<script type="module" src="/js/mentorship/mentorship-home.js"></script>
+<script type="module" src="/js/mentorship/directory.js"></script>

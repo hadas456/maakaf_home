@@ -89,6 +89,8 @@ outputs:
 disableAliases: true
 
 params:
+  mentorshipApiBase: "http://localhost:3000"
+
   taxonomy:
     # set taxonomyCloud = [] to hide taxonomy clouds
     taxonomyCloud: [tags, categories]

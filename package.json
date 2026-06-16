@@ -30,6 +30,7 @@
     "postbuild:preview": "npm run _check:links",
     "postbuild:production": "npm run _check:links",
     "prebuild": "npx tsx fetch-data.ts",
+    "dev": "npm run serve",
     "serve": "npm run _serve",
     "test": "node --test tests/members/filter.test.js && npm run _check:links",
     "update:dep": "npm install --save-dev autoprefixer@latest postcss-cli@latest",

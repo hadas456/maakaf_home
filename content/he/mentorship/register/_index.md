@@ -6,13 +6,10 @@ linkTitle: "הרשמה"
 weight: 20
 ---
 
-{{% alert title="🚧 בבנייה" color="warning" %}}
-טפסי ההרשמה עדיין לא מחוברים למערכת. זוהי תצוגה מקדימה של השדות שיופיעו.
-{{% /alert %}}
 
 <div id="register-choice" class="text-center my-4" dir="rtl">
 <p class="fs-5 mb-3">בחרו את סוג ההרשמה המתאים לכם:</p>
-<button type="button" class="btn btn-primary btn-lg me-2" id="choose-mentee">הרשמה כמנטי/ה</button>
+<button type="button" class="btn btn-primary btn-lg me-2" id="choose-mentee">הרשמה כמנטי</button>
 <button type="button" class="btn btn-outline-primary btn-lg" id="choose-mentor">הרשמה כמנטור/ית</button>
 </div>
 
@@ -21,38 +18,39 @@ weight: 20
 <div class="col-md-7">
 <div class="card">
 <div class="card-body">
-<h3 class="card-title">הרשמה כמנטי/ה</h3>
+<h3 class="card-title">הרשמה כמנטי</h3>
 <p class="text-muted small">שדות המסומנים ב-<span class="text-danger">*</span> הם שדות חובה.</p>
-<form>
+<div id="mentee-message" class="alert d-none" role="alert"></div>
+<form id="mentee-register-form">
   <div class="mb-3">
     <label class="form-label">שם מלא <span class="text-danger">*</span></label>
-    <input type="text" class="form-control" required>
+    <input type="text" name="fullName" class="form-control" required>
   </div>
   <div class="mb-3">
     <label class="form-label">אימייל <span class="text-danger">*</span></label>
-    <input type="email" class="form-control" required>
+    <input type="email" name="email" class="form-control" required>
   </div>
   <div class="mb-3">
     <label class="form-label">סיסמה <span class="text-danger">*</span></label>
-    <input type="password" class="form-control" required>
+    <input type="password" name="password" class="form-control" minlength="6" required>
   </div>
   <div class="mb-3">
     <label class="form-label">רמת ניסיון <span class="text-muted">(לא חובה)</span></label>
-    <select class="form-select">
-      <option>אין ניסיון בתכנות</option>
-      <option>מתחיל/ה</option>
-      <option>קצת ניסיון</option>
+    <select name="experienceLevel" class="form-select">
+      <option value="">אין ניסיון בתכנות</option>
+      <option value="מתחיל/ה">מתחיל/ה</option>
+      <option value="קצת ניסיון">קצת ניסיון</option>
     </select>
   </div>
   <div class="mb-3">
     <label class="form-label">תחומי עניין <span class="text-danger">*</span></label>
-    <input type="text" class="form-control" placeholder="לדוגמה: פיתוח Web, נתונים, אבטחה" required>
+    <input type="text" name="interests" class="form-control" placeholder="לדוגמה: פיתוח Web, נתונים, אבטחה" required>
   </div>
   <div class="mb-3">
     <label class="form-label">מטרות בתהליך המנטורינג <span class="text-muted">(לא חובה)</span></label>
-    <textarea class="form-control" rows="3" placeholder="לדוגמה: למצוא עבודה ראשונה בתחום"></textarea>
+    <textarea name="goals" class="form-control" rows="3" placeholder="לדוגמה: למצוא עבודה ראשונה בתחום"></textarea>
   </div>
-  <button type="button" class="btn btn-primary" disabled>הרשמה כמנטי/ה (בקרוב)</button>
+  <button type="submit" class="btn btn-primary">הרשמה כמנטי</button>
   <button type="button" class="btn btn-link" id="back-from-mentee">חזרה לבחירה</button>
 </form>
 </div>
@@ -68,43 +66,44 @@ weight: 20
 <div class="card-body">
 <h3 class="card-title">הרשמה כמנטור/ית</h3>
 <p class="text-muted small">שדות המסומנים ב-<span class="text-danger">*</span> הם שדות חובה.</p>
-<form>
+<div id="mentor-message" class="alert d-none" role="alert"></div>
+<form id="mentor-register-form">
   <div class="mb-3">
     <label class="form-label">שם מלא <span class="text-danger">*</span></label>
-    <input type="text" class="form-control" required>
+    <input type="text" name="fullName" class="form-control" required>
   </div>
   <div class="mb-3">
     <label class="form-label">אימייל <span class="text-danger">*</span></label>
-    <input type="email" class="form-control" required>
+    <input type="email" name="email" class="form-control" required>
   </div>
   <div class="mb-3">
     <label class="form-label">סיסמה <span class="text-danger">*</span></label>
-    <input type="password" class="form-control" required>
+    <input type="password" name="password" class="form-control" minlength="6" required>
   </div>
   <div class="mb-3">
     <label class="form-label">תפקיד נוכחי <span class="text-muted">(לא חובה)</span></label>
-    <input type="text" class="form-control" placeholder="לדוגמה: Backend Developer">
+    <input type="text" name="currentRole" class="form-control" placeholder="לדוגמה: Backend Developer">
   </div>
   <div class="mb-3">
     <label class="form-label">חברה <span class="text-muted">(לא חובה)</span></label>
-    <input type="text" class="form-control">
+    <input type="text" name="company" class="form-control">
   </div>
   <div class="mb-3">
     <label class="form-label">תחומי התמחות <span class="text-danger">*</span></label>
-    <input type="text" class="form-control" placeholder="לדוגמה: Python, AWS, מערכות מבוזרות" required>
+    <input type="text" name="expertise" class="form-control" placeholder="לדוגמה: Python, AWS, מערכות מבוזרות" required>
   </div>
   <div class="mb-3">
     <label class="form-label">שנות ניסיון <span class="text-muted">(לא חובה)</span></label>
-    <input type="number" class="form-control" min="0">
+    <input type="number" name="yearsExperience" class="form-control" min="0">
   </div>
   <div class="mb-3">
     <label class="form-label">זמינות <span class="text-muted">(לא חובה)</span></label>
-    <select class="form-select">
-      <option>פנוי/ה למנטורינג</option>
-      <option>לא פנוי/ה כרגע</option>
+    <select name="availability" class="form-select">
+      <option value="available">פנוי/ה למנטורינג</option>
+      <option value="unavailable">לא פנוי/ה כרגע</option>
     </select>
   </div>
-  <button type="button" class="btn btn-primary" disabled>הרשמה כמנטור/ית (בקרוב)</button>
+  <button type="submit" class="btn btn-primary">הרשמה כמנטור/ית</button>
   <button type="button" class="btn btn-link" id="back-from-mentor">חזרה לבחירה</button>
 </form>
 </div>
@@ -143,3 +142,5 @@ weight: 20
   document.getElementById('back-from-mentor').addEventListener('click', showChoice);
 })();
 </script>
+
+<script type="module" src="/js/mentorship/register.js"></script>
