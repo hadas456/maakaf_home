@@ -21,6 +21,8 @@ weight: 10
 
 <div id="mentor-years" class="mb-3 text-muted small"></div>
 
+<div id="mentor-social" class="d-flex gap-2 mb-3"></div>
+
 <div class="mt-4">
   <a id="mentor-request-btn" href="#" class="btn btn-primary">שליחת בקשת מנטורינג</a>
   <a href="/he/mentorship/" class="btn btn-outline-secondary me-2">חזרה לספרייה</a>

@@ -103,6 +103,14 @@ weight: 20
       <option value="unavailable">לא פנוי/ה כרגע</option>
     </select>
   </div>
+  <div class="mb-3">
+    <label class="form-label">קישור לפרופיל LinkedIn <span class="text-danger">*</span></label>
+    <input type="url" name="linkedIn" class="form-control" placeholder="https://linkedin.com/in/yourprofile" required>
+  </div>
+  <div class="mb-3">
+    <label class="form-label">קישור לתיאום פגישה (Calendly או שווה ערך) <span class="text-danger">*</span></label>
+    <input type="url" name="calendlyUrl" class="form-control" placeholder="https://calendly.com/yourname" required>
+  </div>
   <button type="submit" class="btn btn-primary">הרשמה כמנטור/ית</button>
   <button type="button" class="btn btn-link" id="back-from-mentor">חזרה לבחירה</button>
 </form>

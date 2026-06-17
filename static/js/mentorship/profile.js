@@ -51,6 +51,8 @@ async function initMentor() {
     form.expertise.value        = (data.expertise ?? []).join(', ');
     form.yearsExperience.value  = data.yearsExperience ?? '';
     form.availability.value     = data.availability ?? 'available';
+    form.linkedIn.value         = data.linkedIn ?? '';
+    form.calendlyUrl.value      = data.calendlyUrl ?? '';
   }
 
   form.addEventListener('submit', async (e) => {
@@ -73,6 +75,8 @@ async function initMentor() {
         expertise,
         yearsExperience:  form.yearsExperience.value ? Number(form.yearsExperience.value) : null,
         availability:     form.availability.value,
+        linkedIn:         form.linkedIn.value.trim() || null,
+        calendlyUrl:      form.calendlyUrl.value.trim() || null,
       },
     });
 

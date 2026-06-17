@@ -87,9 +87,19 @@ async function handleMentorSubmit(event) {
   const expertise = splitList(form.expertise.value);
   const yearsExperience = form.yearsExperience.value;
   const availability = form.availability.value;
+  const linkedIn = form.linkedIn.value.trim();
+  const calendlyUrl = form.calendlyUrl.value.trim();
 
   if (expertise.length === 0) {
     showFormMessage(messageEl, 'יש למלא תחומי התמחות (שדה חובה).', true);
+    return;
+  }
+  if (!linkedIn) {
+    showFormMessage(messageEl, 'יש למלא קישור לפרופיל LinkedIn (שדה חובה).', true);
+    return;
+  }
+  if (!calendlyUrl) {
+    showFormMessage(messageEl, 'יש למלא קישור לתיאום פגישה (שדה חובה).', true);
     return;
   }
 
@@ -107,6 +117,8 @@ async function handleMentorSubmit(event) {
         expertise,
         yearsExperience: yearsExperience ? Number(yearsExperience) : null,
         availability,
+        linkedIn,
+        calendlyUrl,
       },
     });
 
