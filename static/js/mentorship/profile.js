@@ -128,7 +128,7 @@ async function initMentee() {
     submitBtn.disabled = false;
 
     if (saveOk) {
-      showToast('השינויים נשמרו בהצלחה', () => { window.location.href = '/he/mentorship/dashboard/'; });
+      showToast('השינויים נשמרו בהצלחה', () => { window.location.href = '/he/mentorship/mentee-dashboard/'; });
     } else {
       showFormMessage(messageEl, saveData?.error ?? 'שגיאה בשמירת הפרופיל. אנא נסה/י שוב.', true);
     }

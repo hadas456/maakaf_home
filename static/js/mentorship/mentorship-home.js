@@ -8,5 +8,5 @@ if (session) {
   ctaUser.hidden = false;
   document.getElementById('cta-dashboard-link').href = session.role === 'mentor'
     ? '/he/mentorship/mentor-dashboard/'
-    : '/he/mentorship/dashboard/';
+    : '/he/mentorship/mentee-dashboard/';
 }
