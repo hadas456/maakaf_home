@@ -16,7 +16,7 @@ if (existing) {
   choice.hidden = true;
   window.location.href = existing.role === 'mentor'
     ? '/he/mentorship/mentor-dashboard/'
-    : '/he/mentorship/dashboard/';
+    : '/he/mentorship/mentee-dashboard/';
 }
 
 function showForm() {
@@ -146,7 +146,7 @@ async function handleLoginSubmit(event) {
     form.hidden = true;
     const dest = data.role === 'mentor'
       ? '/he/mentorship/mentor-dashboard/'
-      : '/he/mentorship/dashboard/';
+      : '/he/mentorship/mentee-dashboard/';
     showToast(`התחברת בהצלחה כ-${data.fullName ?? data.email}`, () => {
       window.location.href = dest;
     });

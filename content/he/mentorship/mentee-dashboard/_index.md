@@ -1,7 +1,7 @@
 ---
 type: "docs"
 title: "דשבורד מנטי"
-url: "/he/mentorship/dashboard/"
+url: "/he/mentorship/mentee-dashboard/"
 linkTitle: "דשבורד מנטי"
 weight: 50
 ---

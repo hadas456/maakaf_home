@@ -8,7 +8,7 @@ if (existing) {
   document.getElementById('register-choice').hidden = true;
   window.location.href = existing.role === 'mentor'
     ? '/he/mentorship/mentor-dashboard/'
-    : '/he/mentorship/dashboard/';
+    : '/he/mentorship/mentee-dashboard/';
 }
 
 function splitList(value) {
@@ -60,7 +60,7 @@ async function handleMenteeSubmit(event) {
       saveSession(data);
       form.closest('.card')?.closest('[id$="-wrapper"]')?.setAttribute('hidden', '');
       showToast('החשבון נוצר בהצלחה', () => {
-        window.location.href = '/he/mentorship/dashboard/';
+        window.location.href = '/he/mentorship/mentee-dashboard/';
       });
     } else {
       showFormMessage(messageEl, `נרשמת בהצלחה, ${fullName}! ניתן להתחבר כעת.`, false);

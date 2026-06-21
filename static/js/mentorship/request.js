@@ -85,7 +85,7 @@ submitBtn.addEventListener('click', async () => {
   if (ok) {
     formDiv.hidden = true;
     showStatus(
-      `הבקשה נשלחה בהצלחה! תוכל/י לעקוב אחר הסטטוס ב<a href="/he/mentorship/dashboard/">דשבורד שלי</a>.`,
+      `הבקשה נשלחה בהצלחה! תוכל/י לעקוב אחר הסטטוס ב<a href="/he/mentorship/mentee-dashboard/">דשבורד שלי</a>.`,
       'success'
     );
   } else {
