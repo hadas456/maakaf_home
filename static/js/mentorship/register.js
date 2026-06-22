@@ -1,8 +1,8 @@
 import { apiFetch, saveSession, getSession } from './api.js';
 import { describeAuthError, showFormMessage } from './errors.js';
-import { showToast } from './toast.js';
+import { showToast, showBlockingMessage } from './toast.js';
 
-function startVerificationPolling(uid, credentials, messageEl, dashboardUrl) {
+function startVerificationPolling(uid, credentials, dismissWaiting, dashboardUrl) {
   let attempts = 0;
   const interval = setInterval(async () => {
     if (++attempts > 100) { clearInterval(interval); return; }
@@ -14,12 +14,13 @@ function startVerificationPolling(uid, credentials, messageEl, dashboardUrl) {
     credentials.email = '';
     credentials.password = '';
 
+    dismissWaiting();
+
     if (loginResult.ok) {
       saveSession(loginResult.data);
-      showFormMessage(messageEl, 'האימייל אומת בהצלחה! מעביר/ה לדשבורד...', false);
-      setTimeout(() => { window.location.href = dashboardUrl; }, 1500);
+      showToast('האימייל אומת בהצלחה!', () => { window.location.href = dashboardUrl; });
     } else {
-      showFormMessage(messageEl, 'האימייל אומת! ניתן להתחבר כעת.', false);
+      showToast('האימייל אומת! ניתן להתחבר כעת.', () => {});
     }
   }, 3000);
 }
@@ -85,10 +86,10 @@ async function handleMenteeSubmit(event) {
         window.location.href = '/he/mentorship/mentee-dashboard/';
       });
     } else {
-      showFormMessage(messageEl, `נרשמת בהצלחה, ${fullName}! נשלח אליך אימייל אימות — אנא לחץ/י על הקישור שבמייל.`, false);
       const credentials = { email, password };
       form.reset();
-      startVerificationPolling(data.uid, credentials, messageEl, '/he/mentorship/mentee-dashboard/');
+      const dismissWaiting = showBlockingMessage(`נרשמת בהצלחה, ${fullName}! נשלח אליך אימייל אימות — אנא לחץ/י על הקישור שבמייל.`);
+      startVerificationPolling(data.uid, credentials, dismissWaiting, '/he/mentorship/mentee-dashboard/');
     }
   } catch (err) {
     showFormMessage(messageEl, describeAuthError(err), true);
@@ -158,10 +159,10 @@ async function handleMentorSubmit(event) {
         window.location.href = '/he/mentorship/mentor-dashboard/';
       });
     } else {
-      showFormMessage(messageEl, `נרשמת בהצלחה, ${fullName}! נשלח אליך אימייל אימות — אנא לחץ/י על הקישור שבמייל.`, false);
       const credentials = { email, password };
       form.reset();
-      startVerificationPolling(data.uid, credentials, messageEl, '/he/mentorship/mentor-dashboard/');
+      const dismissWaiting = showBlockingMessage(`נרשמת בהצלחה, ${fullName}! נשלח אליך אימייל אימות — אנא לחץ/י על הקישור שבמייל.`);
+      startVerificationPolling(data.uid, credentials, dismissWaiting, '/he/mentorship/mentor-dashboard/');
     }
   } catch (err) {
     showFormMessage(messageEl, describeAuthError(err), true);

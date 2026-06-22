@@ -42,7 +42,21 @@ export function describeAuthError(err) {
 }
 
 export function showFormMessage(el, text, isError) {
-  el.textContent = text;
-  el.classList.remove('d-none', 'alert-success', 'alert-danger');
-  el.classList.add(isError ? 'alert-danger' : 'alert-success');
+  el.classList.remove('d-none', 'alert-success', 'alert-danger', 'd-flex', 'align-items-center', 'gap-2');
+  el.classList.add('d-flex', 'align-items-center', 'gap-2', isError ? 'alert-danger' : 'alert-success');
+
+  const span = document.createElement('span');
+  span.className = 'flex-grow-1';
+  span.textContent = text;
+
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'btn-close flex-shrink-0';
+  btn.setAttribute('aria-label', 'סגור');
+  btn.addEventListener('click', () => {
+    el.classList.add('d-none');
+    el.classList.remove('d-flex', 'align-items-center', 'gap-2');
+  });
+
+  el.replaceChildren(span, btn);
 }
