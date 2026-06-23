@@ -1,4 +1,4 @@
-import { apiFetch, saveSession, getSession } from './api.js';
+import { apiFetch, saveSession, getSession, dashboardUrl } from './api.js';
 import { describeAuthError, showFormMessage } from './errors.js';
 import { showToast, showBlockingMessage } from './toast.js';
 
@@ -167,7 +167,7 @@ async function handleRegisterSubmit(event, config) {
 
 const menteeConfig = {
   messageElId: 'mentee-message',
-  dashboardUrl: '/he/mentorship/mentee-dashboard/',
+  dashboardUrl: dashboardUrl('mentee'),
   validate(form, messageEl) {
     if (splitList(form.interests.value).length === 0) {
       showFormMessage(messageEl, 'יש למלא תחומי עניין (שדה חובה).', true);
@@ -190,7 +190,7 @@ const menteeConfig = {
 
 const mentorConfig = {
   messageElId: 'mentor-message',
-  dashboardUrl: '/he/mentorship/mentor-dashboard/',
+  dashboardUrl: dashboardUrl('mentor'),
   validate(form, messageEl) {
     if (splitList(form.expertise.value).length === 0) {
       showFormMessage(messageEl, 'יש למלא תחומי התמחות (שדה חובה).', true);

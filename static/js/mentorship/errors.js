@@ -26,11 +26,17 @@ const AUTH_ERROR_MESSAGES = {
   // email verification
   EMAIL_NOT_VERIFIED: 'יש לאמת את כתובת האימייל לפני ההתחברות. בדוק/י את תיבת הדואר שלך.',
 
+  // general API errors
+  NOT_FOUND: 'הפריט המבוקש לא נמצא.',
+  FORBIDDEN: 'אין לך הרשאה לבצע פעולה זו.',
+  INTERNAL_ERROR: 'אירעה שגיאה בשרת. אנא נסה/י שוב מאוחר יותר.',
+
   // admin-specific
   ADMIN_PENDING_APPROVAL: 'החשבון ממתין לאישור. פנה/י למנהל המערכת.',
 
-  // network failure
+  // network / timeout
   NETWORK_ERROR: 'לא ניתן להתחבר לשרת. ודא/י שהשרת פועל ונסה/י שוב.',
+  TIMEOUT: 'הבקשה ארכה יותר מדי זמן. אנא נסה/י שוב.',
 };
 
 export function getErrorMessage(code) {

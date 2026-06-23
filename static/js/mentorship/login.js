@@ -1,4 +1,4 @@
-import { apiFetch, saveSession, getSession } from './api.js';
+import { apiFetch, saveSession, getSession, dashboardUrl } from './api.js';
 import { describeAuthError, showFormMessage } from './errors.js';
 import { showToast } from './toast.js';
 
@@ -18,9 +18,7 @@ const verifyResendCountdown = document.getElementById('verify-resend-countdown')
 const existing = getSession();
 if (existing) {
   choice.hidden = true;
-  window.location.href = existing.role === 'mentor'
-    ? '/he/mentorship/mentor-dashboard/'
-    : '/he/mentorship/mentee-dashboard/';
+  window.location.href = dashboardUrl(existing.role);
 }
 
 function showForm() {
@@ -179,9 +177,7 @@ function startVerifyPolling(uid, credentials) {
 
     if (loginResult.ok) {
       saveSession(loginResult.data);
-      const dest = loginResult.data.role === 'mentor'
-        ? '/he/mentorship/mentor-dashboard/'
-        : '/he/mentorship/mentee-dashboard/';
+      const dest = dashboardUrl(loginResult.data.role);
       showToast('האימייל אומת בהצלחה!', () => { window.location.href = dest; });
     } else {
       showToast('האימייל אומת! אנא נסה/י להתחבר שוב.', () => {
@@ -270,9 +266,7 @@ async function handleLoginSubmit(event) {
 
     saveSession(data);
     form.hidden = true;
-    const dest = data.role === 'mentor'
-      ? '/he/mentorship/mentor-dashboard/'
-      : '/he/mentorship/mentee-dashboard/';
+    const dest = dashboardUrl(data.role);
     showToast(`התחברת בהצלחה כ-${data.fullName ?? data.email}`, () => {
       window.location.href = dest;
     });
