@@ -3,6 +3,8 @@
 
 {{ if eq $variant "home" -}}
   {{ partial "maakaf-hero.html" . -}}
+{{ else if eq $variant "about" -}}
+  {{ partial "maakaf-about-cover.html" . -}}
 {{ else -}}
 {{ $blockID := printf "td-cover-block-%d" .Ordinal -}}
 {{ $promo_image := (.Page.Resources.ByType "image").GetMatch "**background*" -}}
