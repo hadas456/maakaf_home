@@ -183,6 +183,12 @@
     </details>
     {{ end }}
 
+    {{ if eq $variant "page" }}
+  </div>
+  {{ partial "maakaf-repo-leaderboard.html" (dict "Site" .Site "variant" "page") }}
+  <div class="maakaf-community__inner maakaf-community__inner--cta">
+    {{ end }}
+
     <div class="maakaf-community__cta-band">
       <article class="maakaf-community__cta">
         <h3 class="maakaf-community__cta-title">
@@ -311,7 +317,7 @@
 
     applyCommunityRowVisibility();
 
-    const isHe = {{ if $isHe }}true{{ else }}false{{ end }};
+    const isHe = JSON.parse('{{ if $isHe }}true{{ else }}false{{ end }}');
     const rawUsers = document.getElementById('maakafCommunityUsersData')?.textContent;
     const modal = document.getElementById('activityModal');
     if (!rawUsers || !modal) return;

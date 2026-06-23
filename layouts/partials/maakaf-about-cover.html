@@ -1,0 +1,44 @@
+{{/* Figma about cover: node 523:24822 */ -}}
+{{ $blockID := printf "td-cover-block-%d" .Ordinal -}}
+{{ $promo_image := (.Page.Resources.ByType "image").GetMatch "**background*" -}}
+{{ $image_anchor := .Get "image_anchor" | default "smart" -}}
+
+<section
+  id="{{ $blockID }}"
+  class="maakaf-about-cover td-cover-block td-cover-block--height-auto js-td-cover -bg-primary"
+  aria-labelledby="{{ $blockID }}-title"
+>
+  <div class="maakaf-about-cover__inner" dir="rtl">
+    <div class="maakaf-about-cover__content" dir="rtl">
+      {{ with .Get "title" -}}
+      <h1 id="{{ $blockID }}-title" class="maakaf-about-cover__title">{{ . | html }}</h1>
+      {{ end -}}
+      <div class="maakaf-about-cover__body">
+        {{ if eq .Page.File.Ext "md" -}}
+          {{ .Inner | markdownify -}}
+        {{ else -}}
+          {{ .Inner | htmlUnescape | safeHTML -}}
+        {{ end -}}
+      </div>
+    </div>
+
+    <div class="maakaf-about-cover__media">
+      {{ with $promo_image -}}
+        {{ $image := . -}}
+        {{ if ne .MediaType.SubType "svg" -}}
+          {{ $image = .Fill (printf "960x450 %s" $image_anchor) -}}
+        {{ end -}}
+        <img
+          class="maakaf-about-cover__image"
+          src="{{ $image.RelPermalink }}"
+          alt=""
+          width="960"
+          height="450"
+          loading="eager"
+        >
+      {{ else -}}
+        <div class="maakaf-about-cover__placeholder" aria-hidden="true"></div>
+      {{ end -}}
+    </div>
+  </div>
+</section>
