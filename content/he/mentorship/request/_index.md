@@ -24,11 +24,11 @@ weight: 40
 </div>
 <div class="mb-3">
   <label class="form-label">נושא הבקשה <span class="text-danger">*</span></label>
-  <input id="req-topic" type="text" class="form-control" placeholder="לדוגמה: הכנה לראיון עבודה">
+  <input id="req-topic" type="text" class="form-control" placeholder="לדוגמה: הכנה לראיון עבודה" maxlength="200">
 </div>
 <div class="mb-3">
   <label class="form-label">תיאור קצר <span class="text-muted">(לא חובה)</span></label>
-  <textarea id="req-description" class="form-control" rows="4" placeholder="ספרו בכמה מילים מה הייתם רוצים לקבל מהשיחה"></textarea>
+  <textarea id="req-description" class="form-control" rows="4" placeholder="ספרו בכמה מילים מה הייתם רוצים לקבל מהשיחה" maxlength="2000"></textarea>
 </div>
 
 <div class="card mb-3 border-info">

@@ -4,6 +4,7 @@ const POLL_INTERVAL_MS = 30_000;
 const TYPE_ICON = {
   new_request:      '📨',
   request_response: '📬',
+  mentee_action:    '✏️',
 };
 
 // ─── State ────────────────────────────────────────────────────────────────────
@@ -18,9 +19,14 @@ let dropdown       = null;
 // ─── API ─────────────────────────────────────────────────────────────────────
 
 async function fetchNotifications() {
+  const prevUnread = unreadCount();
   const { ok, data } = await authedFetch('/notifications');
   if (ok && Array.isArray(data)) {
     notifications = data;
+    // If new unread notifications arrived, signal dashboards to refresh their cards
+    if (unreadCount() > prevUnread) {
+      window.dispatchEvent(new CustomEvent('mentorship:new-notifications'));
+    }
     render();
   }
 }
@@ -72,6 +78,7 @@ function render() {
   const NOTIF_DASHBOARD = {
     new_request:      '/he/mentorship/mentor-dashboard/',
     request_response: '/he/mentorship/mentee-dashboard/',
+    mentee_action:    '/he/mentorship/mentor-dashboard/',
   };
 
   listEl.innerHTML = notifications.map(n => {
