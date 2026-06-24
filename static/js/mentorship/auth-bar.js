@@ -11,6 +11,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const content = document.querySelector('.td-content');
   if (!content) return;
 
+  const breadcrumbs = document.querySelector('nav.td-breadcrumbs');
+  if (breadcrumbs) {
+    breadcrumbs.before(notice);
+  } else {
+    content.prepend(notice);
+  }
+
   if (session) {
     const bar = document.createElement('div');
     bar.className = 'ms-auth-bar';
@@ -25,14 +32,11 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>
     `;
     content.prepend(bar);
-    content.prepend(notice);
 
     document.getElementById('auth-bar-logout').addEventListener('click', () => {
       if (!confirm('האם אתם בטוחים שברצונכם להתנתק?')) return;
       clearSession();
       window.location.href = '/he/mentorship/login/';
     });
-  } else {
-    content.prepend(notice);
   }
 });

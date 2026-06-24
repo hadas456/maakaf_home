@@ -604,6 +604,24 @@ body.no-sidebar .td-content > h1 {
   display: none;
 }
 
+body.no-sidebar .section-index {
+  display: none;
+}
+
+main > .maakaf-community__notice {
+  max-width: 1200px;
+  margin: 0 auto 16px;
+  padding: 10px 48px;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+
+  @media (max-width: 767.98px) {
+    padding: 10px 16px;
+  }
+}
+
 body.no-sidebar .td-breadcrumbs {
   max-width: 1200px;
   margin-left: auto;
@@ -665,6 +683,18 @@ html[data-bs-theme="dark"] {
     color: #9dd0f3;
     &:hover { border-color: #6eb6ec; color: #eff8ff; }
   }
+}
+
+/* Mentorship home page title */
+.ms-page-title {
+  font-family: $font-birzia;
+  font-weight: 900;
+  font-size: 2rem !important;
+  color: #1a1a1a !important;
+}
+
+html[data-bs-theme="dark"] .ms-page-title {
+  color: #eff8ff !important;
 }
 
 /* Page header (dashboards) */
