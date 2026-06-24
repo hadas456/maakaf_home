@@ -57,7 +57,6 @@ The site includes a full mentorship web app at `/he/mentorship/`. It is backed b
 | `/he/mentorship/login/` | Sign in |
 | `/he/mentorship/mentor-dashboard/` | Mentor: view and respond to incoming requests |
 | `/he/mentorship/mentee-dashboard/` | Mentee: view sent requests, cancel, complete, reply |
-| `/he/mentorship/directory/mentor/` | Public mentor profile page |
 | `/he/mentorship/request/` | Send a mentorship request to a specific mentor |
 | `/he/mentorship/profile/` | Edit mentor or mentee profile |
 | `/he/mentorship/admin/` | Admin statistics dashboard |
@@ -71,7 +70,6 @@ The site includes a full mentorship web app at `/he/mentorship/`. It is backed b
 | `notifications.js` | Bell icon with dropdown, 30s polling, deep-links to specific request cards |
 | `mentorship-home.js` | Hides guest CTA when logged in |
 | `directory.js` | Mentor directory: renders cards with avatar initials, search/filter |
-| `mentor-profile.js` | Public mentor profile: two-column layout with avatar |
 | `register.js` | Mentor/mentee registration with email-verification polling |
 | `login.js` | Sign-in, forgot-password, email-verification flows |
 | `mentor-dashboard.js` | Mentor: request cards with actions, mentee profile toggle, conversation history |
