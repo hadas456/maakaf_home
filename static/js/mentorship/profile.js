@@ -49,7 +49,6 @@ async function initMentor() {
     form.currentRole.value      = data.currentRole ?? '';
     form.company.value          = data.company ?? '';
     form.expertise.value        = (data.expertise ?? []).join(', ');
-    form.yearsExperience.value  = data.yearsExperience ?? '';
     form.availability.value     = data.availability ?? 'available';
     form.linkedIn.value         = data.linkedIn ?? '';
     form.calendlyUrl.value      = data.calendlyUrl ?? '';
@@ -73,7 +72,6 @@ async function initMentor() {
         currentRole:      form.currentRole.value.trim() || null,
         company:          form.company.value.trim() || null,
         expertise,
-        yearsExperience:  form.yearsExperience.value ? Number(form.yearsExperience.value) : null,
         availability:     form.availability.value,
         linkedIn:         form.linkedIn.value.trim() || null,
         calendlyUrl:      form.calendlyUrl.value.trim() || null,

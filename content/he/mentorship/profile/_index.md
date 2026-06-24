@@ -46,18 +46,12 @@ weight: 45
     <input type="text" name="expertise" class="form-control" placeholder="לדוגמה: Python, AWS, מערכות מבוזרות" required>
     <div class="form-text">הפרד/י בפסיקים בין מספר תחומים.</div>
   </div>
-  <div class="row g-3 mb-3">
-    <div class="col-sm-6">
-      <label class="form-label">שנות ניסיון <span class="text-muted">(לא חובה)</span></label>
-      <input type="number" name="yearsExperience" class="form-control" min="0">
-    </div>
-    <div class="col-sm-6">
-      <label class="form-label">זמינות</label>
-      <select name="availability" class="form-select">
-        <option value="available">פנוי/ה למנטורינג</option>
-        <option value="unavailable">לא פנוי/ה כרגע</option>
-      </select>
-    </div>
+  <div class="mb-3">
+    <label class="form-label">זמינות</label>
+    <select name="availability" class="form-select">
+      <option value="available">פנוי/ה למנטורינג</option>
+      <option value="unavailable">לא פנוי/ה כרגע</option>
+    </select>
   </div>
   <p class="ms-form-section">קישורים</p>
   <div class="mb-3">

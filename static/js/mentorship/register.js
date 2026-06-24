@@ -207,7 +207,6 @@ const mentorConfig = {
     return true;
   },
   buildBody(form, fullName, email, password) {
-    const yearsExperience = form.yearsExperience.value;
     return {
       role: 'mentor',
       fullName,
@@ -216,7 +215,6 @@ const mentorConfig = {
       currentRole: form.currentRole.value.trim() || null,
       company: form.company.value.trim() || null,
       expertise: splitList(form.expertise.value),
-      yearsExperience: yearsExperience ? Number(yearsExperience) : null,
       availability: form.availability.value,
       linkedIn: form.linkedIn.value.trim(),
       calendlyUrl: form.calendlyUrl.value.trim(),
