@@ -26,6 +26,11 @@ const AUTH_ERROR_MESSAGES = {
   // email verification
   EMAIL_NOT_VERIFIED: 'יש לאמת את כתובת האימייל לפני ההתחברות. בדוק/י את תיבת הדואר שלך.',
 
+  // request-specific errors
+  DUPLICATE_REQUEST:    'כבר שלחת בקשה פעילה למנטור/ית זה/זו. המתן/י לתגובה לפני שליחת בקשה חדשה.',
+  MENTOR_UNAVAILABLE:   'המנטור/ית אינ/ה פנוי/ה כרגע לקבלת בקשות חדשות.',
+  FIELD_TOO_LONG:       'אחד מהשדות ארוך מדי. נושא מוגבל ל-200 תווים, תיאור ל-2000 תווים.',
+
   // general API errors
   NOT_FOUND: 'הפריט המבוקש לא נמצא.',
   FORBIDDEN: 'אין לך הרשאה לבצע פעולה זו.',
@@ -38,6 +43,9 @@ const AUTH_ERROR_MESSAGES = {
   NETWORK_ERROR: 'לא ניתן להתחבר לשרת. ודא/י שהשרת פועל ונסה/י שוב.',
   TIMEOUT: 'הבקשה ארכה יותר מדי זמן. אנא נסה/י שוב.',
 };
+
+// Re-export from utils so files that already import errors.js can get escapeHtml here
+export { escapeHtml } from './utils.js';
 
 export function getErrorMessage(code) {
   return AUTH_ERROR_MESSAGES[code] || null;

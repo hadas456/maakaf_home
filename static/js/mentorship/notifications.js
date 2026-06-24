@@ -4,6 +4,7 @@ const POLL_INTERVAL_MS = 30_000;
 const TYPE_ICON = {
   new_request:      '📨',
   request_response: '📬',
+  mentee_action:    '✏️',
 };
 
 // ─── State ────────────────────────────────────────────────────────────────────
@@ -18,9 +19,14 @@ let dropdown       = null;
 // ─── API ─────────────────────────────────────────────────────────────────────
 
 async function fetchNotifications() {
+  const prevUnread = unreadCount();
   const { ok, data } = await authedFetch('/notifications');
   if (ok && Array.isArray(data)) {
     notifications = data;
+    // If new unread notifications arrived, signal dashboards to refresh their cards
+    if (unreadCount() > prevUnread) {
+      window.dispatchEvent(new CustomEvent('mentorship:new-notifications'));
+    }
     render();
   }
 }
@@ -69,11 +75,19 @@ function render() {
     return;
   }
 
+  const NOTIF_DASHBOARD = {
+    new_request:      '/he/mentorship/mentor-dashboard/',
+    request_response: '/he/mentorship/mentee-dashboard/',
+    mentee_action:    '/he/mentorship/mentor-dashboard/',
+  };
+
   listEl.innerHTML = notifications.map(n => {
     const icon = TYPE_ICON[n.type] ?? '🔔';
     const readClass = n.read ? 'notif-item--read' : '';
+    const base = NOTIF_DASHBOARD[n.type] ?? '/he/mentorship/';
+    const href = n.requestId ? `${base}#req-${n.requestId}` : base;
     return `
-      <li class="notif-item ${readClass}" data-id="${n.id}">
+      <li class="notif-item ${readClass}" data-id="${n.id}" data-href="${href}">
         <span class="notif-icon" aria-hidden="true">${icon}</span>
         <div class="notif-text">
           <div class="notif-title">${escapeHtml(n.title)}</div>
@@ -84,8 +98,14 @@ function render() {
       </li>`;
   }).join('');
 
-  listEl.querySelectorAll('.notif-item:not(.notif-item--read)').forEach(el => {
-    el.addEventListener('click', () => markRead(el.dataset.id), { once: true });
+  listEl.querySelectorAll('.notif-item').forEach(el => {
+    el.addEventListener('click', async () => {
+      if (!el.classList.contains('notif-item--read')) {
+        await markRead(el.dataset.id);
+      }
+      closeDropdown();
+      window.location.href = el.dataset.href;
+    }, { once: true });
   });
 }
 
@@ -192,18 +212,11 @@ function mount() {
   const session = getSession();
   if (!session) return;
 
-  // auth-bar.js inserts the logout button with this id; the bell goes right before it
-  const logoutBtn = document.getElementById('auth-bar-logout');
-  if (!logoutBtn) return;
+  const bellMount = document.getElementById('bell-mount');
+  if (!bellMount) return;
 
   const wrapper = buildBell();
-
-  // Group bell + logout button together so they stay adjacent instead of spread apart
-  const group = document.createElement('div');
-  group.className = 'd-flex align-items-center gap-2';
-  logoutBtn.parentElement.replaceChild(group, logoutBtn);
-  group.appendChild(wrapper);
-  group.appendChild(logoutBtn);
+  bellMount.replaceWith(wrapper);
 
   injectStyles();
   fetchNotifications();
@@ -333,8 +346,8 @@ function injectStyles() {
     }
     .notif-item:last-child { border-bottom: none; }
     .notif-item:hover { background: rgba(13,110,253,.05); }
-    .notif-item--read { opacity: 0.65; cursor: default; }
-    .notif-item--read:hover { background: transparent; }
+    .notif-item--read { opacity: 0.65; }
+    .notif-item--read:hover { background: rgba(13,110,253,.03); }
 
     .notif-icon {
       font-size: 18px;
