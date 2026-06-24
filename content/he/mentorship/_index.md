@@ -17,8 +17,8 @@ cascade:
 </div>
 
 <div class="text-center mb-5 mt-3" dir="rtl">
-  <h1 class="h2 fw-bold mb-2">תוכנית המנטורינג של מעקף</h1>
-  <p class="text-muted mb-0" style="max-width:560px;margin:0 auto;">מפתחים מנוסים מהתעשייה שפתחו את היומן שלהם — לייעוץ, code&nbsp;review, והכוונה לקריירה.</p>
+  <h1 class="display-6 mb-2" style="font-weight: 900;">תוכנית המנטורינג של מעקף</h1>
+  <p class="text-muted mb-0" style="max-width:640px;margin:0 auto;">פרויקט המנטורים הוא יוזמה קהילתית שמאפשרת למתכנתים בתחילת דרכם לקבל הכוונה, ידע וניסיון ממתכנתים מנוסים. בין אם אתם מחפשים עצה מקצועית, עזרה טכנית, הכנה לראיונות או הכוונה בקריירה – תוכלו לקבוע פגישת מנטורינג אישית עם אחד המנטורים בקהילה ולהפיק מהניסיון שלהם.</p>
 </div>
 
 <div id="cta-guest" dir="rtl">
@@ -42,11 +42,7 @@ cascade:
       </a>
     </div>
   </div>
-  <p class="text-center text-muted small mb-5">כבר יש לכם חשבון? <a href="/he/mentorship/login/">כניסה למערכת</a></p>
-</div>
-
-<div id="cta-user" hidden class="mb-5 text-center" dir="rtl">
-  <a id="cta-dashboard-link" href="#" class="btn btn-primary btn-lg">לדשבורד שלי</a>
+  <p class="text-center text-muted mb-5">כבר יש לכם חשבון? <a href="/he/mentorship/login/">כניסה למערכת</a></p>
 </div>
 
 <hr class="mb-4">

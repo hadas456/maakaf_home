@@ -192,18 +192,11 @@ function mount() {
   const session = getSession();
   if (!session) return;
 
-  // auth-bar.js inserts the logout button with this id; the bell goes right before it
-  const logoutBtn = document.getElementById('auth-bar-logout');
-  if (!logoutBtn) return;
+  const bellMount = document.getElementById('bell-mount');
+  if (!bellMount) return;
 
   const wrapper = buildBell();
-
-  // Group bell + logout button together so they stay adjacent instead of spread apart
-  const group = document.createElement('div');
-  group.className = 'd-flex align-items-center gap-2';
-  logoutBtn.parentElement.replaceChild(group, logoutBtn);
-  group.appendChild(wrapper);
-  group.appendChild(logoutBtn);
+  bellMount.replaceWith(wrapper);
 
   injectStyles();
   fetchNotifications();

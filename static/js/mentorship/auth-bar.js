@@ -1,4 +1,4 @@
-import { getSession, clearSession } from './api.js';
+import { getSession, clearSession, dashboardUrl } from './api.js';
 
 const session = getSession();
 
@@ -9,7 +9,11 @@ if (session) {
   const firstName = session.fullName?.split(' ')[0] ?? session.email;
   bar.innerHTML = `
     <span class="ms-auth-bar__greeting">שלום, <strong>${firstName}</strong></span>
-    <button id="auth-bar-logout" class="ms-auth-bar__logout">התנתקות</button>
+    <div class="d-flex align-items-center gap-2">
+      <div id="bell-mount"></div>
+      <a href="${dashboardUrl(session.role)}" class="btn btn-primary btn-sm">לדשבורד שלי</a>
+      <button id="auth-bar-logout" class="ms-auth-bar__logout">התנתקות</button>
+    </div>
   `;
 
   document.addEventListener('DOMContentLoaded', () => {
