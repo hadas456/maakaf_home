@@ -23,7 +23,7 @@ function renderCard(mentor) {
     .map(e => `<span class="badge bg-primary me-1 mb-1">${e}</span>`)
     .join('');
   const availBadge = available
-    ? '<span class="badge bg-success">פנוי/ה למנטורינג</span>'
+    ? '<span class="badge" style="background:#deeefb;color:#1a3766">פנוי/ה למנטורינג</span>'
     : '<span class="badge bg-secondary">עומס מלא כרגע</span>';
 
   const requestBtn = available
