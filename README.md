@@ -71,7 +71,7 @@ The site includes a full mentorship web app at `/he/mentorship/`. It is backed b
 | `mentorship-home.js` | Hides guest CTA when logged in |
 | `directory.js` | Mentor directory: renders cards with avatar initials, search/filter |
 | `register.js` | Mentor/mentee registration with OTP email verification (code input card, resend, change email) |
-| `login.js` | Sign-in, forgot-password, OTP verification card for unverified users |
+| `login.js` | Sign-in, OTP verification card for unverified users, OTP-based password reset (code + new password on site) |
 | `mentor-dashboard.js` | Mentor: request cards with actions, mentee profile toggle, conversation history |
 | `dashboard.js` | Mentee: request cards, reply on needs_info, cancel/complete, conversation history |
 | `request.js` | Submit a mentorship request |
