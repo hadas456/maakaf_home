@@ -23,10 +23,9 @@ function renderCard(mentor) {
     .map(e => `<span class="badge bg-primary me-1 mb-1">${e}</span>`)
     .join('');
   const availBadge = available
-    ? '<span class="badge bg-success">פנוי/ה למנטורינג</span>'
+    ? '<span class="badge" style="background:#deeefb;color:#1a3766">פנוי/ה למנטורינג</span>'
     : '<span class="badge bg-secondary">עומס מלא כרגע</span>';
 
-  const profileUrl = `/he/mentorship/directory/mentor/?mentorId=${mentor.id}`;
   const requestBtn = available
     ? `<a href="/he/mentorship/request/?mentorId=${mentor.id}&mentorName=${encodeURIComponent(mentor.fullName)}" class="btn btn-primary btn-sm">שלח/י בקשה</a>`
     : `<button class="btn btn-secondary btn-sm" disabled>לא פנוי/ה כרגע</button>`;
@@ -56,7 +55,6 @@ function renderCard(mentor) {
             : ''}
           <div class="mt-auto d-flex flex-wrap gap-2 pt-2 border-top">
             ${requestBtn}
-            <a href="${profileUrl}" class="btn btn-outline-secondary btn-sm">פרופיל מלא</a>
           </div>
         </div>
       </div>

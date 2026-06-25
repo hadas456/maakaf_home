@@ -8,22 +8,22 @@ const SESSION_KEY = 'mentorship.session';
 const REQUEST_TIMEOUT_MS = 15000;
 
 export function saveSession(session) {
-  sessionStorage.setItem(SESSION_KEY, JSON.stringify(session));
+  localStorage.setItem(SESSION_KEY, JSON.stringify(session));
 }
 
 export function getSession() {
-  const raw = sessionStorage.getItem(SESSION_KEY);
+  const raw = localStorage.getItem(SESSION_KEY);
   return raw ? JSON.parse(raw) : null;
 }
 
 export function clearSession() {
-  sessionStorage.removeItem(SESSION_KEY);
+  localStorage.removeItem(SESSION_KEY);
 }
 
 export function dashboardUrl(role) {
-  return role === 'mentor'
-    ? '/he/mentorship/mentor-dashboard/'
-    : '/he/mentorship/mentee-dashboard/';
+  if (role === 'mentor') return '/he/mentorship/mentor-dashboard/';
+  if (role === 'admin')  return '/he/mentorship/admin/';
+  return '/he/mentorship/mentee-dashboard/';
 }
 
 export async function apiFetch(path, options = {}) {

@@ -3,13 +3,20 @@ import { getSession, clearSession, dashboardUrl } from './api.js';
 const session = getSession();
 
 const notice = document.createElement('div');
-notice.className = 'alert alert-warning py-2 small mb-0';
+notice.className = 'maakaf-community__notice';
 notice.dir = 'rtl';
-notice.innerHTML = `⚙️ המערכת נמצאת בשלבי הרצה. לתקלות או הצעות — <a href="mailto:maakafsupport@gmail.com" class="alert-link">maakafsupport@gmail.com</a>`;
+notice.innerHTML = `<i class="fas fa-exclamation-triangle" aria-hidden="true"></i> המערכת נמצאת בשלבי הרצה. לתקלות או הצעות — <a href="mailto:maakafsupport@gmail.com">maakafsupport@gmail.com</a>`;
 
 document.addEventListener('DOMContentLoaded', () => {
   const content = document.querySelector('.td-content');
   if (!content) return;
+
+  const breadcrumbs = document.querySelector('nav.td-breadcrumbs');
+  if (breadcrumbs) {
+    breadcrumbs.before(notice);
+  } else {
+    content.prepend(notice);
+  }
 
   if (session) {
     const bar = document.createElement('div');
@@ -25,14 +32,13 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>
     `;
     content.prepend(bar);
-    content.prepend(notice);
 
     document.getElementById('auth-bar-logout').addEventListener('click', () => {
       if (!confirm('האם אתם בטוחים שברצונכם להתנתק?')) return;
       clearSession();
-      window.location.href = '/he/mentorship/login/';
+      window.location.href = session.role === 'admin'
+        ? '/he/mentorship/admin/'
+        : '/he/mentorship/login/';
     });
-  } else {
-    content.prepend(notice);
   }
 });

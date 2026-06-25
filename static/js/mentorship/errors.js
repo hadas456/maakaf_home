@@ -12,7 +12,8 @@ const AUTH_ERROR_MESSAGES = {
   EMAIL_NOT_FOUND: 'לא נמצא חשבון עם האימייל הזה.',
   INVALID_PASSWORD: 'הסיסמה שגויה.',
   INVALID_LOGIN_CREDENTIALS: 'אימייל או סיסמה שגויים.',
-  USER_DISABLED: 'החשבון הזה הושבת.',
+  USER_DISABLED:   'החשבון הזה הושבת.',
+  USER_NOT_FOUND:  'כתובת האימייל אינה רשומה במערכת.',
   TOO_MANY_ATTEMPTS_TRY_LATER: 'יותר מדי ניסיונות כושלים. נסו שוב מאוחר יותר.',
   EMAIL_EXISTS: 'כתובת האימייל הזו כבר רשומה במערכת.',
   WEAK_PASSWORD: 'הסיסמה חייבת להיות באורך של 6 תווים לפחות.',
@@ -25,6 +26,10 @@ const AUTH_ERROR_MESSAGES = {
 
   // email verification
   EMAIL_NOT_VERIFIED: 'יש לאמת את כתובת האימייל לפני ההתחברות. בדוק/י את תיבת הדואר שלך.',
+
+  // OTP verification errors
+  INVALID_CODE: 'הקוד שגוי. נסה/י שוב.',
+  CODE_EXPIRED: 'פג תוקף הקוד. שלח/י קוד חדש.',
 
   // request-specific errors
   DUPLICATE_REQUEST:    'כבר שלחת בקשה פעילה למנטור/ית זה/זו. המתן/י לתגובה לפני שליחת בקשה חדשה.',
