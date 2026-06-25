@@ -87,6 +87,17 @@ The session (ID token, refresh token, role, name) is stored in `localStorage` un
 explicitly logs out. All session access goes through `getSession()` / `saveSession()` /
 `clearSession()` in `api.js`.
 
+### Security practices
+
+| Practice | Where |
+| --- | --- |
+| All user content passed through `escapeHtml()` before DOM insertion | `utils.js`, all dashboard/request modules |
+| Error messages use `textContent`, never `innerHTML` | `profile.js`, `toast.js` |
+| Redirects use `dashboardUrl()` helper — no hardcoded paths | `profile.js`, `register.js`, `auth-bar.js` |
+| OTP/password credentials wiped from memory only on success | `register.js`, `login.js` |
+| Resend failures surface an error to the user | `register.js`, `login.js` |
+| `STATUS_LABELS` and `formatDate` defined once in `utils.js`, imported everywhere | `utils.js` → `admin.js`, dashboards |
+
 ### Styling
 
 Mentorship-specific styles live in `assets/scss/_styles_project.scss`. Key class families:
