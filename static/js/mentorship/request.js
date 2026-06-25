@@ -88,16 +88,19 @@ consentCheck.addEventListener('change', () => {
 async function loadProfilePreview() {
   const { ok, data } = await authedFetch('/mentees/me');
 
+  if (!ok) {
+    profilePreview.innerHTML = '<p class="text-muted small mb-0">לא ניתן לטעון את פרטי הפרופיל.</p>';
+    return;
+  }
+
   const rows = [
     ['שם מלא',      session.fullName],
     ['אימייל',      session.email],
   ];
 
-  if (ok) {
-    if (data.experienceLevel) rows.push(['רמת ניסיון', LEVEL_MAP[data.experienceLevel] ?? data.experienceLevel]);
-    if (data.interests?.length) rows.push(['תחומי עניין', data.interests.join(', ')]);
-    if (data.goals) rows.push(['מטרות', data.goals]);
-  }
+  if (data.experienceLevel) rows.push(['רמת ניסיון', LEVEL_MAP[data.experienceLevel] ?? data.experienceLevel]);
+  if (data.interests?.length) rows.push(['תחומי עניין', data.interests.join(', ')]);
+  if (data.goals) rows.push(['מטרות', data.goals]);
 
   profilePreview.innerHTML = rows
     .map(([label, value]) => `

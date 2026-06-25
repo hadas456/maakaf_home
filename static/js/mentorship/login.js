@@ -235,9 +235,8 @@ verifySubmitBtn.addEventListener('click', async () => {
     },
   });
 
-  if (verifyCredentials) { verifyCredentials.email = ''; verifyCredentials.password = ''; }
-
   if (ok) {
+    if (verifyCredentials) { verifyCredentials.email = ''; verifyCredentials.password = ''; }
     saveSession(data);
     showToast('האימות הושלם בהצלחה!', () => {
       window.location.href = dashboardUrl(data.role);
@@ -258,7 +257,13 @@ verifyCodeInput.addEventListener('keydown', (e) => {
 verifyResendBtn.addEventListener('click', async () => {
   const email = verifyEmailDisplay.textContent;
   verifyResendBtn.disabled = true;
-  await apiFetch('/auth/resend-verification', { method: 'POST', body: { email } });
+  const { ok } = await apiFetch('/auth/resend-verification', { method: 'POST', body: { email } });
+  if (!ok) {
+    verifyCodeError.textContent = 'שגיאה בשליחת קוד חדש. נסה/י שוב.';
+    verifyCodeError.classList.remove('d-none');
+    verifyResendBtn.disabled = false;
+    return;
+  }
   verifyCodeInput.value = '';
   startVerifyResendCountdown();
 });

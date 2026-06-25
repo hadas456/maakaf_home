@@ -37,9 +37,8 @@ function showVerifyCard(email, uid, credentials, targetDashboardUrl) {
       body: { uid, code, email: credentials?.email, password: credentials?.password },
     });
 
-    if (credentials) { credentials.email = ''; credentials.password = ''; }
-
     if (ok) {
+      if (credentials) { credentials.email = ''; credentials.password = ''; }
       saveSession(data);
       showToast('האימות הושלם בהצלחה!', () => {
         window.location.href = targetDashboardUrl ?? dashboardUrl(data.role);
@@ -62,7 +61,13 @@ function showVerifyCard(email, uid, credentials, targetDashboardUrl) {
   resendBtn.addEventListener('click', async () => {
     if (!email) return;
     resendBtn.disabled = true;
-    await apiFetch('/auth/resend-verification', { method: 'POST', body: { email } });
+    const { ok } = await apiFetch('/auth/resend-verification', { method: 'POST', body: { email } });
+    if (!ok) {
+      codeError.textContent = 'שגיאה בשליחת קוד חדש. נסה/י שוב.';
+      codeError.classList.remove('d-none');
+      resendBtn.disabled = false;
+      return;
+    }
     codeInput.value = '';
 
     let seconds = 60;

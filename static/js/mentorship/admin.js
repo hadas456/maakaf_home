@@ -1,16 +1,8 @@
 import { apiFetch, authedFetch, getSession, saveSession, clearSession } from './api.js';
 import { describeAuthError, showFormMessage } from './errors.js';
+import { STATUS_LABELS, formatDate } from './utils.js';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
-
-const STATUS_LABELS = {
-  pending:    'בהמתנה',
-  approved:   'אושרה',
-  rejected:   'נדחתה',
-  needs_info: 'דורש פרטים נוספים',
-  completed:  'הושלמה',
-  canceled:   'בוטלה',
-};
 
 const LEVEL_LABELS = {
   beginner:     'מתחיל/ה',
@@ -20,10 +12,7 @@ const LEVEL_LABELS = {
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
-function fmt(ts) {
-  if (!ts) return '—';
-  return new Date((ts._seconds ?? ts.seconds ?? 0) * 1000).toLocaleDateString('he-IL');
-}
+function fmt(ts) { return formatDate(ts); }
 
 function daysAgo(ts) {
   if (!ts) return 0;

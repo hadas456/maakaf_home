@@ -109,6 +109,7 @@ function bindCard(col, req) {
       updateCard(data);
     } else {
       btn.disabled = false;
+      statusDiv.innerHTML = '<div class="alert alert-danger">שגיאה בביטול הבקשה. אנא נסה/י שוב.</div>';
     }
   });
 
@@ -123,6 +124,7 @@ function bindCard(col, req) {
       updateCard(data);
     } else {
       btn.disabled = false;
+      statusDiv.innerHTML = '<div class="alert alert-danger">שגיאה בסימון כהושלם. אנא נסה/י שוב.</div>';
     }
   });
 
@@ -141,7 +143,13 @@ function bindCard(col, req) {
 
     if (!timelineCache.has(req.id)) {
       const { ok, data } = await authedFetch(`/requests/${req.id}/timeline`);
-      timelineCache.set(req.id, ok ? data : []);
+      if (!ok) {
+        body.innerHTML = '<p class="text-danger small text-center py-2 mb-0">שגיאה בטעינת ההיסטוריה.</p>';
+        panel.hidden = false;
+        btn.textContent = 'היסטוריה ▲';
+        return;
+      }
+      timelineCache.set(req.id, data);
     }
 
     body.innerHTML = renderTimeline(timelineCache.get(req.id), session.role);
