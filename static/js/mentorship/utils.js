@@ -23,7 +23,7 @@ export const STATUS_META = {
   pending:    { label: 'בהמתנה',             color: 'warning',   dark: true,  priority: 2 },
   approved:   { label: 'אושרה',              color: 'success',   dark: false, priority: 3 },
   rejected:   { label: 'נדחתה',              color: 'danger',    dark: false, priority: 4 },
-  completed:  { label: 'הושלמה',             color: 'secondary', dark: true,  priority: 5 },
+  completed:  { label: 'הושלמה',             color: 'primary',   dark: false, priority: 5 },
   canceled:   { label: 'בוטלה',              color: 'secondary', dark: true,  priority: 6 },
 };
 

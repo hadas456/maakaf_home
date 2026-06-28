@@ -57,10 +57,9 @@ The site includes a full mentorship web app at `/he/mentorship/`. It is backed b
 | `/he/mentorship/login/` | Sign in |
 | `/he/mentorship/mentor-dashboard/` | Mentor: view and respond to incoming requests |
 | `/he/mentorship/mentee-dashboard/` | Mentee: view sent requests, cancel, complete, reply |
-| `/he/mentorship/directory/mentor/` | Public mentor profile page |
 | `/he/mentorship/request/` | Send a mentorship request to a specific mentor |
 | `/he/mentorship/profile/` | Edit mentor or mentee profile |
-| `/he/mentorship/admin/` | Admin statistics dashboard |
+| `/he/mentorship/admin/` | Admin dashboard: stats, full requests table, mentor and mentee lists |
 
 ### Frontend modules (`static/js/mentorship/`)
 
@@ -71,22 +70,43 @@ The site includes a full mentorship web app at `/he/mentorship/`. It is backed b
 | `notifications.js` | Bell icon with dropdown, 30s polling, deep-links to specific request cards |
 | `mentorship-home.js` | Hides guest CTA when logged in |
 | `directory.js` | Mentor directory: renders cards with avatar initials, search/filter |
-| `mentor-profile.js` | Public mentor profile: two-column layout with avatar |
-| `register.js` | Mentor/mentee registration with email-verification polling |
-| `login.js` | Sign-in, forgot-password, email-verification flows |
+| `register.js` | Mentor/mentee registration with OTP email verification (code input card, resend, change email) |
+| `login.js` | Sign-in, OTP verification card for unverified users, OTP-based password reset (code + new password on site) |
 | `mentor-dashboard.js` | Mentor: request cards with actions, mentee profile toggle, conversation history |
 | `dashboard.js` | Mentee: request cards, reply on needs_info, cancel/complete, conversation history |
 | `request.js` | Submit a mentorship request |
 | `profile.js` | Edit mentor or mentee profile |
-| `admin.js` | Admin stats |
+| `admin.js` | Admin dashboard: login, stat cards, requests table with stale-alert, mentors/mentees tabs |
 | `errors.js` | Hebrew error message map |
 | `toast.js` | Toast notification helper |
 
+### Session
+
+The session (ID token, refresh token, role, name) is stored in `localStorage` under the key
+`mentorship.session`. It persists across tabs, windows, and browser restarts until the user
+explicitly logs out. All session access goes through `getSession()` / `saveSession()` /
+`clearSession()` in `api.js`.
+
+### Security practices
+
+| Practice | Where |
+| --- | --- |
+| All user content passed through `escapeHtml()` before DOM insertion | `utils.js`, all dashboard/request modules |
+| Error messages use `textContent`, never `innerHTML` | `profile.js`, `toast.js` |
+| Redirects use `dashboardUrl()` helper — no hardcoded paths | `profile.js`, `register.js`, `auth-bar.js` |
+| OTP/password credentials wiped from memory only on success | `register.js`, `login.js` |
+| Resend failures surface an error to the user | `register.js`, `login.js` |
+| `STATUS_LABELS` and `formatDate` defined once in `utils.js`, imported everywhere | `utils.js` → `admin.js`, dashboards |
+
 ### Styling
 
-Mentorship-specific styles live in `assets/scss/_styles_project.scss` under the
-`/* Mentorship — shared components */` section. Key classes: `.ms-auth-bar`,
-`.ms-page-header`, `.ms-avatar`, `.ms-role-card`, `.ms-form-section`.
+Mentorship-specific styles live in `assets/scss/_styles_project.scss`. Key class families:
+
+| Prefix | Used for |
+| --- | --- |
+| `.ms-auth-bar`, `.ms-page-header`, `.ms-avatar`, `.ms-role-card`, `.ms-form-section` | Shared mentorship UI components |
+| `.ms-page-title` | Mentorship home page heading |
+| `.admin-stat`, `.admin-panel`, `.admin-filter-bar`, `.admin-auth-card`, `.admin-table` | Admin dashboard components |
 
 The `body_class: "no-sidebar"` front matter (cascaded from `content/he/mentorship/_index.md`)
 hides the Docsy docs sidebars and constrains content width on all mentorship pages.

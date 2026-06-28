@@ -1,5 +1,5 @@
 import { apiFetch, saveSession, getSession, dashboardUrl } from './api.js';
-import { describeAuthError, showFormMessage } from './errors.js';
+import { describeAuthError, showFormMessage, getErrorMessage } from './errors.js';
 import { showToast } from './toast.js';
 
 const wrapper = document.getElementById('login-form-wrapper');
@@ -19,18 +19,31 @@ if (existing) {
   window.location.href = dashboardUrl(existing.role);
 }
 
+const resetWrapper      = document.getElementById('reset-password-wrapper');
+const resetEmailDisplay = document.getElementById('reset-email-display');
+const resetCodeInput    = document.getElementById('reset-code-input');
+const resetNewPassword  = document.getElementById('reset-new-password');
+const resetConfirm      = document.getElementById('reset-confirm-password');
+const resetError        = document.getElementById('reset-error');
+const resetSubmitBtn    = document.getElementById('reset-submit-btn');
+const resetResendBtn    = document.getElementById('reset-resend-btn');
+const resetResendCountdown = document.getElementById('reset-resend-countdown');
+
+let resetUid = null;
+let resetEmail = null;
+let resetResendTimer = null;
+
 function showLoginForm() {
   forgotWrapper.classList.add('d-none');
-  forgotSent.classList.add('d-none');
+  resetWrapper.classList.add('d-none');
   verifyWrapper.classList.add('d-none');
   wrapper.classList.remove('d-none');
-  clearInterval(resendTimer);
-  stopVerifyPolling();
+  clearInterval(resetResendTimer);
 }
 
 function showForgotForm() {
   wrapper.classList.add('d-none');
-  forgotSent.classList.add('d-none');
+  resetWrapper.classList.add('d-none');
   forgotWrapper.classList.remove('d-none');
   forgotForm.reset();
   const loginEmail = form.email.value.trim();
@@ -38,39 +51,36 @@ function showForgotForm() {
   document.getElementById('forgot-email-input').focus();
 }
 
-function showConfirmationScreen(email) {
-  forgotWrapper.classList.add('d-none');
+function showResetCard(email, uid) {
+  resetEmail = email;
+  resetUid   = uid;
   resetEmailDisplay.textContent = email;
-  forgotSent.classList.remove('d-none');
-  startResendCountdown();
+  forgotWrapper.classList.add('d-none');
+  resetWrapper.classList.remove('d-none');
+  resetCodeInput.value = '';
+  resetNewPassword.value = '';
+  resetConfirm.value = '';
+  resetError.classList.add('d-none');
+  resetCodeInput.focus();
+  startResetResendCountdown();
 }
 
-const forgotSent = document.getElementById('forgot-password-sent');
-const resetEmailDisplay = document.getElementById('reset-email-display');
-const resendBtn = document.getElementById('resend-btn');
-const resendCountdown = document.getElementById('resend-countdown');
-
-let resendTimer = null;
-
-function startResendCountdown() {
-  let seconds = 30;
-  resendBtn.disabled = true;
-  resendCountdown.textContent = `(${seconds}s)`;
-  resendCountdown.classList.remove('d-none');
-  clearInterval(resendTimer);
-  resendTimer = setInterval(() => {
+function startResetResendCountdown() {
+  let seconds = 60;
+  resetResendBtn.disabled = true;
+  resetResendCountdown.textContent = `ניתן לשלוח שוב עוד ${seconds} שניות`;
+  resetResendCountdown.classList.remove('d-none');
+  clearInterval(resetResendTimer);
+  resetResendTimer = setInterval(() => {
     seconds--;
-    resendCountdown.textContent = `(${seconds}s)`;
     if (seconds <= 0) {
-      clearInterval(resendTimer);
-      resendBtn.disabled = false;
-      resendCountdown.classList.add('d-none');
+      clearInterval(resetResendTimer);
+      resetResendBtn.disabled = false;
+      resetResendCountdown.classList.add('d-none');
+    } else {
+      resetResendCountdown.textContent = `ניתן לשלוח שוב עוד ${seconds} שניות`;
     }
   }, 1000);
-}
-
-async function sendResetEmail(email) {
-  await apiFetch('/auth/forgot-password', { method: 'POST', body: { email } });
 }
 
 document.getElementById('forgot-password-link').addEventListener('click', (e) => {
@@ -82,146 +92,188 @@ document.getElementById('back-from-forgot').addEventListener('click', (e) => {
   e.preventDefault();
   showLoginForm();
 });
-document.getElementById('back-to-login-from-sent').addEventListener('click', (e) => {
+
+document.getElementById('back-to-login-from-reset').addEventListener('click', (e) => {
   e.preventDefault();
+  clearInterval(resetResendTimer);
   showLoginForm();
 });
 
-resendBtn.addEventListener('click', async () => {
-  const email = resetEmailDisplay.textContent;
-  resendBtn.disabled = true;
-  try {
-    await sendResetEmail(email);
-  } finally {
-    startResendCountdown();
-  }
-});
-
+// Submit email → get reset code
 forgotForm.addEventListener('submit', async (e) => {
   e.preventDefault();
   const submitBtn = forgotForm.querySelector('button[type="submit"]');
   const email = document.getElementById('forgot-email-input').value.trim();
   submitBtn.disabled = true;
-  try {
-    await sendResetEmail(email);
-    showConfirmationScreen(email);
-  } catch {
-    showFormMessage(forgotMessageEl, 'אירעה שגיאה. נסו שוב מאוחר יותר.', true);
-  } finally {
-    submitBtn.disabled = false;
+  forgotMessageEl.classList.add('d-none');
+
+  const { ok, data } = await apiFetch('/auth/forgot-password', { method: 'POST', body: { email } });
+
+  submitBtn.disabled = false;
+
+  if (!ok) {
+    const msg = getErrorMessage(data?.error?.code) || 'אירעה שגיאה. נסו שוב מאוחר יותר.';
+    showFormMessage(forgotMessageEl, msg, true);
+    return;
+  }
+
+  showResetCard(email, data.uid);
+});
+
+// Resend reset code
+resetResendBtn.addEventListener('click', async () => {
+  if (!resetEmail) return;
+  resetResendBtn.disabled = true;
+  const { ok, data } = await apiFetch('/auth/forgot-password', { method: 'POST', body: { email: resetEmail } });
+  if (ok) resetUid = data.uid;
+  resetCodeInput.value = '';
+  startResetResendCountdown();
+});
+
+// Submit code + new password
+resetSubmitBtn.addEventListener('click', async () => {
+  const code        = resetCodeInput.value.trim();
+  const newPassword = resetNewPassword.value;
+  const confirm     = resetConfirm.value;
+
+  if (code.length !== 6) {
+    resetError.textContent = 'יש להזין קוד בן 6 ספרות.';
+    resetError.classList.remove('d-none');
+    return;
+  }
+  if (newPassword.length < 6) {
+    resetError.textContent = 'הסיסמה חייבת להכיל לפחות 6 תווים.';
+    resetError.classList.remove('d-none');
+    return;
+  }
+  if (newPassword !== confirm) {
+    resetError.textContent = 'הסיסמאות אינן תואמות.';
+    resetError.classList.remove('d-none');
+    return;
+  }
+
+  resetError.classList.add('d-none');
+  resetSubmitBtn.disabled = true;
+  resetSubmitBtn.textContent = 'מאפס...';
+
+  const { ok, data } = await apiFetch('/auth/reset-password', {
+    method: 'POST',
+    body: { uid: resetUid, code, newPassword },
+  });
+
+  if (ok) {
+    showToast('הסיסמה אופסה בהצלחה!', () => {
+      showLoginForm();
+    });
+  } else {
+    const msg = getErrorMessage(data?.error?.code) || 'שגיאה באיפוס הסיסמה. נסה/י שוב.';
+    resetError.textContent = msg;
+    resetError.classList.remove('d-none');
+    resetSubmitBtn.disabled = false;
+    resetSubmitBtn.textContent = 'אפס/י סיסמה';
   }
 });
 
-// ─── Email verification polling ───────────────────────────────────────────────
+resetCodeInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') resetSubmitBtn.click(); });
+
+// ─── OTP verification screen (shown after EMAIL_NOT_VERIFIED on login) ────────
 
 let verifyResendTimer = null;
-let verifyPollInterval = null;
-let verifyOnVisible = null;
+let verifyCredentials = null;
+let verifyUid = null;
 
-function stopVerifyPolling() {
-  clearInterval(verifyPollInterval);
-  verifyPollInterval = null;
-  if (verifyOnVisible) {
-    document.removeEventListener('visibilitychange', verifyOnVisible);
-    verifyOnVisible = null;
-  }
-}
-
-function startVerifyPolling(uid, credentials) {
-  let attempts = 0;
-  let inProgress = false;
-
-  async function check() {
-    if (inProgress) return;
-    inProgress = true;
-
-    if (++attempts > 100) {
-      stopVerifyPolling();
-      inProgress = false;
-      return;
-    }
-
-    const { ok, data } = await apiFetch(`/auth/verify-status/${uid}`)
-      .catch(() => ({ ok: false, data: {} }));
-
-    if (!ok || !data.verified) {
-      inProgress = false;
-      return;
-    }
-
-    stopVerifyPolling();
-
-    let loginResult = await apiFetch('/auth/login', { method: 'POST', body: credentials });
-    if (!loginResult.ok && loginResult.data?.error?.code === 'EMAIL_NOT_VERIFIED') {
-      await new Promise(r => setTimeout(r, 2000));
-      loginResult = await apiFetch('/auth/login', { method: 'POST', body: credentials });
-    }
-
-    credentials.email = '';
-    credentials.password = '';
-
-    if (loginResult.ok) {
-      saveSession(loginResult.data);
-      const dest = dashboardUrl(loginResult.data.role);
-      showToast('האימייל אומת בהצלחה!', () => { window.location.href = dest; });
-    } else {
-      showToast('האימייל אומת! אנא נסה/י להתחבר שוב.', () => {
-        window.location.href = '/he/mentorship/login/';
-      });
-    }
-  }
-
-  verifyPollInterval = setInterval(check, 3000);
-
-  verifyOnVisible = () => {
-    if (document.visibilityState === 'visible') check();
-  };
-  document.addEventListener('visibilitychange', verifyOnVisible);
-}
+const verifyCodeInput    = document.getElementById('verify-code-input');
+const verifyCodeError    = document.getElementById('verify-code-error');
+const verifySubmitBtn    = document.getElementById('verify-submit-btn');
 
 function showVerifyEmailScreen(email, credentials, uid) {
   wrapper.classList.add('d-none');
   verifyEmailDisplay.textContent = email;
+  verifyCredentials = credentials;
+  verifyUid = uid;
   verifyWrapper.classList.remove('d-none');
+  verifyCodeInput?.focus();
   startVerifyResendCountdown();
-
-  if (uid && credentials) {
-    startVerifyPolling(uid, credentials);
-  }
 }
 
 function startVerifyResendCountdown() {
-  let seconds = 30;
+  let seconds = 60;
   verifyResendBtn.disabled = true;
-  verifyResendCountdown.textContent = `(${seconds}s)`;
+  verifyResendCountdown.textContent = `ניתן לשלוח שוב עוד ${seconds} שניות`;
   verifyResendCountdown.classList.remove('d-none');
   clearInterval(verifyResendTimer);
   verifyResendTimer = setInterval(() => {
     seconds--;
-    verifyResendCountdown.textContent = `(${seconds}s)`;
     if (seconds <= 0) {
       clearInterval(verifyResendTimer);
       verifyResendBtn.disabled = false;
       verifyResendCountdown.classList.add('d-none');
+    } else {
+      verifyResendCountdown.textContent = `ניתן לשלוח שוב עוד ${seconds} שניות`;
     }
   }, 1000);
 }
 
+verifySubmitBtn.addEventListener('click', async () => {
+  const code = verifyCodeInput.value.trim();
+  if (code.length !== 6) {
+    verifyCodeError.textContent = 'יש להזין קוד בן 6 ספרות.';
+    verifyCodeError.classList.remove('d-none');
+    return;
+  }
+  verifyCodeError.classList.add('d-none');
+  verifySubmitBtn.disabled = true;
+  verifySubmitBtn.textContent = 'מאמת...';
+
+  const { ok, data } = await apiFetch('/auth/verify-code', {
+    method: 'POST',
+    body: {
+      uid: verifyUid,
+      code,
+      email: verifyCredentials?.email,
+      password: verifyCredentials?.password,
+    },
+  });
+
+  if (ok) {
+    if (verifyCredentials) { verifyCredentials.email = ''; verifyCredentials.password = ''; }
+    saveSession(data);
+    showToast('האימות הושלם בהצלחה!', () => {
+      window.location.href = dashboardUrl(data.role);
+    });
+  } else {
+    const msg = getErrorMessage(data?.error?.code) || 'שגיאה באימות. נסה/י שוב.';
+    verifyCodeError.textContent = msg;
+    verifyCodeError.classList.remove('d-none');
+    verifySubmitBtn.disabled = false;
+    verifySubmitBtn.textContent = 'אמת/י';
+  }
+});
+
+verifyCodeInput.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') verifySubmitBtn.click();
+});
+
 verifyResendBtn.addEventListener('click', async () => {
   const email = verifyEmailDisplay.textContent;
   verifyResendBtn.disabled = true;
-  try {
-    await apiFetch('/auth/resend-verification', { method: 'POST', body: { email } });
-  } finally {
-    startVerifyResendCountdown();
+  const { ok } = await apiFetch('/auth/resend-verification', { method: 'POST', body: { email } });
+  if (!ok) {
+    verifyCodeError.textContent = 'שגיאה בשליחת קוד חדש. נסה/י שוב.';
+    verifyCodeError.classList.remove('d-none');
+    verifyResendBtn.disabled = false;
+    return;
   }
+  verifyCodeInput.value = '';
+  startVerifyResendCountdown();
 });
 
 document.getElementById('back-to-login-from-verify').addEventListener('click', (e) => {
   e.preventDefault();
   verifyWrapper.classList.add('d-none');
   clearInterval(verifyResendTimer);
-  stopVerifyPolling();
+  verifyCredentials = null;
+  verifyUid = null;
   wrapper.classList.remove('d-none');
 });
 

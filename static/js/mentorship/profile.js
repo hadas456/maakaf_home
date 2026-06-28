@@ -1,4 +1,4 @@
-import { getSession, apiFetch, authedFetch } from './api.js';
+import { getSession, apiFetch, authedFetch, dashboardUrl } from './api.js';
 import { showFormMessage, describeAuthError } from './errors.js';
 import { showToast } from './toast.js';
 
@@ -6,7 +6,10 @@ const statusDiv  = document.getElementById('profile-status');
 const contentDiv = document.getElementById('profile-content');
 
 function showError(msg) {
-  statusDiv.innerHTML = `<div class="alert alert-warning">${msg}</div>`;
+  const el = document.createElement('div');
+  el.className = 'alert alert-warning';
+  el.textContent = msg;
+  statusDiv.replaceChildren(el);
 }
 
 const session = getSession();
@@ -49,7 +52,6 @@ async function initMentor() {
     form.currentRole.value      = data.currentRole ?? '';
     form.company.value          = data.company ?? '';
     form.expertise.value        = (data.expertise ?? []).join(', ');
-    form.yearsExperience.value  = data.yearsExperience ?? '';
     form.availability.value     = data.availability ?? 'available';
     form.linkedIn.value         = data.linkedIn ?? '';
     form.calendlyUrl.value      = data.calendlyUrl ?? '';
@@ -73,7 +75,6 @@ async function initMentor() {
         currentRole:      form.currentRole.value.trim() || null,
         company:          form.company.value.trim() || null,
         expertise,
-        yearsExperience:  form.yearsExperience.value ? Number(form.yearsExperience.value) : null,
         availability:     form.availability.value,
         linkedIn:         form.linkedIn.value.trim() || null,
         calendlyUrl:      form.calendlyUrl.value.trim() || null,
@@ -83,7 +84,7 @@ async function initMentor() {
     submitBtn.disabled = false;
 
     if (saveOk) {
-      showToast('השינויים נשמרו בהצלחה', () => { window.location.href = '/he/mentorship/mentor-dashboard/'; });
+      showToast('השינויים נשמרו בהצלחה', () => { window.location.href = dashboardUrl('mentor'); });
     } else {
       showFormMessage(messageEl, describeAuthError(saveData?.error), true);
     }
@@ -128,7 +129,7 @@ async function initMentee() {
     submitBtn.disabled = false;
 
     if (saveOk) {
-      showToast('השינויים נשמרו בהצלחה', () => { window.location.href = '/he/mentorship/mentee-dashboard/'; });
+      showToast('השינויים נשמרו בהצלחה', () => { window.location.href = dashboardUrl('mentee'); });
     } else {
       showFormMessage(messageEl, describeAuthError(saveData?.error), true);
     }

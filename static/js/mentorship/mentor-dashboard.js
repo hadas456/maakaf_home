@@ -73,7 +73,7 @@ function renderCard(req) {
   return `
     <div class="col-md-6" id="req-${req.id}">
       <div class="card border-0 shadow-sm border-start border-4 border-${meta.color}"
-           style="min-height:100%;${dimStyle}" dir="rtl">
+           style="${dimStyle}" dir="rtl">
         <div class="card-body d-flex flex-column">
           <div class="d-flex justify-content-between align-items-center mb-3">
             ${badge}
@@ -146,11 +146,13 @@ function bindCard(col, req) {
 
     // Require response text for rejection or info requests
     if (!mentorResponse && (action === 'rejected' || action === 'needs_info')) {
-      responseEl.classList.add('is-invalid');
-      responseEl.placeholder = action === 'rejected'
-        ? 'חובה לציין סיבת הדחייה'
-        : 'חובה לציין מה נדרש מהמנטי';
-      responseEl.focus();
+      if (responseEl) {
+        responseEl.classList.add('is-invalid');
+        responseEl.placeholder = action === 'rejected'
+          ? 'חובה לציין סיבת הדחייה'
+          : 'חובה לציין מה נדרש מהמנטי';
+        responseEl.focus();
+      }
       return;
     }
     responseEl?.classList.remove('is-invalid');
@@ -218,7 +220,13 @@ function bindCard(col, req) {
 
     if (!timelineCache.has(req.id)) {
       const { ok, data } = await authedFetch(`/requests/${req.id}/timeline`);
-      timelineCache.set(req.id, ok ? data : []);
+      if (!ok) {
+        body.innerHTML = '<p class="text-danger small text-center py-2 mb-0">שגיאה בטעינת ההיסטוריה.</p>';
+        panel.hidden = false;
+        btn.textContent = 'היסטוריה ▲';
+        return;
+      }
+      timelineCache.set(req.id, data);
     }
 
     body.innerHTML = renderTimeline(timelineCache.get(req.id), session.role);
